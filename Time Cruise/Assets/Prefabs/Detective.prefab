@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4139020299427330}
   - component: {fileID: 212665301872320334}
   - component: {fileID: 95222953803596942}
+  - component: {fileID: 114362536664911904}
   m_Layer: 0
   m_Name: Detective
   m_TagString: Untagged
@@ -59,6 +60,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114362536664911904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1672104395500798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a216bb031c32f314b88a4143013a916e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!212 &212665301872320334
 SpriteRenderer:
   m_ObjectHideFlags: 1
