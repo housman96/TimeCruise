@@ -5,6 +5,9 @@ using UnityEngine;
 public class Interact : MonoBehaviour {
 
     public float range;
+
+    private bool isInteracting = false;
+    private Interactible[] tmpInteractibles = new Interactible[8];
 	
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -41,13 +44,36 @@ public class Interact : MonoBehaviour {
             if (rayHits[x].collider != null)    // S'il y'a collision
             {
                 Interactible interactible = rayHits[x].transform.GetComponent<Interactible>();
-                if(interactible != null)
+                if (interactible != tmpInteractibles[x])    // Si l'interactible a changé 
                 {
-                    Debug.Log(interactible.name);
-                    Debug.DrawLine(transform.position, interactible.transform.position, Color.green);
+                    if (interactible != null)
+                    {
+                        Debug.Log(interactible.name);
+                        Debug.DrawLine(transform.position, interactible.transform.position, Color.green);
+                    }
+
+                    DialogueTrigger dialogueTrigger = rayHits[x].transform.GetComponent<DialogueTrigger>();
+                    if (dialogueTrigger != null)
+                    {
+                        if (!isInteracting)
+                        {
+                            dialogueTrigger.TriggerDialogue();
+                            isInteracting = true;
+                        }
+                    }
+                    
                 }
+                tmpInteractibles[x] = interactible;
+            }
+            else
+            {
+                tmpInteractibles[x] = null;
             }
         }
-
 	}
+
+    public void stopInteracting()
+    {
+        isInteracting = false;
+    }
 }
