@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactible : MonoBehaviour {
+public class Prendre : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

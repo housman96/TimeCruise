@@ -11,13 +11,24 @@ public class DialogueManager : MonoBehaviour {
     public Queue<string> sentences;
     public Animator animator;
 
+    public KeyCode nextSentenceKey;
+
+    private PlayerController playerController;
+    [HideInInspector]
+    public bool isDialoging = false;
+
 	// Use this for initialization
 	void Start () {
         sentences = new Queue<string>();
-	}
+        playerController = FindObjectOfType<PlayerController>();
+
+    }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        playerController.LockMoves();
+        isDialoging = true;
+
         nameText.text = dialogue.name;
 
         sentences.Clear();
@@ -43,7 +54,8 @@ public class DialogueManager : MonoBehaviour {
     public void EndDialogue()
     {
         animator.SetBool("isChatting", false);
-        GameObject.FindObjectOfType<Interact>().stopInteracting();
+        isDialoging = false;
+        playerController.UnlockMoves();
     }
 
 
