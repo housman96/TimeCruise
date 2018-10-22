@@ -7,7 +7,7 @@ public class PlayerInteraction : MonoBehaviour {
     public float range;
 
     private DialogueManager dialogueManager;
-    private Interactible[] availableInteractibles = new Interactible[8];
+    private Interactable[] availableInteractables = new Interactable[8];
 	
     void Start()
     {
@@ -41,12 +41,12 @@ public class PlayerInteraction : MonoBehaviour {
         {
             if (rayHits[x].collider != null)    // S'il y'a collision
             {
-                Interactible interactible = rayHits[x].transform.GetComponent<Interactible>();
-                availableInteractibles[x] = interactible;
+                Interactable interactible = rayHits[x].transform.GetComponent<Interactable>();
+                availableInteractables[x] = interactible;
             }
             else
             {
-                availableInteractibles[x] = null;
+                availableInteractables[x] = null;
             }
         }
 	}
@@ -55,19 +55,19 @@ public class PlayerInteraction : MonoBehaviour {
     void Update()
     {
         bool actionAvailable = false;
-        Interactible interactible = null;
-        for (int x = 0; x < availableInteractibles.Length; x++)
+        Interactable interactable = null;
+        for (int x = 0; x < availableInteractables.Length; x++)
         {
-            if(availableInteractibles[x] != null)
+            if(availableInteractables[x] != null)
             {
-                interactible = availableInteractibles[x];
+                interactable = availableInteractables[x];
                 actionAvailable = true;
                 break;
             }
         }
-        if (actionAvailable && Input.GetKeyDown(interactible.actionKeyCode))
+        if (actionAvailable && Input.GetKeyDown(interactable.actionKeyCode))
         {
-            interactible.Interact();
+            interactable.Interact();
         }
         if (dialogueManager.isDialoging && Input.GetKeyDown(dialogueManager.nextSentenceKey))
         {

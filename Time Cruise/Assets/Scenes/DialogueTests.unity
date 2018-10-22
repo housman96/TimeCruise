@@ -365,9 +365,9 @@ GameObject:
   - component: {fileID: 966202080}
   - component: {fileID: 966202079}
   - component: {fileID: 966202078}
-  - component: {fileID: 966202077}
   - component: {fileID: 966202081}
   - component: {fileID: 966202082}
+  - component: {fileID: 966202077}
   m_Layer: 9
   m_Name: TestInteractableObject
   m_TagString: Untagged
@@ -386,7 +386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeafae01022eec047801a47b269ad18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionName: 
   action: {fileID: 11400000, guid: ac5b6e89685d1224dbe165dc1f95b332, type: 2}
   popup: {fileID: 430947545}
   actionName: {fileID: 1061299560}
@@ -571,6 +570,17 @@ Prefab:
       propertyPath: actionName
       value: 
       objectReference: {fileID: 1061299560}
+    - target: {fileID: 114753182226207214, guid: e7e47718f5e6adf4396f81ae5437eed7,
+        type: 2}
+      propertyPath: actionKeyCode
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 114753182226207214, guid: e7e47718f5e6adf4396f81ae5437eed7,
+        type: 2}
+      propertyPath: action
+      value: 
+      objectReference: {fileID: 11400000, guid: 93a2d2bb9b8e1704db43e82222ecd512,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e47718f5e6adf4396f81ae5437eed7, type: 2}
   m_IsPrefabAsset: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Interactible : MonoBehaviour {
+public class Interactable : MonoBehaviour {
 
     private string interactionName;
     public Action action;
