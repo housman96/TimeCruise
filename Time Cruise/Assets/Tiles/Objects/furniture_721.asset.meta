@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f23a97eb7bccbb948a6fa5a90641edf2
+=======
+guid: 732c4779e8a2e464fa75796edab1b888
+>>>>>>> TileMap
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
