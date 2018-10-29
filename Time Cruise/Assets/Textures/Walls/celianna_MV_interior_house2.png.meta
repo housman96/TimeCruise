@@ -1,7 +1,290 @@
 fileFormatVersion: 2
 guid: 0b897b3f14bbee64281ddd0ed2a44024
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: celianna_MV_interior_house2_0
+    21300002: celianna_MV_interior_house2_1
+    21300004: celianna_MV_interior_house2_2
+    21300006: celianna_MV_interior_house2_3
+    21300008: celianna_MV_interior_house2_4
+    21300010: celianna_MV_interior_house2_5
+    21300012: celianna_MV_interior_house2_6
+    21300014: celianna_MV_interior_house2_7
+    21300016: celianna_MV_interior_house2_8
+    21300018: celianna_MV_interior_house2_9
+    21300020: celianna_MV_interior_house2_10
+    21300022: celianna_MV_interior_house2_11
+    21300024: celianna_MV_interior_house2_12
+    21300026: celianna_MV_interior_house2_13
+    21300028: celianna_MV_interior_house2_14
+    21300030: celianna_MV_interior_house2_15
+    21300032: celianna_MV_interior_house2_16
+    21300034: celianna_MV_interior_house2_17
+    21300036: celianna_MV_interior_house2_18
+    21300038: celianna_MV_interior_house2_19
+    21300040: celianna_MV_interior_house2_20
+    21300042: celianna_MV_interior_house2_21
+    21300044: celianna_MV_interior_house2_22
+    21300046: celianna_MV_interior_house2_23
+    21300048: celianna_MV_interior_house2_24
+    21300050: celianna_MV_interior_house2_25
+    21300052: celianna_MV_interior_house2_26
+    21300054: celianna_MV_interior_house2_27
+    21300056: celianna_MV_interior_house2_28
+    21300058: celianna_MV_interior_house2_29
+    21300060: celianna_MV_interior_house2_30
+    21300062: celianna_MV_interior_house2_31
+    21300064: celianna_MV_interior_house2_32
+    21300066: celianna_MV_interior_house2_33
+    21300068: celianna_MV_interior_house2_34
+    21300070: celianna_MV_interior_house2_35
+    21300072: celianna_MV_interior_house2_36
+    21300074: celianna_MV_interior_house2_37
+    21300076: celianna_MV_interior_house2_38
+    21300078: celianna_MV_interior_house2_39
+    21300080: celianna_MV_interior_house2_40
+    21300082: celianna_MV_interior_house2_41
+    21300084: celianna_MV_interior_house2_42
+    21300086: celianna_MV_interior_house2_43
+    21300088: celianna_MV_interior_house2_44
+    21300090: celianna_MV_interior_house2_45
+    21300092: celianna_MV_interior_house2_46
+    21300094: celianna_MV_interior_house2_47
+    21300096: celianna_MV_interior_house2_48
+    21300098: celianna_MV_interior_house2_49
+    21300100: celianna_MV_interior_house2_50
+    21300102: celianna_MV_interior_house2_51
+    21300104: celianna_MV_interior_house2_52
+    21300106: celianna_MV_interior_house2_53
+    21300108: celianna_MV_interior_house2_54
+    21300110: celianna_MV_interior_house2_55
+    21300112: celianna_MV_interior_house2_56
+    21300114: celianna_MV_interior_house2_57
+    21300116: celianna_MV_interior_house2_58
+    21300118: celianna_MV_interior_house2_59
+    21300120: celianna_MV_interior_house2_60
+    21300122: celianna_MV_interior_house2_61
+    21300124: celianna_MV_interior_house2_62
+    21300126: celianna_MV_interior_house2_63
+    21300128: celianna_MV_interior_house2_64
+    21300130: celianna_MV_interior_house2_65
+    21300132: celianna_MV_interior_house2_66
+    21300134: celianna_MV_interior_house2_67
+    21300136: celianna_MV_interior_house2_68
+    21300138: celianna_MV_interior_house2_69
+    21300140: celianna_MV_interior_house2_70
+    21300142: celianna_MV_interior_house2_71
+    21300144: celianna_MV_interior_house2_72
+    21300146: celianna_MV_interior_house2_73
+    21300148: celianna_MV_interior_house2_74
+    21300150: celianna_MV_interior_house2_75
+    21300152: celianna_MV_interior_house2_76
+    21300154: celianna_MV_interior_house2_77
+    21300156: celianna_MV_interior_house2_78
+    21300158: celianna_MV_interior_house2_79
+    21300160: celianna_MV_interior_house2_80
+    21300162: celianna_MV_interior_house2_81
+    21300164: celianna_MV_interior_house2_82
+    21300166: celianna_MV_interior_house2_83
+    21300168: celianna_MV_interior_house2_84
+    21300170: celianna_MV_interior_house2_85
+    21300172: celianna_MV_interior_house2_86
+    21300174: celianna_MV_interior_house2_87
+    21300176: celianna_MV_interior_house2_88
+    21300178: celianna_MV_interior_house2_89
+    21300180: celianna_MV_interior_house2_90
+    21300182: celianna_MV_interior_house2_91
+    21300184: celianna_MV_interior_house2_92
+    21300186: celianna_MV_interior_house2_93
+    21300188: celianna_MV_interior_house2_94
+    21300190: celianna_MV_interior_house2_95
+    21300192: celianna_MV_interior_house2_96
+    21300194: celianna_MV_interior_house2_97
+    21300196: celianna_MV_interior_house2_98
+    21300198: celianna_MV_interior_house2_99
+    21300200: celianna_MV_interior_house2_100
+    21300202: celianna_MV_interior_house2_101
+    21300204: celianna_MV_interior_house2_102
+    21300206: celianna_MV_interior_house2_103
+    21300208: celianna_MV_interior_house2_104
+    21300210: celianna_MV_interior_house2_105
+    21300212: celianna_MV_interior_house2_106
+    21300214: celianna_MV_interior_house2_107
+    21300216: celianna_MV_interior_house2_108
+    21300218: celianna_MV_interior_house2_109
+    21300220: celianna_MV_interior_house2_110
+    21300222: celianna_MV_interior_house2_111
+    21300224: celianna_MV_interior_house2_112
+    21300226: celianna_MV_interior_house2_113
+    21300228: celianna_MV_interior_house2_114
+    21300230: celianna_MV_interior_house2_115
+    21300232: celianna_MV_interior_house2_116
+    21300234: celianna_MV_interior_house2_117
+    21300236: celianna_MV_interior_house2_118
+    21300238: celianna_MV_interior_house2_119
+    21300240: celianna_MV_interior_house2_120
+    21300242: celianna_MV_interior_house2_121
+    21300244: celianna_MV_interior_house2_122
+    21300246: celianna_MV_interior_house2_123
+    21300248: celianna_MV_interior_house2_124
+    21300250: celianna_MV_interior_house2_125
+    21300252: celianna_MV_interior_house2_126
+    21300254: celianna_MV_interior_house2_127
+    21300256: celianna_MV_interior_house2_128
+    21300258: celianna_MV_interior_house2_129
+    21300260: celianna_MV_interior_house2_130
+    21300262: celianna_MV_interior_house2_131
+    21300264: celianna_MV_interior_house2_132
+    21300266: celianna_MV_interior_house2_133
+    21300268: celianna_MV_interior_house2_134
+    21300270: celianna_MV_interior_house2_135
+    21300272: celianna_MV_interior_house2_136
+    21300274: celianna_MV_interior_house2_137
+    21300276: celianna_MV_interior_house2_138
+    21300278: celianna_MV_interior_house2_139
+    21300280: celianna_MV_interior_house2_140
+    21300282: celianna_MV_interior_house2_141
+    21300284: celianna_MV_interior_house2_142
+    21300286: celianna_MV_interior_house2_143
+    21300288: celianna_MV_interior_house2_144
+    21300290: celianna_MV_interior_house2_145
+    21300292: celianna_MV_interior_house2_146
+    21300294: celianna_MV_interior_house2_147
+    21300296: celianna_MV_interior_house2_148
+    21300298: celianna_MV_interior_house2_149
+    21300300: celianna_MV_interior_house2_150
+    21300302: celianna_MV_interior_house2_151
+    21300304: celianna_MV_interior_house2_152
+    21300306: celianna_MV_interior_house2_153
+    21300308: celianna_MV_interior_house2_154
+    21300310: celianna_MV_interior_house2_155
+    21300312: celianna_MV_interior_house2_156
+    21300314: celianna_MV_interior_house2_157
+    21300316: celianna_MV_interior_house2_158
+    21300318: celianna_MV_interior_house2_159
+    21300320: celianna_MV_interior_house2_160
+    21300322: celianna_MV_interior_house2_161
+    21300324: celianna_MV_interior_house2_162
+    21300326: celianna_MV_interior_house2_163
+    21300328: celianna_MV_interior_house2_164
+    21300330: celianna_MV_interior_house2_165
+    21300332: celianna_MV_interior_house2_166
+    21300334: celianna_MV_interior_house2_167
+    21300336: celianna_MV_interior_house2_168
+    21300338: celianna_MV_interior_house2_169
+    21300340: celianna_MV_interior_house2_170
+    21300342: celianna_MV_interior_house2_171
+    21300344: celianna_MV_interior_house2_172
+    21300346: celianna_MV_interior_house2_173
+    21300348: celianna_MV_interior_house2_174
+    21300350: celianna_MV_interior_house2_175
+    21300352: celianna_MV_interior_house2_176
+    21300354: celianna_MV_interior_house2_177
+    21300356: celianna_MV_interior_house2_178
+    21300358: celianna_MV_interior_house2_179
+    21300360: celianna_MV_interior_house2_180
+    21300362: celianna_MV_interior_house2_181
+    21300364: celianna_MV_interior_house2_182
+    21300366: celianna_MV_interior_house2_183
+    21300368: celianna_MV_interior_house2_184
+    21300370: celianna_MV_interior_house2_185
+    21300372: celianna_MV_interior_house2_186
+    21300374: celianna_MV_interior_house2_187
+    21300376: celianna_MV_interior_house2_188
+    21300378: celianna_MV_interior_house2_189
+    21300380: celianna_MV_interior_house2_190
+    21300382: celianna_MV_interior_house2_191
+    21300384: celianna_MV_interior_house2_192
+    21300386: celianna_MV_interior_house2_193
+    21300388: celianna_MV_interior_house2_194
+    21300390: celianna_MV_interior_house2_195
+    21300392: celianna_MV_interior_house2_196
+    21300394: celianna_MV_interior_house2_197
+    21300396: celianna_MV_interior_house2_198
+    21300398: celianna_MV_interior_house2_199
+    21300400: celianna_MV_interior_house2_200
+    21300402: celianna_MV_interior_house2_201
+    21300404: celianna_MV_interior_house2_202
+    21300406: celianna_MV_interior_house2_203
+    21300408: celianna_MV_interior_house2_204
+    21300410: celianna_MV_interior_house2_205
+    21300412: celianna_MV_interior_house2_206
+    21300414: celianna_MV_interior_house2_207
+    21300416: celianna_MV_interior_house2_208
+    21300418: celianna_MV_interior_house2_209
+    21300420: celianna_MV_interior_house2_210
+    21300422: celianna_MV_interior_house2_211
+    21300424: celianna_MV_interior_house2_212
+    21300426: celianna_MV_interior_house2_213
+    21300428: celianna_MV_interior_house2_214
+    21300430: celianna_MV_interior_house2_215
+    21300432: celianna_MV_interior_house2_216
+    21300434: celianna_MV_interior_house2_217
+    21300436: celianna_MV_interior_house2_218
+    21300438: celianna_MV_interior_house2_219
+    21300440: celianna_MV_interior_house2_220
+    21300442: celianna_MV_interior_house2_221
+    21300444: celianna_MV_interior_house2_222
+    21300446: celianna_MV_interior_house2_223
+    21300448: celianna_MV_interior_house2_224
+    21300450: celianna_MV_interior_house2_225
+    21300452: celianna_MV_interior_house2_226
+    21300454: celianna_MV_interior_house2_227
+    21300456: celianna_MV_interior_house2_228
+    21300458: celianna_MV_interior_house2_229
+    21300460: celianna_MV_interior_house2_230
+    21300462: celianna_MV_interior_house2_231
+    21300464: celianna_MV_interior_house2_232
+    21300466: celianna_MV_interior_house2_233
+    21300468: celianna_MV_interior_house2_234
+    21300470: celianna_MV_interior_house2_235
+    21300472: celianna_MV_interior_house2_236
+    21300474: celianna_MV_interior_house2_237
+    21300476: celianna_MV_interior_house2_238
+    21300478: celianna_MV_interior_house2_239
+    21300480: celianna_MV_interior_house2_240
+    21300482: celianna_MV_interior_house2_241
+    21300484: celianna_MV_interior_house2_242
+    21300486: celianna_MV_interior_house2_243
+    21300488: celianna_MV_interior_house2_244
+    21300490: celianna_MV_interior_house2_245
+    21300492: celianna_MV_interior_house2_246
+    21300494: celianna_MV_interior_house2_247
+    21300496: celianna_MV_interior_house2_248
+    21300498: celianna_MV_interior_house2_249
+    21300500: celianna_MV_interior_house2_250
+    21300502: celianna_MV_interior_house2_251
+    21300504: celianna_MV_interior_house2_252
+    21300506: celianna_MV_interior_house2_253
+    21300508: celianna_MV_interior_house2_254
+    21300510: celianna_MV_interior_house2_255
+    21300512: celianna_MV_interior_house2_256
+    21300514: celianna_MV_interior_house2_257
+    21300516: celianna_MV_interior_house2_258
+    21300518: celianna_MV_interior_house2_259
+    21300520: celianna_MV_interior_house2_260
+    21300522: celianna_MV_interior_house2_261
+    21300524: celianna_MV_interior_house2_262
+    21300526: celianna_MV_interior_house2_263
+    21300528: celianna_MV_interior_house2_264
+    21300530: celianna_MV_interior_house2_265
+    21300532: celianna_MV_interior_house2_266
+    21300534: celianna_MV_interior_house2_267
+    21300536: celianna_MV_interior_house2_268
+    21300538: celianna_MV_interior_house2_269
+    21300540: celianna_MV_interior_house2_270
+    21300542: celianna_MV_interior_house2_271
+    21300544: celianna_MV_interior_house2_272
+    21300546: celianna_MV_interior_house2_273
+    21300548: celianna_MV_interior_house2_274
+    21300550: celianna_MV_interior_house2_275
+    21300552: celianna_MV_interior_house2_276
+    21300554: celianna_MV_interior_house2_277
+    21300556: celianna_MV_interior_house2_278
+    21300558: celianna_MV_interior_house2_279
+    21300560: celianna_MV_interior_house2_280
+    21300562: celianna_MV_interior_house2_281
+    21300564: celianna_MV_interior_house2_282
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,12 +323,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,9 +352,5713 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478c7652deab50241bd629d591719841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab6ec18b30f5584caf7cc48835f820c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fcd61c609aab34a819a41999b4c5ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9154a95d066ca53499ba46023320c7e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cbafeca48bbe44b811020079b0675b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664a94000f4200a4ea46c10ff2444c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f03a50e8a1a1d444ad5cc1369b45160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f784071da05d5d4c96d6b72c13cfbd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb87622ec1e354eb77dc751bac1f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85209ad18ecaef84090e41e2f51253c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8604e07104752c54bb9a7dc8e64b8b73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1f650088bc9749bbd474cc1709e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3027bc42020202c4aa365a843be4f4fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72777ca1de846647bc3ac188de2ddcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea2e5961367074fba646d3e2105f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a5c7d5562b4a43a724b33be82dbff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab41311e8bca268489668a248e6c4439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a3f1d0e3679df49b1df90ddf81c8ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5034818f398112458894fcf41ea665e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f51abd6d5fdc964fa45bb808153eb6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d071525a66dc24bb75ac14a86fcec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3478105e47f5a684fb51cf18983739f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d579be96ef7670c4d84f10eaea4f528a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f631709243448a4889a0a8872f7f078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc9094bb7cf0a429bf996ae28e452e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938bf31877ea7dd4c8980a0a841c711b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d0cedc9131e52468a7e9d3a2596324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abbcdc9cb0d6fd43857ce77e3456009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c49119a4eba594ba327b684aa938f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 176
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c9a02002b10fe40823e682c33420c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1082940be5f4541bde18b9ebb458bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18a14612981ea54a8c551f7247d5a5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0d82ad37c6124498db5d9effcb5ed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bde263745b24e49a8624c515e59bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77736910a7aef0948aa22946d3b7c8b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c42842b2c6624479e944050a3ff644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa00f5ec33f6584fb689226fe43da85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c200f52a320da7c4bb6cba74823a4ee4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112e8a1d17bc4cb4b85d2cc32b86c078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f23a2930bafa045b1f183a9bb2fc27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977e5e579a07bd347a207a31df1cd761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba2059fd2cf0b94cbed039de8227e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7758d373035eb0c4589be3f9eec7f518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5338d8f4a5efa49ab54a8f95a0e4bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adfb388f3cd6ba41921a8608403bd67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f4ab40e1db6d9428ac265ff0f8c97d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b8af43f509fea44a6d15e3aadce3a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67871470f328b9499acb25838a2fc63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1530f2ef342ff4d83eee27e7ff334d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cb344e1201eef4db1c0a35beee1ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c6883dac71724da0fa129d827f193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436b3dec649d274aaa86fe6f44e60ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d7fae421fe6404faee5a29a42c6ccb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_53
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed8fc4e8b015584ab34fd8da19846c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ca8f682286d14dac096e2939538ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8423611bc14fd147b086e2ac5725973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a069790a88abd499565536a6cacf7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027bf2eb184e3b488e3027e464612b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e8fa35d2127b64487d94ca573fe412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff98cd4416cef478f3b68b4b09b6dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ac5e85df1937a4199458888da4e08a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c89efff43a3384a88e53a594ac8de4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b31eb0f2c43b444913f453e85f5cc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce05799685414a4086dcf0615a3ede2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78a501a86ad3f84494fc6c88b50be07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a85d7cac9dcf14598910cd9354c10d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315b77b0c3b9d1d498bb2b66c9646c4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ca595eb0d3acd4fae0239b0f37fc12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cf46d8c21cd024899a35d794ccaa4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8bdd2ef0fd0a0428976c2151310fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713a77891437e54691842142546edb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00150d7e139ed8499b4d5c5ee7fc7fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf251623a2b4d44284f4c2b70ff89b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31c5e92a046c7647bdeb0215dc44da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c06219347eb9e438bbb1e4e4a3bb59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a38468e549efe94f8429d190be004b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b25adcb7ef3ff4fa52f9d5733a2341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669000ae93161144a8db76a399a86ab0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330aa8a2a3351614ba52961afc070058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_79
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03327c886d66b124299d93eda1ef462a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df6fceaec9f0124f82a7bb6aeafd4a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_81
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aafa6517607af419352937c58a6a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_82
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1235194b9e6629d409b2c52eefb2a6ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_83
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cae1c7945df214e947632a546643e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8dc9f3cc54a8a4a8b643639abc781d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f90bffce6c464fa429a69f740b4a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d47456b47166439057e5a590ade42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_87
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef5cee8bc137c84bb35ffe3a490dadd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d19edc7a16b0448a6e5eebd0ff1e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_89
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 144
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74137ebe30266c64dbb57d8606a024b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d44e2660d7d44485b08f62d147cee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbee6f992f7d0246abb8ab8b92113e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a4b01db8708fb4bbebb8c159ca1ef3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9dd7c3b0bf17a4e83537f834866d8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5742c4cf2bb4cc4b8149dd63cda0345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7df7a99a9218746b085ecbf0dac34d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190f49925fb01f54ebb2f230df788a32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31b19a62bcdb347b9b312ccf6a0aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5335e03c9bb66574783a7b43663d6fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d891defccf744a8c7ba84132eb3a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4734f2c1a5bec4da9680d0ec8f39b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0119e37271d16e8418b825c1ab4b518d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db137b8894689824db60ff4cd1f087ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_103
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda98e7140706040b4646408758cf51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccff95067b36424c81cd7ea477ea18b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e66b41d6c93da45acb7a177cc79461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2464fc2f2e5efb149a1a37409b73d66b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_107
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e4cd0c892df9444a9c81f429e6dbde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab4edf819dadbb45b5b2752c218c05e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_109
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90900e1d034bd1d4b853bcecfd71587e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075922e2f8a6f364d86af63acf0da281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_111
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757e88d0f8c079643834f45bca21f241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_112
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8266cdcd9ad124bb10471b5ecf6775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_113
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8bb76ef8113dc4aa88c24a97723787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b5707cb8ce22246a40d634075f67e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_115
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0477d1f8c089694c86295321ba0c3fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_116
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2806397bdc5a4da13286e75c88512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_117
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73ebfb96f8d2d41b25cef719822b75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_118
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19750cdc5b457a41b3eacfd1c1626ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_119
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 128
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38759f6c4b4713c4e96fb6e1e66db28f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671fcb2bd856b0d4098370c46b8a107d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b9f8b4302b6814ca5228799abff897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a9c24f1d94b5d40bffcb611664847b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947eb57875db4c34a93ae3cef6560e26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789611fd81f59e3438b21833adf24e88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb3e2672e1a31f4086afbbfa1f01969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6829c6795cf5c604fac5870c6eaf22ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb36a5f3a8615845b04c13d2016a15c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2812caa2c4e0404ea4fd1b2771a9cc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3ac04c9b6a07f4a834703f6a822e22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b27e2c35f89c4d46ad4ab0b047b1efc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_131
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ace2c952207a24b97781de5691b817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2c6933450f2c141baeca7dcc0646a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_133
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf63c005bf827f4192e6d1b688f011d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26805e1ebf62624aaa0d8f5e20dab06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_135
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d68c81287caa438c9d7e22b0f93ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f9f5722d03c964e95f1b25e19fc7f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_137
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436517d65ed3c614aa165be800588554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_138
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13d4ee6421438a40903104e919fe492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861ee303a43952f4f8f42fdfba20f251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_140
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0647bafd8ba1e0429e2a1c9b9021938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_141
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b20f1f0e7d1f4796d9f8304b4f555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_142
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e0496c27d0a6c4d930d36534a37e51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_143
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78547fcc5099cc74c955921ed4db1c95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_144
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8251063cafaa934e943bdbdcf51242d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_145
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04d6c6d0e2cbff44a9753fec574841f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_146
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a6d132806a64a4f8b35d312f98024b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_147
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d264694d0709f48a584b3c09149a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_148
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec1e2eccc419b7469d0a35c3db8311a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_149
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 112
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37585ebff9405144fb7fbcab81ef44a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec758e5e7703c4dadf8c688200e058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f3dc5b7e4494f4895bdee8d33b72b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5107daa2a11a7cb418197851b623de1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_153
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ab7ec6fbfae4d47962cb131f04b592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84616c079ca5854ea7e8651c5eb21a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_155
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aa857d3d48c4444ae045da085429a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_156
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd2704dbe0074941936c94c1a78b5bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3c42c303799154db58b547df2ed066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4300a9a75b297d741b4320a9dd289680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314e370f17866d642962301bae17bbdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83261fc0bef5fd046b9919ee3e036545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_161
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e578d0c4a87b8b045b0ff983c126209a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d7312a178deda479d6285988f87fc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_163
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995b3e3d4aa9ba4b9abb2ba56b8e835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_164
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b8ad3caf35524d9713ed1d54e0760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_165
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae869b6c1e2b424bb631db06a6256ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_166
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a875f16776608045877abfd17a5212e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_167
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731de049f9d3acb4fa5afa4c3e04e3ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_168
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ee235c83bff3348b314b74bb0b2ddc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_169
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fac1f076918bff4296b6be154465efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632c2d3e9713acc43a979171e8eabcf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_171
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc606b44a3725b48ab9697922181aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_172
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d1228eee8935d4aa05e1e6207c5a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_173
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec18094089fe1c7448270789f166b6d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_174
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464f161b70454e24d9a79c49b15178aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_175
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71adb31dc6faac4db14205e709a090e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_176
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115d88fb77d1b944d84ff68bed691d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_177
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7895b14c0ec69eb4c925f05c6c626dbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_178
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830b53348bef28741aa83f000a6ff93d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_179
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 96
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f09723be300087489429e1c236fa38f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_180
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d49b9921840f942a849e9c5aa764b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_181
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd11e80a19b1a3848be472c02fcc2f3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_182
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46a7fa4fbbbd79468d091c308063d2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_183
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8839f90b1bd4982408685939d779ea97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_184
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f226e1c22772e4099821e1cef5146c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_185
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbba5a36fc5ecf45b4d578698191452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_186
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d566a2c38779545bd4529621fcb4f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_187
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae135344a53ef4e8fa4b42574a182e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_188
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89924e022bb365b409e8c7484b60d99b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_189
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2c31b0d65d8044adde9459ba8d898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_190
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2555e65397db647ba3a656ef4a124d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_191
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f26c171b77c7f4ba58b6192b444ae3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_192
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c3459fd919cb64aa567683e328b7d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_193
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5047eed73eddf48be1f502104378a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7565360ebfd55e48852136ea72e4959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_195
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd28538d25a8c14894fa217cbc3f210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_196
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cf79da16cdd74419d458bcf1229dcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_197
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4560986f208da438efc9249f636e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_198
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c3ff620ac4652458639f0c793e11bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbed92ed27330f4aad0c70fd2108015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_200
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 80
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dde794048cd8a49bde047cea61d6b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_201
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85cc152c9ca1db4cb18844d16ba6834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_202
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5780cc60d10260d45bbc1d75b44af2a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_203
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa8e28203d077b41bbb0e4958545495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d380e43252be4bd4cb663065941c7112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_205
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3989155ee660f354ba2faa5526781157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_206
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ab5bd8b08f5a4ea8ac4bd5422cb85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_207
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53754373d0d00b7499b293313192aac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_208
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc789a8fdf40c04fbee5a863c4e8052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_209
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b9353a80ab76847b5bc46559b75920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_210
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef6dd4939f7ad41af8dec34413dc41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_211
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf06e09fdacba948a6d52d75f5bc1f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_212
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9577fc31b39d42a82c1e002782f12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_213
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aefc49a6565f9c41a8b9eccff0e65ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_214
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693eccd8fb3e2fd4aae32a240e3094af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_215
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9d899fa38eb8489da73e01a979f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_216
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6cdbd4fa8631b4ea6282654aafadce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_217
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2bbecd6c871b541aad39225660e9e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_218
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be38f10448990448482bd902e51298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_219
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f0214d3422b084981c399334f8dea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_220
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ab7f618eb57584db01468964a455c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_221
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b05157f391b3c49bb224928cf65e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_222
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db32aa697f6267143958d1e27e50163f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_223
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25795e0262d1d646b5e872e83074f62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_224
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930234eaef94d9047b1a3d4d5afcdaf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_225
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7ee523ffb0d094dade72c9196a3296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_226
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbd7d9cef9b8154dad618f84c772a1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_227
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dc62a1674964a4fac9e95599b28173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_228
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2062157c1e5f4da448bab80948969c85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_229
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5c0a332b5143f488805e11ae8c5bfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_230
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba311135088806489043d0975817039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_231
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874105f64ddf9ed42b4fcb88fb89a897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_232
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de97e5e0050dd54bb314c86f624ce01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_233
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce3b2103aba05d4e84a8756b97a9c71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_234
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83feee0c1692c6547acb7ce86b63961c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_235
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd158cb7b203e1c439fcdf075e960b67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_236
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b1d7f1b62b4cd4faf4fafa11e1217a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_237
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab21541776330047a3bf9234ad79ce0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_238
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c238ee149832ab34fad719f634ad48f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_239
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9fbcfe85a8cd749a1f046e7302cd2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_240
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3da2b4f6af89742ba7e7c2414139dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_241
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3ba4ae65f04844ca8f1b98bbe8d8cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_242
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7786f17d4bc00104caac4c0c2e7876ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_243
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7956f8d9fac109942b526b942bd83878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_244
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1474eb22e6842dc45b033df760dbacc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_245
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 48
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4967dd32f88603e428fdca7c058f6236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_246
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ec06561be1ff7409bb54e898dceff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_247
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a064e878b029de4bbcef77e0d96a397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_248
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61a8be9ff2ee494ea830bc57ad42a2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_249
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02388a5059af7545ac597fee2eaaacd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_250
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fbb08a0e79f374b941479d2a352351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_251
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba72bb92474fb4eba678ce388c5788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_252
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824861dc656ce64408c372649c53fd2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_253
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e32f44f1821ff4ea5538c8f61dc9f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_254
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b0e564952c1f4ebe17278ba734827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa40cfad77dab0c409f7d00db57757fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_256
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e4ff018d6c23d41bd99a25c09600e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb9e23f3865e9e4b9197959a9beb983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_258
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7e2c7427d46904a963bffc303041d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_259
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d6a420dae5ef49abc687b59cae9a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_260
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6767ca8f4521498cb0e7bd2d33018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_261
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c8fee72d0f4fe4590420dd21b96347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_262
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b47309f7e8353142a4b8adc989eda5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_263
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7b50c0edd30a346a645eed8a84448d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_264
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4cfe57655d49e4c8158d71995ebe8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_265
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8c919d299fc842acbf8a534f2d4b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_266
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86977c7c31ceac4ea659448babfb31a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_267
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a7cee8b3296fe409ae9d2ec17ccfd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_268
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79f4bc9ebb13ea4d87137edf384af9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_269
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2052ab8bc1c09134086a6d78490f8a5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_270
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82030ded759f2b64cb595faf612989ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_271
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4046fa97aedb5104c8bf5b409b5546ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_272
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5848379b2bf5a4ebd02b530c4bc2f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_273
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3bd496cce225d47aad2ae51b0b7b86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_274
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0223ec694fa02479a113a89ee17e83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_275
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08fc94be3f0026449db62c3f60d4abd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_276
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e4566cbbfe5064ca2bbff742defbc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_277
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75103621527d4634fb59f5ccc19e35d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_278
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd05a0912571b24aa8fb5b5492b124f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_279
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ff240a8a1b53040b9c8f6e1cadeb39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_280
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf58e2f3c9139942889a119de2063ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_281
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559035982dabaa344ba87481f2aa88f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: celianna_MV_interior_house2_282
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e4ff0a8e3bba548aa6841d5e7b63a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
