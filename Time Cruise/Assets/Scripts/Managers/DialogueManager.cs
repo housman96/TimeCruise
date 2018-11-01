@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Text;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -17,11 +19,28 @@ public class DialogueManager : MonoBehaviour {
     [HideInInspector]
     public bool isDialoging = false;
 
-	// Use this for initialization
-	void Start () {
+    private System.Random rng = new System.Random();
+    private List<int> indexesAlea;
+    private StringBuilder sentenceStringBuilder;
+    private string currentSentence;
+
+    void Start () {
         sentences = new Queue<string>();
         playerController = FindObjectOfType<PlayerController>();
 
+    }
+
+    public void StartDialogue(Dialogue dialogue, float distanceRate)
+    {
+        isDialoging = true;
+        nameText.text = dialogue.name;
+        sentences.Clear();
+        foreach (string sentence in dialogue.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+        animator.SetBool("isChatting", true);
+        DisplayNextSentenceLetters(distanceRate);
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -49,6 +68,50 @@ public class DialogueManager : MonoBehaviour {
         }
         string sentence = sentences.Dequeue();
         sentenceText.text = sentence;
+    }
+
+    void DisplayNextSentenceLetters(float rate)
+    {
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+        currentSentence = sentences.Dequeue();
+
+        indexesAlea = new List<int>();
+        for (int x = 0; x < currentSentence.Length; x++)
+        {
+            indexesAlea.Add(x);
+        }
+        Shuffle(indexesAlea);
+        sentenceStringBuilder = new StringBuilder(new string(".".ToCharArray()[0], currentSentence.Length));
+        UpdateDialogue(rate);
+    }
+
+    public void UpdateDialogue(float rate)
+    {
+        int nbIdexToPrint = (int)Math.Floor(currentSentence.Length * rate);
+        for (int c = 0; c < nbIdexToPrint; c++)
+        {
+            int index = indexesAlea[c];
+            sentenceStringBuilder[index] = currentSentence[index];
+        }
+        sentenceText.text = sentenceStringBuilder.ToString();
+    }
+
+
+    public void Shuffle(List<int> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            int value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
     }
 
     public void EndDialogue()
