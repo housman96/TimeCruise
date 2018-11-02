@@ -6898,9 +6898,9 @@ TextureImporter:
       name: MansionItem_244
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 656
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6940,7 +6940,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 656
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7678,9 +7678,9 @@ TextureImporter:
       name: MansionItem_283
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 640
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7720,7 +7720,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 640
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8578,9 +8578,9 @@ TextureImporter:
       name: MansionItem_328
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 624
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -8620,7 +8620,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 624
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -9518,9 +9518,9 @@ TextureImporter:
       name: MansionItem_375
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 608
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -9560,7 +9560,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 608
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10438,9 +10438,9 @@ TextureImporter:
       name: MansionItem_421
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 592
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10480,7 +10480,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 592
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10938,9 +10938,9 @@ TextureImporter:
       name: MansionItem_446
       rect:
         serializedVersion: 2
-        x: 385
+        x: 384
         y: 576
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10980,7 +10980,7 @@ TextureImporter:
         serializedVersion: 2
         x: 416
         y: 576
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
