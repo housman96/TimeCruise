@@ -54,18 +54,20 @@ namespace Pathfinding {
 		/// <summary>Speed in world units</summary>
 		public float speed = 3;
 
-		/// <summary>
-		/// Determines which direction the agent moves in.
-		/// For 3D games you most likely want the ZAxisIsForward option as that is the convention for 3D games.
-		/// For 2D games you most likely want the YAxisIsForward option as that is the convention for 2D games.
-		///
-		/// Using the YAxisForward option will also allow the agent to assume that the movement will happen in the 2D (XY) plane instead of the XZ plane
-		/// if it does not know. This is important only for the point graph which does not have a well defined up direction. The other built-in graphs (e.g the grid graph)
-		/// will all tell the agent which movement plane it is supposed to use.
-		///
-		/// [Open online documentation to see images]
-		/// </summary>
-		[UnityEngine.Serialization.FormerlySerializedAs("rotationIn2D")]
+        Animator animator;
+
+        /// <summary>
+        /// Determines which direction the agent moves in.
+        /// For 3D games you most likely want the ZAxisIsForward option as that is the convention for 3D games.
+        /// For 2D games you most likely want the YAxisIsForward option as that is the convention for 2D games.
+        ///
+        /// Using the YAxisForward option will also allow the agent to assume that the movement will happen in the 2D (XY) plane instead of the XZ plane
+        /// if it does not know. This is important only for the point graph which does not have a well defined up direction. The other built-in graphs (e.g the grid graph)
+        /// will all tell the agent which movement plane it is supposed to use.
+        ///
+        /// [Open online documentation to see images]
+        /// </summary>
+        [UnityEngine.Serialization.FormerlySerializedAs("rotationIn2D")]
 		public OrientationMode orientation = OrientationMode.ZAxisForward;
 
 		/// <summary>
@@ -326,7 +328,8 @@ namespace Pathfinding {
 		/// See: <see cref="RepeatTrySearchPath"/>
 		/// </summary>
 		protected virtual void Start () {
-			startHasRun = true;
+            animator = GetComponentInChildren<Animator>();
+            startHasRun = true;
 			Init();
 		}
 
@@ -416,15 +419,16 @@ namespace Pathfinding {
 			seeker.StartPath(currentPosition, destination);
 		}
 
-		/// <summary>
-		/// The end of the path has been reached.
-		/// If you want custom logic for when the AI has reached it's destination
-		/// add it here.
-		/// You can also create a new script which inherits from this one
-		/// and override the function in that script.
-		/// </summary>
-		public virtual void OnTargetReached () {
-		}
+        /// <summary>
+        /// The end of the path has been reached.
+        /// If you want custom logic for when the AI has reached it's destination
+        /// add it here.
+        /// You can also create a new script which inherits from this one
+        /// and override the function in that script.
+        /// </summary>
+        public virtual void OnTargetReached()
+        {
+        }
 
 		/// <summary>
 		/// Called when a requested path has finished calculation.
@@ -553,6 +557,30 @@ namespace Pathfinding {
 			Vector3 direction;
 
 			nextPosition = CalculateNextPosition(out direction, isStopped ? 0f : deltaTime);
+
+            Vector3 mvt = nextPosition - transform.position;
+
+            if(animator != null)
+            {
+                animator.SetFloat("xInput", 0);
+                animator.SetFloat("yInput", 0);
+                if (mvt.x > 0)
+                {
+                    animator.SetFloat("xInput", 1);
+                }
+                else if (mvt.x < 0)
+                {
+                    animator.SetFloat("xInput", -1);
+                }
+                else if (mvt.y > 0)
+                {
+                    animator.SetFloat("yInput", 1);
+                }
+                else if (mvt.y < 0)
+                { 
+                    animator.SetFloat("yInput", -1);
+                }
+            }
 
 			if (enableRotation) nextRotation = SimulateRotationTowards(direction, deltaTime);
 			else nextRotation = simulatedRotation;
