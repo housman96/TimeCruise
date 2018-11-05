@@ -24,6 +24,8 @@ public class DialogueManager : MonoBehaviour {
     private StringBuilder sentenceStringBuilder;
     private string currentSentence;
 
+    private float rate;
+
     void Start () {
         sentences = new Queue<string>();
         playerController = FindObjectOfType<PlayerController>();
@@ -91,6 +93,12 @@ public class DialogueManager : MonoBehaviour {
 
     public void UpdateDialogue(float rate)
     {
+        this.rate = rate;
+        StartCoroutine(UpdateText());
+    }
+
+    IEnumerator UpdateText()
+    {
         int nbIdexToPrint = (int)Math.Floor(currentSentence.Length * rate);
         for (int c = 0; c < nbIdexToPrint; c++)
         {
@@ -98,6 +106,7 @@ public class DialogueManager : MonoBehaviour {
             sentenceStringBuilder[index] = currentSentence[index];
         }
         sentenceText.text = sentenceStringBuilder.ToString();
+        yield return null;
     }
 
 

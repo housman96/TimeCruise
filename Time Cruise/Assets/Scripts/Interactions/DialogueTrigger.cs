@@ -37,6 +37,8 @@ public class DialogueTrigger : MonoBehaviour {
         float rate = (radius+offest) - distance / (radius+offest);
             if (rate < 0)
                 rate = 0;
+            if (rate > 1)
+                rate = 1;
             UpdateDialogue(rate);
         }
     }
