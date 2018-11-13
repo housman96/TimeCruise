@@ -31,15 +31,15 @@ public class PauseManager : MonoBehaviour {
 
     public void Resume() {
         isPaused = !isPaused;
-        //Time.timeScale = 1f;
-        player.UnlockMoves();
+        Time.timeScale = 1f;
+        //player.UnlockMoves();
         ResumePanel();
     }
 
     public void Pause() {
         isPaused = !isPaused;
-        player.LockMoves();
-        //Time.timeScale = 0f;
+        //player.LockMoves();
+        Time.timeScale = 0f;
         PausePanel();
     }
 
