@@ -129,13 +129,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c0fd7be397cac0448bf32360f7c37dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Captain
+  dialogues:
+  - name: Cap
     sentences:
-    - "Hey mousaillon, comment vas tu en cette belle journ\xE9e ? T'es tu promen\xE9
-      sur le pont pour admirer la vue ? "
+    - "ocidhons\t\t"
+    - czsljlijcdd
+  - name: Cap
+    sentences:
+    - kjhdcuiugdc
+  - name: Cap
+    sentences:
+    - iuhcziuhkocdhncs
+  dialogueVide:
+    name: Cap
+    sentences:
+    - "Rien \xE0 dire"
   dialogueManager: {fileID: 79069332}
-  offest: 0.3
+  offest: 1
 --- !u!1 &79069331
 GameObject:
   m_ObjectHideFlags: 0

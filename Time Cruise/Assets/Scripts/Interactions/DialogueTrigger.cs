@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour {
 
-    public Dialogue dialogue;
+    //public Dialogue dialogue;
+    public List<Dialogue> dialogues;
+    public Dialogue dialogueVide;
     public DialogueManager dialogueManager;
 
     public float offest;
@@ -12,11 +14,13 @@ public class DialogueTrigger : MonoBehaviour {
     private float radius;
     private bool hasDistanceChanged;
     private CircleCollider2D triggerCollider;
+    private Dialogue currentDialogue;
 
     void Start()
     {
         triggerCollider = this.gameObject.GetComponent<CircleCollider2D>();
         radius = triggerCollider.radius;
+        currentDialogue = dialogueVide;
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -25,7 +29,7 @@ public class DialogueTrigger : MonoBehaviour {
         float rate = (radius+offest) - distance / (radius+offest);
         if (rate < 0)
             rate = 0;
-        TriggerDialogue(dialogue, rate);
+        TriggerDialogue(currentDialogue, rate);
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -58,6 +62,15 @@ public class DialogueTrigger : MonoBehaviour {
     private void UpdateDialogue(float rate)
     {
         dialogueManager.UpdateDialogue(rate);
+    }
+
+    public void setCurrentDialogue(int i) {
+        if (i<0 || i >= dialogues.Count) {
+            currentDialogue = dialogueVide;
+        }
+        else {
+            currentDialogue = dialogues[i];
+        }
     }
 
 }
