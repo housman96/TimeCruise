@@ -113,6 +113,29 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3220621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1023690674102054, guid: e7e47718f5e6adf4396f81ae5437eed7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1219202330}
+--- !u!114 &3220622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3220621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0fd7be397cac0448bf32360f7c37dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Captain
+    sentences:
+    - "Hey mousaillon, comment vas tu en cette belle journ\xE9e ? T'es tu promen\xE9
+      sur le pont pour admirer la vue ? "
+  dialogueManager: {fileID: 79069332}
+  offest: 0.3
 --- !u!1 &79069331
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +340,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4139020299427330, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 4139020299427330, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
       propertyPath: m_LocalPosition.y
@@ -356,6 +379,16 @@ Prefab:
         type: 2}
       propertyPath: m_Simulated
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61270455243140840, guid: 46d80d373b7c50b4498a072454193df7,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.019385368
+      objectReference: {fileID: 0}
+    - target: {fileID: 61270455243140840, guid: 46d80d373b7c50b4498a072454193df7,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.2695614
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
@@ -591,7 +624,13 @@ Prefab:
       value: 
       objectReference: {fileID: 11400000, guid: 93a2d2bb9b8e1704db43e82222ecd512,
         type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 58639119326475288, guid: e7e47718f5e6adf4396f81ae5437eed7,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114753182226207214, guid: e7e47718f5e6adf4396f81ae5437eed7, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: e7e47718f5e6adf4396f81ae5437eed7, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1595625384
