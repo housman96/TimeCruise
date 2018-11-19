@@ -18,42 +18,10 @@ public class RoomManager : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         setRenderer(transform, true);
-        //foreach (Transform child in transform)
-        //{
-        //    Renderer renderer = child.GetComponent<Renderer>();
-        //    if (renderer)
-        //    {
-        //        renderer.enabled = true;
-        //    }
-        //    else
-        //    {
-        //        foreach (Transform littleChild in child.transform)
-        //        {
-        //            littleChild.GetComponent<Renderer>().enabled = true;
-        //        }
-        //    }
-
-        //}
     }
     void OnTriggerExit2D(Collider2D other)
     {
         setRenderer(transform, false);
-        //foreach (Transform child in transform)
-        //{
-        //    Renderer renderer = child.GetComponent<Renderer>();
-        //    if (renderer)
-        //    {
-        //        renderer.enabled = false;
-        //    }
-        //    else
-        //    {
-        //        foreach (Transform littleChild in child.transform)
-        //        {
-        //            littleChild.GetComponent<Renderer>().enabled = false;
-        //        }
-        //    }
-
-        //}
     }
 
 
