@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114252915469768508}
   - component: {fileID: 114098561972046114}
   - component: {fileID: 114993785283000796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Femme Capitaine
   m_TagString: Untagged
   m_Icon: {fileID: 0}

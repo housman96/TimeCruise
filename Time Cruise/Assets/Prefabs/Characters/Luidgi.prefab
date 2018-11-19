@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114617198809115916}
   - component: {fileID: 114053277469997312}
   - component: {fileID: 114547436598019084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Luidgi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
