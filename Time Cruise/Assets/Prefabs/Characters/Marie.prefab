@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114881546057704996}
   - component: {fileID: 114482718795008404}
   - component: {fileID: 114075334188034678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Marie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
