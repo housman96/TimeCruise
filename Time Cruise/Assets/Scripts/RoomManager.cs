@@ -17,16 +17,24 @@ public class RoomManager : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        setRenderer(transform, true);
+        setRenderer(transform, other, true);
     }
     void OnTriggerExit2D(Collider2D other)
     {
-        setRenderer(transform, false);
+        setRenderer(transform, other, false);
     }
 
 
 
-    void setRenderer(Transform obj, bool visible)
+    void setRenderer(Transform obj, Collider2D other, bool visible)
+    {
+        if (other.gameObject.GetComponent<PlayerController>().isInRoom != visible)
+        {
+            other.gameObject.GetComponent<PlayerController>().isInRoom = visible;
+            setRendererRec(obj, visible);
+        }
+    }
+    void setRendererRec(Transform obj, bool visible)
     {
         foreach (Transform child in obj)
         {
@@ -37,7 +45,7 @@ public class RoomManager : MonoBehaviour
             }
             else
             {
-                setRenderer(child.transform, visible);
+                setRendererRec(child.transform, visible);
             }
 
         }
