@@ -3,34 +3,22 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class PlayerInventory : MonoBehaviour {
+public class PlayerInventory : Inventory {
 
-    public Item item;
-    public Image playerInventoryImage;
+    public GameObject playerInventoryUI;
 
-    private void Awake() {
-        changeInventory(item);
+    protected override void Awake() {
+        //inventorySize = 1;
+        base.Awake();
+        loadInventory();
     }
 
-    public void changeInventory (Item newItem) {
-        item = newItem;
-        if (item != null) {
-            changeImageSettings(1, false);
-            playerInventoryImage.sprite = item.icon;
-        }
-        else {
-            changeImageSettings(0, true);
-        }
+    private void loadInventory() {
+        base.loadInventory(playerInventoryUI);
     }
 
-    private void changeImageSettings(int alpha,bool texteAffiche) {
-        Color color = playerInventoryImage.color;
-        color.a = alpha;
-        playerInventoryImage.color = color;
-        playerInventoryImage.transform.GetChild(0).gameObject.SetActive(texteAffiche);
-    }
-
-    public bool isEmpty() {
-        return (item == null);
+    public void changeInventory(Item item) {
+        inventory[0] = item;
+        loadInventory();
     }
 }

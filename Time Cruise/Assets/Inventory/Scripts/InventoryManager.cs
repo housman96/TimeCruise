@@ -5,14 +5,14 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour {
 
     private PlayerController playerController;
-    private Inventory activeInventory;
+    private FurnitureInventory activeInventory;
     public GameObject InventoryUI;
     public KeyCode closeInventory;
 
     private void Start() {
         playerController = FindObjectOfType<PlayerController>();
     }
-    public void StartInventory(Inventory inventory) {
+    public void StartInventory(FurnitureInventory inventory) {
         activeInventory = inventory;
         playerController.LockMoves();
         activeInventory.loadInventory(InventoryUI);

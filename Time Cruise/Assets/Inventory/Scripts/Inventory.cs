@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Inventory : MonoBehaviour {
+public abstract class Inventory : MonoBehaviour {
+    //public int inventorySize = 5;
+    public List<Item>inventory ;
 
-    private const int inventorySize= 5;
-    public Item[] inventory=new Item[inventorySize];
-    private PlayerInventory playerInventory;
-
-    private void Awake() {
-        playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
+    protected virtual void Awake() {
+        //inventory = new Item[inventorySize];
     }
 
     public void loadInventory(GameObject inventoryUI) {
-        for (int k = 0; k < inventorySize; k++) {
-            loadSlot(k,inventoryUI);
+        for (int k = 0; k < inventory.Count; k++) {
+            loadSlot(k, inventoryUI);
         }
     }
 
@@ -31,18 +29,12 @@ public class Inventory : MonoBehaviour {
         }
     }
 
-    private void changeImageSettings(int alpha, bool texteAffiche,Image inventoryImage) {
+    private void changeImageSettings(int alpha, bool texteAffiche, Image inventoryImage) {
         Color color = inventoryImage.color;
         color.a = alpha;
         inventoryImage.color = color;
         inventoryImage.transform.GetChild(0).gameObject.SetActive(texteAffiche);
     }
 
-    public void onSlotClicked (int slotNumber, GameObject inventoryUI) {
-        Item temp = playerInventory.item;
-        playerInventory.changeInventory(inventory[slotNumber]);
-        inventory[slotNumber] = temp;
-        loadSlot(slotNumber,inventoryUI);
-    }
 
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Inspecter : Action
 {
 
-    private Inventory inventory; //besoin de cette ref pour charger le bon inventaire
+    private FurnitureInventory inventory; //besoin de cette ref pour charger le bon inventaire
     public override void onAction()
     {
         base.onAction();
@@ -22,7 +22,7 @@ public class Inspecter : Action
     }
     public override void GetReferenceObject(Interactable interactable) {
         base.GetReferenceObject(interactable);
-        inventory = interactable.gameObject.GetComponent<Inventory>();
+        inventory = interactable.gameObject.GetComponent<FurnitureInventory>();
     }
 
 
