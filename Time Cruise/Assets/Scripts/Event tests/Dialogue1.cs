@@ -26,8 +26,8 @@ public class Dialogue1 : MonoBehaviour {
         yield return new WaitForSeconds(2);
 
         capitaine.ResetSentence();
-        marie.SetSentence("Mmmmh... Ok !");
-        yield return new WaitForSeconds(2);
+        marie.SetSentence("Mmmmh... Ok !", false);
+        yield return new WaitForSeconds(5);
 
         marie.ResetSentence();
 
