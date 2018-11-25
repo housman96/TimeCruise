@@ -6,11 +6,12 @@ using UnityEngine.Events;
 public class Test2 : MonoBehaviour {
 
     public UnityEvent OnTest2Finished;
-   
+
+    public DialogueTrigger dialogueTriggerCapitaine;
+
     public void DoSomething()
     {
         Debug.Log("doing something");
-        DialogueTrigger dialogueTriggerCapitaine = GameObject.Find("Capitaine").GetComponent<DialogueTrigger>();
         dialogueTriggerCapitaine.SetSentence("Ceci est la nouvelle sentence");
         OnTest2Finished.Invoke();
     }
