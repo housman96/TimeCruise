@@ -23,7 +23,7 @@ public class RoomManager : MonoBehaviour
         {
             setRenderer(transform, other, true);
         }
-        else if(other.tag == "Character")
+        else if (other.tag == "Character" && other.isTrigger == false)
         {
             other.GetComponent<Renderer>().enabled = isVisible;
         }
