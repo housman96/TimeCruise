@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour {
     private string currentSentence;
     private float rate;
 
+    private bool encrypted = true;
+
     private Coroutine currentCoroutine;
 
     void Start()
@@ -56,16 +58,24 @@ public class DialogueManager : MonoBehaviour {
             HindPopUp();
             return;
         }
-        this.rate = rate;
+        if (encrypted)
+        {
+            this.rate = rate;
+        }
+        else
+        {
+            this.rate = 1.0f;
+        }
         DisplayPopUp();
         currentCoroutine = StartCoroutine(UpdateText());
     }
 
-    public void SetSentence(string sentence)
+    public void SetSentence(string sentence, bool encrypted)
     {
         StopAllCoroutines();
         this.currentSentence = sentence;
-        DisplaySentenceLetters(this.rate);
+        this.encrypted = encrypted;
+        DisplaySentenceLetters(0.0f);
     }
 
     public void ResetSentence()
