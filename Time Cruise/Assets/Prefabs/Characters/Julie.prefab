@@ -27,6 +27,8 @@ GameObject:
   - component: {fileID: 114077478844342540}
   - component: {fileID: 114903140833769362}
   - component: {fileID: 50428014239446860}
+  - component: {fileID: 114573306198747978}
+  - component: {fileID: 114756840754239648}
   m_Layer: 8
   m_Name: Julie
   m_TagString: Character
@@ -41,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1689267410911116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.04, y: -2.31, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +83,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 1
 --- !u!61 &61512667900039104
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -147,6 +149,22 @@ MonoBehaviour:
   interpolatePathSwitches: 1
   switchPathInterpolationSpeed: 10
   targetCompatibility: {fileID: 0}
+--- !u!114 &114573306198747978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689267410911116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 1655400296763822, guid: 756a567298ab3ad47a13d59060d2fa24, type: 2}
+  characterName: Julie
+  nameText: {fileID: 114670186690615552, guid: 756a567298ab3ad47a13d59060d2fa24, type: 2}
+  sentenceText: {fileID: 114035412508697538, guid: 756a567298ab3ad47a13d59060d2fa24,
+    type: 2}
 --- !u!114 &114734149197623614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -174,6 +192,20 @@ MonoBehaviour:
   tagPenalties: 0000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &114756840754239648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689267410911116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogueManager: {fileID: 114573306198747978}
+  offest: 1.5
 --- !u!114 &114903140833769362
 MonoBehaviour:
   m_ObjectHideFlags: 1
