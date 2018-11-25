@@ -27,6 +27,8 @@ GameObject:
   - component: {fileID: 114098561972046114}
   - component: {fileID: 114993785283000796}
   - component: {fileID: 50097620402493896}
+  - component: {fileID: 114353052592722250}
+  - component: {fileID: 114477796195058186}
   m_Layer: 8
   m_Name: Femme Capitaine
   m_TagString: Character
@@ -41,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1279057432479300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.87, y: 2.29, z: 0}
+  m_LocalPosition: {x: -4.83, y: -2.27, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +83,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 1
 --- !u!61 &61484051400816242
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -174,6 +176,36 @@ MonoBehaviour:
   tagPenalties: 0000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &114353052592722250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279057432479300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 1612853218041410, guid: 6fe040dbbf090b542bec178afb2db955, type: 2}
+  characterName: 
+  nameText: {fileID: 114597331012733252, guid: 6fe040dbbf090b542bec178afb2db955, type: 2}
+  sentenceText: {fileID: 114358123172898122, guid: 6fe040dbbf090b542bec178afb2db955,
+    type: 2}
+--- !u!114 &114477796195058186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279057432479300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogueManager: {fileID: 114353052592722250}
+  offest: 1.5
 --- !u!114 &114993785283000796
 MonoBehaviour:
   m_ObjectHideFlags: 1

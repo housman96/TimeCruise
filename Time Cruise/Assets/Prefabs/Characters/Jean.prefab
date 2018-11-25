@@ -27,6 +27,8 @@ GameObject:
   - component: {fileID: 114545889193865032}
   - component: {fileID: 114345835681506672}
   - component: {fileID: 50632447215707208}
+  - component: {fileID: 114571996153232782}
+  - component: {fileID: 114330986094636506}
   m_Layer: 8
   m_Name: Jean
   m_TagString: Character
@@ -41,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1469781072555122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97, y: 0, z: 0}
+  m_LocalPosition: {x: -1.74, y: -2.36, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +83,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 1
 --- !u!61 &61429872793315864
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -152,6 +154,20 @@ MonoBehaviour:
   tagPenalties: 0000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &114330986094636506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469781072555122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogueManager: {fileID: 114571996153232782}
+  offest: 1.5
 --- !u!114 &114345835681506672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -187,6 +203,22 @@ MonoBehaviour:
   interpolatePathSwitches: 1
   switchPathInterpolationSpeed: 10
   targetCompatibility: {fileID: 0}
+--- !u!114 &114571996153232782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469781072555122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 1509281414890532, guid: a61ed1d53a138b34dac867e63747dc01, type: 2}
+  characterName: Jean
+  nameText: {fileID: 114405887168829796, guid: a61ed1d53a138b34dac867e63747dc01, type: 2}
+  sentenceText: {fileID: 114166581408047512, guid: a61ed1d53a138b34dac867e63747dc01,
+    type: 2}
 --- !u!212 &212704354540613446
 SpriteRenderer:
   m_ObjectHideFlags: 1
