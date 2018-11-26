@@ -7,9 +7,9 @@ public class InspectDoorClosed : Action {
 
     public override void onAction() {
         base.onAction();
-        PlayerInventory playerInventory = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInventory>();
+        PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
 
-        if (playerInventory.inventory[0].name=="Stéthoscope") {
+        if (playerInventory.inventory[0] != null && playerInventory.inventory[0].name=="Stethoscope") {
             Debug.Log("Ecoute a la porte");
             return;
         }
