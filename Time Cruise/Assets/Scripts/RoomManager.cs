@@ -23,7 +23,7 @@ public class RoomManager : MonoBehaviour
         {
             setRenderer(transform, other, true);
         }
-        else if(other.tag == "Character")
+        else if (other.tag == "Character" && other is BoxCollider2D)
         {
             other.GetComponent<Renderer>().enabled = isVisible;
         }

@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour {
+public class DialogueTrigger : MonoBehaviour
+{
 
     public string sentence;
     public DialogueManager dialogueManager;
@@ -14,7 +13,7 @@ public class DialogueTrigger : MonoBehaviour {
 
     void Start()
     {
-        triggerCollider = this.gameObject.GetComponent<CircleCollider2D>();
+        triggerCollider = gameObject.GetComponent<CircleCollider2D>();
         radius = triggerCollider.radius;
     }
 
@@ -71,6 +70,7 @@ public class DialogueTrigger : MonoBehaviour {
 
     public void ResetSentence()
     {
+        sentence = "";
         dialogueManager.ResetSentence();
     }
 }
