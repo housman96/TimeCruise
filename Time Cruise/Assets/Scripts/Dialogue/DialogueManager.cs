@@ -87,7 +87,7 @@ public class DialogueManager : MonoBehaviour {
     {
         RectTransform popupTransform = popup.GetComponent<RectTransform>();
         Vector3 screenPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-        screenPos += new Vector3(0, popupTransform.rect.height, 0);                 // TODO : Rajouter la taille du PNJ
+        //screenPos += new Vector3(0, popupTransform.rect.height, 0);                 // TODO : Rajouter la taille du PNJ
         popupTransform.SetPositionAndRotation(screenPos, Quaternion.identity);
        
         popup.SetActive(true);
