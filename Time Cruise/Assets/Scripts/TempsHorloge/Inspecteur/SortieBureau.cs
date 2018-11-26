@@ -17,8 +17,9 @@ public class SortieBureau : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (!ended && collision.gameObject.tag == "Player")
         {
+            ended = true;
             porteBureau.SetActive(true);
             OnEnd.Invoke();
         }
