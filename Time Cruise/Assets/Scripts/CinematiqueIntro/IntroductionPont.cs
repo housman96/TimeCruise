@@ -163,7 +163,42 @@ public class IntroductionPont : MonoBehaviour
         matelotDial.SetSentence("C'est une catastrophe.");
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
+
+        /*Téléportation dans le bureau*/
+        while (alpha < 1)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alpha += 0.02f;
+            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+        }
+        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
+
+
+        matelot.GetComponent<Pathfinding.AILerp>().enabled = false;
+        matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = null;
+        matelot.transform.position = new Vector3(-19, 2.5f);
+        inspecteur.transform.position = new Vector3(-23, 2.5f);
+
+        matelot.GetComponent<Pathfinding.AILerp>().enabled = true;
+        inspecteur.GetComponent<Pathfinding.AILerp>().enabled = true;
+
+        targetObjectMatelot.transform.position = new Vector3(-4.3f, 3.33f);
+        targetObjectInspecteur.transform.position = new Vector3(-4.5f, 0.15f);
+
+
+        matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectMatelot.transform;
+        inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectInspecteur.transform;
+
+        while (alpha > 0)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alpha -= 0.02f;
+            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+        }
+        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
     }
+
+    /*Quelqu'un à tué le Capitaine*/
 
 
 }
