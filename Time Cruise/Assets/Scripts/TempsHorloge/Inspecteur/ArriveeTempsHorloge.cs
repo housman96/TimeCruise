@@ -16,11 +16,11 @@ public class ArriveeTempsHorloge : MonoBehaviour
 
     private IEnumerator Reflection()
     {
-        inspecteur.SetSentence("*Que s’est il passé?*");
+        inspecteur.SetSentence("*Que s’est il passé?*", false);
         yield return new WaitForSeconds(2);
         inspecteur.ResetSentence();
 
-        inspecteur.SetSentence("*Le capitaine est encore en vie ! Et l’horloge fonctionne…*");
+        inspecteur.SetSentence("*Le capitaine est encore en vie ! Et l’horloge fonctionne…*", false);
         yield return new WaitForSeconds(2);
         inspecteur.ResetSentence();
 
