@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 50428014239446860}
   - component: {fileID: 114573306198747978}
   - component: {fileID: 114756840754239648}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Julie
   m_TagString: Character
   m_Icon: {fileID: 0}
@@ -42,8 +42,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1689267410911116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.04, y: -2.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.427187, y: -8.023203, z: 0.97265625}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.004440546, y: -0.12057284}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23, y: 0.35}
+  m_Size: {x: 0.234406, y: 0.08114569}
   m_EdgeRadius: 0
 --- !u!95 &95897956758326016
 Animator:
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 1655400296763822, guid: 756a567298ab3ad47a13d59060d2fa24, type: 2}
+  popup: {fileID: 0}
   characterName: Julie
   nameText: {fileID: 114670186690615552, guid: 756a567298ab3ad47a13d59060d2fa24, type: 2}
   sentenceText: {fileID: 114035412508697538, guid: 756a567298ab3ad47a13d59060d2fa24,

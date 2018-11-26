@@ -29,7 +29,7 @@ GameObject:
   - component: {fileID: 50073933575113820}
   - component: {fileID: 114989299753392390}
   - component: {fileID: 114020708725756734}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Luidgi
   m_TagString: Character
   m_Icon: {fileID: 0}
@@ -42,8 +42,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1150409558338720}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.85, y: -2.31, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 174.57854, y: -10.149368, z: 0.97265625}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,7 +78,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.004440546, y: -0.12057284}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.27, y: 0.32}
+  m_Size: {x: 0.234406, y: 0.08114569}
   m_EdgeRadius: 0
 --- !u!95 &95287710638364098
 Animator:
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 1542200538394642, guid: 3aa19aad2c07da141b97de6ae2d0ddc7, type: 2}
+  popup: {fileID: 0}
   characterName: 
   nameText: {fileID: 114256627555610478, guid: 3aa19aad2c07da141b97de6ae2d0ddc7, type: 2}
   sentenceText: {fileID: 114463640089687234, guid: 3aa19aad2c07da141b97de6ae2d0ddc7,

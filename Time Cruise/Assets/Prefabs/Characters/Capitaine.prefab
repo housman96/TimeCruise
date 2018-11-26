@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 95604534637094276}
   - component: {fileID: 61777533023373468}
   - component: {fileID: 58639119326475288}
-  - component: {fileID: 114753182226207214}
   - component: {fileID: 114896910184184918}
   - component: {fileID: 114852646955822546}
   - component: {fileID: 114162534192333384}
@@ -43,8 +42,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1023690674102054}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.73, y: -2.2, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.698471, y: 14.614574, z: 0.97265625}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,7 +96,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.004440546, y: -0.12057284}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -108,7 +107,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.27, y: 0.32}
+  m_Size: {x: 0.234406, y: 0.08114569}
   m_EdgeRadius: 0
 --- !u!95 &95604534637094276
 Animator:
@@ -152,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 1534296718422356, guid: fb03ecd3a1aa71b4293a235b5c3716a8, type: 2}
+  popup: {fileID: 0}
   characterName: Capitaine
   nameText: {fileID: 114044830637581954, guid: fb03ecd3a1aa71b4293a235b5c3716a8, type: 2}
   sentenceText: {fileID: 114821522640206320, guid: fb03ecd3a1aa71b4293a235b5c3716a8,
@@ -171,21 +170,6 @@ MonoBehaviour:
   sentence: 
   dialogueManager: {fileID: 114242516052700856}
   offest: 1.5
---- !u!114 &114753182226207214
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1023690674102054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeafae01022eec047801a47b269ad18e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  action: {fileID: 11400000, guid: 93a2d2bb9b8e1704db43e82222ecd512, type: 2}
-  popup: {fileID: 0}
-  actionName: {fileID: 0}
-  actionKeyCode: 101
 --- !u!114 &114852646955822546
 MonoBehaviour:
   m_ObjectHideFlags: 1

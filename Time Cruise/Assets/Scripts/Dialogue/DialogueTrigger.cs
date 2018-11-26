@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
-{
+public class DialogueTrigger : MonoBehaviour {
 
     public string sentence;
     public DialogueManager dialogueManager;
@@ -13,7 +14,7 @@ public class DialogueTrigger : MonoBehaviour
 
     void Start()
     {
-        triggerCollider = gameObject.GetComponent<CircleCollider2D>();
+        triggerCollider = this.gameObject.GetComponent<CircleCollider2D>();
         radius = triggerCollider.radius;
     }
 
@@ -29,16 +30,13 @@ public class DialogueTrigger : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         float tmpDist = Vector3.Distance(other.bounds.center, triggerCollider.bounds.center);
-        if (true)
-        {
-            distance = tmpDist;
-            float rate = (radius + offest) - distance / (radius + offest);
-            if (rate < 0)
-                rate = 0;
-            if (rate > 1)
-                rate = 1;
-            UpdateDialogue(rate);
-        }
+        distance = tmpDist;
+        float rate = (radius + offest) - distance / (radius + offest);
+        if (rate < 0)
+            rate = 0;
+        if (rate > 1)
+            rate = 1;
+        UpdateDialogue(rate);
     }
 
     void OnTriggerExit2D(Collider2D other)
@@ -56,21 +54,22 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogueManager.UpdateDialogue(rate);
     }
-
-    private void ChangeSentence(string sentence)
-    {
-        dialogueManager.SetSentence(sentence);
-    }
-
+    
     public void SetSentence(string sentence)
     {
         this.sentence = sentence;
-        dialogueManager.SetSentence(this.sentence);
+        dialogueManager.SetSentence(this.sentence, true);
+    }
+
+    public void SetSentence(string sentence, bool encrypted)
+    {
+        this.sentence = sentence;
+        dialogueManager.SetSentence(this.sentence, encrypted);
     }
 
     public void ResetSentence()
     {
-        sentence = "";
+        this.sentence = "";
         dialogueManager.ResetSentence();
     }
 }

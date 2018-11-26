@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Text;
 
-public class DialogueManager : MonoBehaviour
-{
+public class DialogueManager : MonoBehaviour {
 
     public GameObject popup;
     public string characterName;
@@ -19,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     private StringBuilder sentenceStringBuilder;
     private string currentSentence;
     private float rate;
+
+    private bool encrypted = true;
 
     private Coroutine currentCoroutine;
 
@@ -52,21 +53,29 @@ public class DialogueManager : MonoBehaviour
 
     public void UpdateDialogue(float rate)
     {
-        if (currentSentence == "")
+        if(currentSentence == "")
         {
             HindPopUp();
             return;
         }
-        this.rate = rate;
+        if (encrypted)
+        {
+            this.rate = rate;
+        }
+        else
+        {
+            this.rate = 1.0f;
+        }
         DisplayPopUp();
         currentCoroutine = StartCoroutine(UpdateText());
     }
 
-    public void SetSentence(string sentence)
+    public void SetSentence(string sentence, bool encrypted)
     {
         StopAllCoroutines();
-        currentSentence = sentence;
-        DisplaySentenceLetters(rate);
+        this.currentSentence = sentence;
+        this.encrypted = encrypted;
+        DisplaySentenceLetters(0.0f);
     }
 
     public void ResetSentence()
@@ -80,10 +89,10 @@ public class DialogueManager : MonoBehaviour
         Vector3 screenPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
         screenPos += new Vector3(0, popupTransform.rect.height, 0);                 // TODO : Rajouter la taille du PNJ
         popupTransform.SetPositionAndRotation(screenPos, Quaternion.identity);
-
+       
         popup.SetActive(true);
     }
-
+    
     public void HindPopUp()
     {
         popup.SetActive(false);
