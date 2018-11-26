@@ -31,8 +31,9 @@ public class DettesPierreALuigi : MonoBehaviour
         yield return new WaitForSeconds(3);
         Isabelle.ResetSentence();
 
-        yield return new WaitForSeconds(1);
+        Isabelle.transform.Rotate(0, 0, 90);
 
+        yield return new WaitForSeconds(1);
         OnEnd.Invoke();
 
         Pierre.SetSentence("Mère, que vous arrive-t-il?!");
