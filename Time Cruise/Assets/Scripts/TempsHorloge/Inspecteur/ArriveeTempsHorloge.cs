@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class ArriveeTempsHorloge : MonoBehaviour
 {
+    public PlayerController controller;
     public DialogueTrigger inspecteur;
 
     public UnityEvent OnArriveeEnd;
@@ -16,6 +17,8 @@ public class ArriveeTempsHorloge : MonoBehaviour
 
     private IEnumerator Reflection()
     {
+        controller.LockMoves();
+
         inspecteur.SetSentence("*Que s’est il passé?*", false);
         yield return new WaitForSeconds(2);
         inspecteur.ResetSentence();

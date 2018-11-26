@@ -12,22 +12,25 @@ public class DoitEcouter : MonoBehaviour
     private bool sortie = false;
     private bool finDiscussion = false;
 
+    private bool ended = false;
+
     public void SortieBureau()
     {
         sortie = true;
-        if(finDiscussion)
+        if(finDiscussion && !ended)
             StartCoroutine("Reflection");
     }
 
     public void FinDiscussion()
     {
         finDiscussion = true;
-        if (sortie)
+        if (sortie && !ended)
             StartCoroutine("Reflection");
     }
 
     private IEnumerator Reflection()
     {
+        ended = true;
         inspecteur.SetSentence("*Je dois trouver un moyen de savoir ce qu’ils se disent.*", false);
         yield return new WaitForSeconds(2);
         inspecteur.ResetSentence();

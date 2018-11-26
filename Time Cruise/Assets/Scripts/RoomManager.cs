@@ -40,9 +40,9 @@ public class RoomManager : MonoBehaviour
 
     void setRenderer(Transform obj, Collider2D other, bool visible)
     {
-        isVisible = visible;
         if (other.gameObject.GetComponent<PlayerController>().isInRoom != visible)
         {
+            isVisible = visible;
             other.gameObject.GetComponent<PlayerController>().isInRoom = visible;
             setRendererRec(obj, visible);
         }
