@@ -129,13 +129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c0fd7be397cac0448bf32360f7c37dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Captain
-    sentences:
-    - "Hey mousaillon, comment vas tu en cette belle journ\xE9e ? T'es tu promen\xE9
-      sur le pont pour admirer la vue ? "
-  dialogueManager: {fileID: 79069332}
-  offest: 2
 --- !u!1001 &16530916
 Prefab:
   m_ObjectHideFlags: 0
@@ -205,11 +198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b380b52b40474004abe11e31f014be28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 174363823}
-  sentenceText: {fileID: 1001890378}
-  animator: {fileID: 794835432}
-  nextSentenceKey: 32
-  isDialoging: 0
 --- !u!4 &79069333
 Transform:
   m_ObjectHideFlags: 0
@@ -223,12 +211,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &174363823 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114216985157415232, guid: bec9a257e1c85d142b3bd30d47dc762c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1595625384}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &430947545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1338666989378376, guid: bec9a257e1c85d142b3bd30d47dc762c,
@@ -435,11 +417,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
   m_IsPrefabAsset: 0
---- !u!95 &794835432 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95551596340930260, guid: bec9a257e1c85d142b3bd30d47dc762c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1595625384}
 --- !u!1 &966202076
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,13 +570,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.08
---- !u!114 &1001890378 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114916964185140800, guid: bec9a257e1c85d142b3bd30d47dc762c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1595625384}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Radius: 0.2
 --- !u!114 &1061299560 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114132798581507776, guid: bec9a257e1c85d142b3bd30d47dc762c,
