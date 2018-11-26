@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class ArrivéePaul : MonoBehaviour
 {
+    public PlayerController controller;
+
     public DialogueTrigger capitaine;
     public DialogueTrigger paul;
     public AILerp paulPathfinding;
@@ -20,15 +22,16 @@ public class ArrivéePaul : MonoBehaviour
     {
         yield return new WaitUntil(() => { return paulPathfinding.reachedEndOfPath; });
 
-        paul.SetSentence("Capitaine? Vous m’avez demandé?");
+        paul.SetSentence("Capitaine? Vous m’avez demandé?", false);
         yield return new WaitForSeconds(2);
         paul.ResetSentence();
 
-        capitaine.SetSentence("C’est exact.");
-        yield return new WaitForSeconds(2);
+        capitaine.SetSentence("C’est exact.", false);
+        yield return new WaitForSeconds(1);
         capitaine.ResetSentence();
 
         capitaine.SetSentence("Inspecteur, laissez nous seul s’il vous plaît.", false);
+        controller.UnlockMoves();
         yield return new WaitForSeconds(2);
         capitaine.ResetSentence();
 

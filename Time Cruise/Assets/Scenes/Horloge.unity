@@ -282,15 +282,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4727995104870402, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727995104870402, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727995104870402, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4727995104870402, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
       propertyPath: m_LocalRotation.w
@@ -325,6 +325,10 @@ Prefab:
       propertyPath: nameText
       value: 
       objectReference: {fileID: 1827943392}
+    - target: {fileID: 4727995104870402, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
   m_IsPrefabAsset: 0
@@ -872,6 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f208b3f62d4910842bd9edd0fdcd7a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1032092165}
   capitaine: {fileID: 1915472946}
   paul: {fileID: 2010945279}
   paulPathfinding: {fileID: 1432142482}
@@ -994,7 +999,29 @@ MonoBehaviour:
   Jean: {fileID: 707211031}
   OnEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1246701241}
+        m_MethodName: StartMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 568137025}
+        m_MethodName: StartMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &329545881
@@ -1469,6 +1496,34 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224514140684499450, guid: f30a0dd12c5671f469bbcaebfaa03ebd,
     type: 2}
   m_PrefabInternal: {fileID: 503377623}
+--- !u!1 &503962354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503962355}
+  m_Layer: 0
+  m_Name: JeanAuChevetDIsabelle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503962355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503962354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.66, y: -20.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1246701240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &508333663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568137023}
   - component: {fileID: 568137024}
+  - component: {fileID: 568137025}
   m_Layer: 0
   m_Name: Marie
   m_TagString: Untagged
@@ -1592,6 +1648,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &568137025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 568137022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe96d966097aa8745a2c7596923839fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basEscalierSousSol: {fileID: 1877354183}
+  hautEscalierSousSol: {fileID: 1390745385}
+  placeSalon: {fileID: 611152170}
+  MariePathfinding: {fileID: 631993860}
+  MarieDestination: {fileID: 631993859}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &592681871 stripped
@@ -1684,7 +1761,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611152169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.8, y: -25.3, z: 0}
+  m_LocalPosition: {x: 18.38, y: -25.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 568137023}
@@ -2866,6 +2943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1246701240}
+  - component: {fileID: 1246701241}
   m_Layer: 0
   m_Name: Jean
   m_TagString: Untagged
@@ -2882,10 +2960,32 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 503962355}
   m_Father: {fileID: 2041537756}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1246701241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246701239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d49100e63cd2141ba25369a1a15204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basEscalierSousSol: {fileID: 1877354183}
+  hautEscalierSousSol: {fileID: 1390745385}
+  placeSalon: {fileID: 503962355}
+  JeanPathfinding: {fileID: 1791640485}
+  JeanDestination: {fileID: 1791640484}
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &1272891289
 Prefab:
   m_ObjectHideFlags: 0
@@ -3439,6 +3539,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1509281414890532, guid: a61ed1d53a138b34dac867e63747dc01,
     type: 2}
   m_PrefabInternal: {fileID: 651883623}
+--- !u!114 &1791640484 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114345835681506672, guid: 692e58fba43a8174fbbe81fd49567a90,
+    type: 2}
+  m_PrefabInternal: {fileID: 92998710}
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+--- !u!114 &1791640485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114545889193865032, guid: 692e58fba43a8174fbbe81fd49567a90,
+    type: 2}
+  m_PrefabInternal: {fileID: 92998710}
+  m_Script: {fileID: 11500000, guid: 847a14d4dc9cc43679ab34fc78e0182f, type: 3}
 --- !u!1 &1792962212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1757760895652008, guid: 29f17b11bed86174d848008cf64b1931,
@@ -3487,6 +3599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 966316436ee424f45a62660cfc27a296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 1032092165}
   inspecteur: {fileID: 1032092160}
   OnArriveeEnd:
     m_PersistentCalls:
