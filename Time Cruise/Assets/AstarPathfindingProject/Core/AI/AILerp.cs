@@ -564,19 +564,19 @@ namespace Pathfinding {
             {
                 animator.SetFloat("xInput", 0);
                 animator.SetFloat("yInput", 0);
-                if (mvt.x > 0)
+                if (mvt.x > 0.01)
                 {
                     animator.SetFloat("xInput", 1);
                 }
-                else if (mvt.x < 0)
+                else if (mvt.x < -0.01)
                 {
                     animator.SetFloat("xInput", -1);
                 }
-                else if (mvt.y > 0)
+                else if (mvt.y > 0.01)
                 {
                     animator.SetFloat("yInput", 1);
                 }
-                else if (mvt.y < 0)
+                else if (mvt.y < -0.01)
                 { 
                     animator.SetFloat("yInput", -1);
                 }

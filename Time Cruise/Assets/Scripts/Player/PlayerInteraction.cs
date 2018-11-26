@@ -6,12 +6,12 @@ public class PlayerInteraction : MonoBehaviour {
 
     public float range;
 
-    private DialogueManager dialogueManager;
+    //private DialogueManager dialogueManager;
     private Interactable[] availableInteractables = new Interactable[8];
 	
     void Start()
     {
-        dialogueManager = FindObjectOfType<DialogueManager>();
+        //dialogueManager = FindObjectOfType<DialogueManager>();
     }
     
 	// Update is called less than once per frame
@@ -69,9 +69,11 @@ public class PlayerInteraction : MonoBehaviour {
         {
             interactable.Interact();
         }
+        /*
         if (dialogueManager.isDialoging && Input.GetKeyDown(dialogueManager.nextSentenceKey))
         {
             dialogueManager.DisplayNextSentence();
         }
+        */
     }
 }

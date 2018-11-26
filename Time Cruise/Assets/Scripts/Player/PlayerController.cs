@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public int speed;
     private bool isLocked = false;
     private bool isAnimation = false;
+    public bool isInRoom = false;
     private Vector3 endAnimation;
     private Vector3 teleportationAnimation;
     private int sensAnimation;
