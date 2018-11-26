@@ -32,6 +32,7 @@ public class Interactable : MonoBehaviour {
 
     public void Interact()
     {
+        action.GetReferenceObject(this);
         action.onAction();
     }
 

@@ -15,4 +15,8 @@ public class Action : ScriptableObject {
     {
         return actionName;
     }
+
+    public virtual void GetReferenceObject (Interactable interactable) { //certaines actions necessitent une ref vers l'obj 
+        // To be overwritten
+    }
 }
