@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Inspect", menuName = "Actions/InspectDoorClosed")]
-public class InspectDorrClosed : Action {
+public class InspectDoorClosed : Action {
 
     public override void onAction() {
         base.onAction();
