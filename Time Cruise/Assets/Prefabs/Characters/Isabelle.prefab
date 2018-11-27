@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114353052592722250}
   - component: {fileID: 114477796195058186}
   m_Layer: 9
-  m_Name: Femme Capitaine
+  m_Name: Isabelle
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

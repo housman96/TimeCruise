@@ -6,9 +6,12 @@ public class IntroductionPont : MonoBehaviour
 {
     public GameObject inspecteur;
     public GameObject matelot;
+    public GameObject Paul;
     public GameObject blackScreen;
+    public GameObject mur;
     public Vector3 target;
     public DialogueTrigger matelotDial;
+    public DialogueTrigger paulDial;
     public Text text;
     private float alpha = 1.0f;
 
@@ -125,6 +128,7 @@ public class IntroductionPont : MonoBehaviour
 
 
         /*Quelques jours plus tard*/
+
         while (alpha < 1)
         {
             yield return new WaitForSeconds(Time.deltaTime);
@@ -152,6 +156,7 @@ public class IntroductionPont : MonoBehaviour
         targetObjectMatelot.transform.position = new Vector3(170.8f, -13.5f);
 
         /*Dialogue au mon dieux c'est horrible*/
+
         matelotDial.SetSentence("Inspecteur!!!!!!");
         yield return new WaitForSeconds(2);
         matelotDial.ResetSentence();
@@ -165,6 +170,7 @@ public class IntroductionPont : MonoBehaviour
         matelotDial.ResetSentence();
 
         /*Téléportation dans le bureau*/
+
         while (alpha < 1)
         {
             yield return new WaitForSeconds(Time.deltaTime);
@@ -176,18 +182,20 @@ public class IntroductionPont : MonoBehaviour
 
         matelot.GetComponent<Pathfinding.AILerp>().enabled = false;
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = null;
-        matelot.transform.position = new Vector3(-19, 2.5f);
-        inspecteur.transform.position = new Vector3(-23, 2.5f);
+        matelot.transform.position = new Vector3(-32, 2.5f);
+        inspecteur.transform.position = new Vector3(-27, 2.5f);
 
         matelot.GetComponent<Pathfinding.AILerp>().enabled = true;
         inspecteur.GetComponent<Pathfinding.AILerp>().enabled = true;
 
-        targetObjectMatelot.transform.position = new Vector3(-4.3f, 3.33f);
-        targetObjectInspecteur.transform.position = new Vector3(-4.5f, 0.15f);
+        targetObjectMatelot.transform.position = new Vector3(-32, 2.5f);
 
+        targetObjectInspecteur.transform.position = new Vector3(-4.3f, 3.33f);
 
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectMatelot.transform;
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectInspecteur.transform;
+
+        yield return new WaitForSeconds(1.5f);
 
         while (alpha > 0)
         {
@@ -196,9 +204,38 @@ public class IntroductionPont : MonoBehaviour
             blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
         }
         blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+
+        /*Quelqu'un à tué le Capitaine*/
+        yield return new WaitForSeconds(4);
+
+        paulDial.SetSentence("Le Capitaine est mort.");
+        yield return new WaitForSeconds(4);
+        paulDial.ResetSentence();
+
+        paulDial.SetSentence("Mais la situtation est pire que ce que vous pensez.");
+        yield return new WaitForSeconds(4);
+        paulDial.ResetSentence();
+
+        paulDial.SetSentence("Le Capitaine est le seul à savoir où il a cachée les clefs du bateau.");
+        yield return new WaitForSeconds(4);
+        paulDial.ResetSentence();
+
+        paulDial.SetSentence("Si vous ne nous aidez pas nous allons tous mourrir en s'écrasant sur les côtes.");
+        yield return new WaitForSeconds(4);
+        paulDial.ResetSentence();
+
+        paulDial.SetSentence("Vous devez inspecter. Ecouter les membres du navire se présenter dehors et chercher les indices dans la pièce.");
+        yield return new WaitForSeconds(6);
+        paulDial.ResetSentence();
+
+        /*FREEDOM*/
+        mur.GetComponent<BoxCollider2D>().enabled = true;
+
+        inspecteur.GetComponent<PlayerController>().UnlockMoves();
+        inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().enabled = false;
+        inspecteur.GetComponent<Pathfinding.AILerp>().enabled = false;
     }
 
-    /*Quelqu'un à tué le Capitaine*/
 
 
 }
