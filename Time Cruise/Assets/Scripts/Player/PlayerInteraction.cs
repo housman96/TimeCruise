@@ -41,7 +41,6 @@ public class PlayerInteraction : MonoBehaviour {
         {
             if (rayHits[x].collider != null)    // S'il y'a collision
             {
-                Debug.Log(rayHits[x].transform.gameObject.name);
                 Interactable interactible = rayHits[x].transform.GetComponent<Interactable>();
                 availableInteractables[x] = interactible;
             }
