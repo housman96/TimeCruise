@@ -17,7 +17,7 @@ public class ArriveeTempsHorloge : MonoBehaviour
 
     private IEnumerator Reflection()
     {
-        //controller.LockMoves();
+        controller.LockMoves();
 
         inspecteur.SetSentence("*Que s’est il passé?*", false);
         yield return new WaitForSeconds(2);
