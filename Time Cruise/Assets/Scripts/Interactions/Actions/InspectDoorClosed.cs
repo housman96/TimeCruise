@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Inspect", menuName = "Actions/InspectDoorClosed")]
 public class InspectDoorClosed : Action {
 
     public override void onAction() {
