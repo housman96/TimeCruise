@@ -10,7 +10,8 @@ public class Interactable : MonoBehaviour {
     public GameObject popup;
     public Text actionName;
     public KeyCode actionKeyCode;
-    
+    private bool interact;
+
     void OnTriggerEnter2D(Collider2D other)
     {
         DisplayPopup();
@@ -22,9 +23,10 @@ public class Interactable : MonoBehaviour {
         {
             DisplayPopup();
         }
-        if (Input.GetKeyDown(actionKeyCode))
+        if (Input.GetKeyDown(actionKeyCode)) //appelé 2 fois par frame car dans un OntriggerStay d'où le déplacement dans update
         {
-            Interact();
+            interact = true;
+            //Interact(); 
         }
     }
 
@@ -55,4 +57,10 @@ public class Interactable : MonoBehaviour {
         popup.SetActive(false);
     }
 
+    public void Update() {
+        if (interact) {
+            interact = false;
+            Interact();
+        }
+    }
 }
