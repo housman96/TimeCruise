@@ -22,6 +22,10 @@ public class Interactable : MonoBehaviour {
         {
             DisplayPopup();
         }
+        if (Input.GetKeyDown(actionKeyCode))
+        {
+            Interact();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

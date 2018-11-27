@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Inspect", menuName = "Actions/Take")]
 public class Take : Action {
 
     private PickUp pickUp;
