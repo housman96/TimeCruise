@@ -50,15 +50,41 @@ public class SpeechPresentation : MonoBehaviour
         pierreDial.ResetSentence();
 
         /*JULIE*/
-        julieDial.SetSentence("Nous étions en train de flirter. Vous savez nous sommes en couple.");
+        julieDial.SetSentence("Je suis Julie, la fille du capitaine.");
+        yield return new WaitForSeconds(5);
+        julieDial.ResetSentence();
+
+        julieDial.SetSentence("J'étais avec Paul, en train de nager dans la piscine pendant le meurtre.");
         yield return new WaitForSeconds(5);
         julieDial.ResetSentence();
 
         /*MARIE*/
+        marieDial.SetSentence("Je suis Marie, la domestique.");
+        yield return new WaitForSeconds(5);
+        marieDial.ResetSentence();
+
+        marieDial.SetSentence("Comme l'a dit Pierre, j'étais avec lui sur le pont quand tous ça est arrivé.");
+        yield return new WaitForSeconds(5);
+        marieDial.ResetSentence();
 
         /*LUIGI*/
+        luigiDial.SetSentence("Gié souis Louigi, è gié souis en vacance.");
+        yield return new WaitForSeconds(5);
+        luigiDial.ResetSentence();
+
+        luigiDial.SetSentence("Gi'été en trrrain dé discouter avéc Jean dans lé salon pendant lé méourrrtre.");
+        yield return new WaitForSeconds(5);
+        luigiDial.ResetSentence();
 
         /*JEAN*/
+
+        jeanDial.SetSentence("Je m'appelle Jean, je suis Médecin.");
+        yield return new WaitForSeconds(5);
+        jeanDial.ResetSentence();
+
+        jeanDial.SetSentence("Je profite de mes vacances pour faire une petite croisière paisible.");
+        yield return new WaitForSeconds(5);
+        jeanDial.ResetSentence();
 
 
     }
