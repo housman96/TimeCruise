@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class IntroductionPont : MonoBehaviour
 {
+    public UnityEvent Speech;
     public GameObject inspecteur;
     public GameObject matelot;
     public GameObject Paul;
     public GameObject blackScreen;
     public GameObject mur;
-    public Vector3 target;
     public DialogueTrigger matelotDial;
     public DialogueTrigger paulDial;
     public Text text;
@@ -57,8 +58,8 @@ public class IntroductionPont : MonoBehaviour
         GameObject targetObjectInspecteur = new GameObject();
 
 
-        targetObjectMatelot.transform.position = new Vector3(target.x, target.y, target.z);
-        targetObjectInspecteur.transform.position = new Vector3(target.x, target.y, target.z);
+        targetObjectMatelot.transform.position = new Vector3(-12, -120);
+        targetObjectInspecteur.transform.position = new Vector3(-12, -120);
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectMatelot.transform;
         yield return new WaitForSeconds(0.5f);
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectInspecteur.transform;
@@ -234,6 +235,8 @@ public class IntroductionPont : MonoBehaviour
         inspecteur.GetComponent<PlayerController>().UnlockMoves();
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().enabled = false;
         inspecteur.GetComponent<Pathfinding.AILerp>().enabled = false;
+
+        Speech.Invoke();
     }
 
 
