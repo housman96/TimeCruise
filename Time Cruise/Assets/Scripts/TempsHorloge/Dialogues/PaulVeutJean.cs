@@ -42,7 +42,7 @@ public class PaulVeutJean : MonoBehaviour
 
         JeanDestination.target = hautEscalierSousSol;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
         PaulDestination.target = hautEscalierSousSol;
 

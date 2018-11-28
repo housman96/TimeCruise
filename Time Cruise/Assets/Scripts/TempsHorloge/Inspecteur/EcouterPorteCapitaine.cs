@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public class EcouterPorteCapitaine : MonoBehaviour
 {
+    public PlayerInventory inventory;
     public PlayerController controller;
 
     public DialogueTrigger inspecteur;
@@ -74,6 +75,7 @@ public class EcouterPorteCapitaine : MonoBehaviour
         Maurice.ResetSentence();
 
         stethoscope.SetActive(true);
+        inventory.changeInventory(null);
 
         OnEndEcoute.Invoke();
 
