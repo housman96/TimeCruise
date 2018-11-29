@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4261045565225266}
   - component: {fileID: 212046088394666070}
+  - component: {fileID: 114621123596057492}
   - component: {fileID: 114283048451616110}
   - component: {fileID: 70368036348758500}
   m_Layer: 0
@@ -68,10 +69,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeafae01022eec047801a47b269ad18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action: {fileID: 0}
+  action: {fileID: 11400000, guid: ea4cea332927eb44d882fb61a730dfaf, type: 2}
   popup: {fileID: 0}
   actionName: {fileID: 0}
   actionKeyCode: 101
+--- !u!114 &114621123596057492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437795864167422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdf2ec8e65fa8745adc0a954b7835f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 3f31f7540e048494d9b53cada507c83d, type: 2}
 --- !u!212 &212046088394666070
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -106,7 +119,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 68b3e2aea059cc14c8d58c8b2ef44320, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

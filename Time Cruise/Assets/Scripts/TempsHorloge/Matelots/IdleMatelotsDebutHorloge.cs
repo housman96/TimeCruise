@@ -25,11 +25,11 @@ public class IdleMatelotsDebutHorloge : MonoBehaviour
         while (true)
         {
             MatelotA.SetSentence("On devrait vraiment prévenir le capitaine.");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3);
             MatelotA.ResetSentence();
 
             MatelotB.SetSentence("On le préviendra quand il viendra, sois patient.");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(3);
             MatelotB.ResetSentence();
 
             yield return new WaitForSeconds(Random.Range(6f, 15f));

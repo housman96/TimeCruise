@@ -18,6 +18,10 @@ public class EcouterPorteCapitaine : MonoBehaviour
     public GameObject porte;
     public GameObject stethoscope;
 
+    public GameObject horlogePasCassee;
+    public GameObject horlogeCassee;
+    public GameObject OhHorlogeCassee;
+
     public GameObject popupEcouter;
 
     public Transform PaulSalonJean;
@@ -65,6 +69,8 @@ public class EcouterPorteCapitaine : MonoBehaviour
         yield return new WaitForSeconds(3);
         Maurice.ResetSentence();
 
+        horlogePasCassee.SetActive(false);
+        horlogeCassee.SetActive(true);
         Maurice.SetSentence("*CRASH*", false);
         yield return new WaitForSeconds(1);
 
@@ -86,6 +92,8 @@ public class EcouterPorteCapitaine : MonoBehaviour
         Maurice.SetSentence("Ce fou m’a poussé sans aucune raison. Et voilà que mon horloge est cassée…");
         yield return new WaitForSeconds(3);
         Maurice.ResetSentence();
+
+        OhHorlogeCassee.SetActive(true);
 
         OnEndMauriceReleve.Invoke();
     }
