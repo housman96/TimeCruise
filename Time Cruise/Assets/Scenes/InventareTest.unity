@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory:
-  - {fileID: 11400000, guid: 7bc207e1fe25f694a9fcd738c1a3a27d, type: 2}
+  - {fileID: 0}
   playerInventoryUI: {fileID: 119277790}
 --- !u!1001 &1141914317
 Prefab:
@@ -2289,7 +2289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1338666989378376, guid: bec9a257e1c85d142b3bd30d47dc762c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec9a257e1c85d142b3bd30d47dc762c, type: 2}

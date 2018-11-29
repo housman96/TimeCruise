@@ -1,29 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "Inspect", menuName = "Actions/InspectDoorClosed")]
 public class InspectDoorClosed : Action {
 
-    public override void onAction() {
-        base.onAction();
-        PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
+    PlayerInventory playerInventory;
+    Porte porte;
 
-        if (playerInventory.inventory[0] != null && playerInventory.inventory[0].name=="Stethoscope") {
-            Debug.Log("Ecoute a la porte");
-            return;
-        }
-        else {
-            Debug.Log("La porte est fermee");
+    private void Awake()
+    {
+    }
+
+    public override void onAction() {
+        if (porte == null)
+            porte = FindObjectOfType<Porte>();
+        if (playerInventory == null)
+            playerInventory = FindObjectOfType<PlayerInventory>();
+        if(porte != null)
+        {
+            if (playerInventory != null && playerInventory.inventory[0] != null && playerInventory.inventory[0].name == "Stethoscope")
+            {
+                porte.EcouterPorte.Invoke();
+            }
+            else
+            {
+                porte.PorteFermee.Invoke();
+            }
         }
     }
 
-    public override string GetActionName() {
-        return "Interagir";
+    public override string GetActionName()
+    {
+        if(playerInventory == null)
+            playerInventory = FindObjectOfType<PlayerInventory>();
+        if (playerInventory != null && playerInventory.inventory[0] != null && playerInventory.inventory[0].name == "Stethoscope")
+        {
+            return "Ecouter";
+        }
+        else
+        {
+            return "Inspecter";
+        }
     }
 
     public override void GetReferenceObject(Interactable interactable) {
         base.GetReferenceObject(interactable);
-        
     }
 }

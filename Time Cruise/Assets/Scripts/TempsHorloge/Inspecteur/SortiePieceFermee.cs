@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SortieBureau : MonoBehaviour {
+public class SortiePieceFermee : MonoBehaviour {
 
-    public GameObject porteBureau;
+    public GameObject porte;
 
     private bool ended;
     public UnityEvent OnEnd;
 
     private void Start()
     {
-        porteBureau.SetActive(false);
+        porte.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,7 +20,7 @@ public class SortieBureau : MonoBehaviour {
         if (!ended && collision.gameObject.tag == "Player")
         {
             ended = true;
-            porteBureau.SetActive(true);
+            porte.SetActive(true);
             OnEnd.Invoke();
         }
     }

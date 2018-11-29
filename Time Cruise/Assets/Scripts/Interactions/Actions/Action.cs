@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Action : ScriptableObject {
+public class Action : MonoBehaviour {
 
     protected string actionName;
 
