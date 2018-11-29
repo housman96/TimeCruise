@@ -224,6 +224,11 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 58490215634271670, guid: 492ed31f5f092f944bc61585f5b997b8,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1.63
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 492ed31f5f092f944bc61585f5b997b8, type: 2}
   m_IsPrefabAsset: 0
@@ -746,6 +751,11 @@ Prefab:
       propertyPath: sentenceText
       value: 
       objectReference: {fileID: 1305393270}
+    - target: {fileID: 58613112380683410, guid: 980fc15b38a5c2440b04d32e491e380b,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1.38
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 980fc15b38a5c2440b04d32e491e380b, type: 2}
   m_IsPrefabAsset: 0
@@ -888,7 +898,8 @@ Prefab:
       propertyPath: actionName
       value: 
       objectReference: {fileID: 880847531}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 70771520404235610, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
   m_IsPrefabAsset: 0
 --- !u!114 &893261296 stripped
@@ -1026,6 +1037,11 @@ Prefab:
       propertyPath: sentenceText
       value: 
       objectReference: {fileID: 922424469}
+    - target: {fileID: 58858125544282382, guid: 692e58fba43a8174fbbe81fd49567a90,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1.53
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 692e58fba43a8174fbbe81fd49567a90, type: 2}
   m_IsPrefabAsset: 0
@@ -1179,6 +1195,11 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 58936644228846474, guid: 294f997a0d56e304e81c9c7c9c679b57,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1.98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 294f997a0d56e304e81c9c7c9c679b57, type: 2}
@@ -1371,6 +1392,11 @@ Prefab:
       propertyPath: characterName
       value: Isabelle
       objectReference: {fileID: 0}
+    - target: {fileID: 58914705109682558, guid: 67ca79e1d6cf244448dba13c699a3ff2,
+        type: 2}
+      propertyPath: m_Radius
+      value: 2.08
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67ca79e1d6cf244448dba13c699a3ff2, type: 2}
   m_IsPrefabAsset: 0
@@ -1443,6 +1469,11 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 58564697857846178, guid: dafe61f7eab324e498718989d108b010,
+        type: 2}
+      propertyPath: m_Radius
+      value: 1.52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dafe61f7eab324e498718989d108b010, type: 2}
@@ -5940,6 +5971,36 @@ Transform:
   m_Father: {fileID: 2065783584}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1940766699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1074407818966468, guid: 54fffcf8eb19e0846846125405e70320,
+    type: 2}
+  m_PrefabInternal: {fileID: 885568262}
+--- !u!61 &1940766701
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940766699}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.02, y: 0.04, z: 0.03, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.23, y: 0.75}
+    newSize: {x: 0.23, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!4 &2065783584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4807898176369104, guid: ebe618f9e9821be458c23ce0688e37df,
