@@ -10,6 +10,9 @@ public class JeanVaVoirIsabelleEvanouie : MonoBehaviour
     public Transform hautEscalierSousSol;
     public Transform placeSalon;
 
+    public GameObject carnetInspecter;
+    public GameObject carnetPasInspecter;
+
     public AILerp JeanPathfinding;
     public AIDestinationSetter JeanDestination;
 
@@ -24,7 +27,12 @@ public class JeanVaVoirIsabelleEvanouie : MonoBehaviour
     {
         JeanDestination.target = basEscalierSousSol;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
+
+        carnetInspecter.SetActive(true);
+        carnetPasInspecter.SetActive(false);
+
+        yield return new WaitForSeconds(1);
 
         yield return new WaitUntil(() => { return JeanPathfinding.reachedEndOfPath; });
 
