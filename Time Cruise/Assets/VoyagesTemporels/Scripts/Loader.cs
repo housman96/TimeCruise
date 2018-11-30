@@ -23,7 +23,7 @@ public class Loader : MonoBehaviour {
             InitializeEpoqueInt();
             InitializeChangements();
 
-            epoqueActuelle = epoqueInt.Count-1;//epoque present a la premier place, changer sinon
+            //epoqueActuelle = epoqueInt.Count-1;
             DontDestroyOnLoad(gameObject);
 
             if (OnFinishAwake != null)
