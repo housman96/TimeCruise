@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class End : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class End : MonoBehaviour
     public GameObject pierre;
     public GameObject tapis;
     public GameObject key;
+    public GameObject button1;
+    public GameObject button2;
+    public GameObject button3;
     public DialogueTrigger capitaineDial;
     public DialogueTrigger pierreDial;
 
@@ -37,6 +41,8 @@ public class End : MonoBehaviour
         key.SetActive(false);
         tapis.SetActive(true);
 
+        yield return new WaitForSeconds(1);
+
         capitaineDial.SetSentence("Et voilà personne n'ira la chercher ici.");
         yield return new WaitForSeconds(5);
         capitaineDial.ResetSentence();
@@ -54,13 +60,33 @@ public class End : MonoBehaviour
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectinspecteur.transform;
 
         GameObject targetObjectPierre = new GameObject();
-        targetObjectPierre.transform.position = new Vector3(-1f, 2.1f);
+        targetObjectPierre.transform.position = new Vector3(-3f, 2.1f);
         pierre.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectPierre.transform;
 
         yield return new WaitForSeconds(3);
         pierreDial.SetSentence("Bonjour Inspecteur.", false);
         yield return new WaitForSeconds(3);
         pierreDial.ResetSentence();
+
+
+        float alpha = 0;
+        while (alpha < 1)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alpha += 0.02f;
+            button1.GetComponent<Image>().color = new Color(255, 255, 255, alpha);
+            button2.GetComponent<Image>().color = new Color(255, 255, 255, alpha);
+            button3.GetComponent<Image>().color = new Color(255, 255, 255, alpha);
+            button1.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, alpha);
+            button2.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, alpha);
+            button3.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, alpha);
+        }
+        button1.GetComponent<Image>().color = new Color(255, 255, 255, 1);
+        button2.GetComponent<Image>().color = new Color(255, 255, 255, 1);
+        button3.GetComponent<Image>().color = new Color(255, 255, 255, 1);
+        button1.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 1);
+        button2.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 1);
+        button3.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 1);
 
     }
 
