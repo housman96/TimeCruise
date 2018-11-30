@@ -29,6 +29,8 @@ public class IntroductionPont : MonoBehaviour
 
     public IEnumerator dialogueWelcome()
     {
+        inspecteur.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+
         /*Dialogue début*/
 
         while (alpha > 0)
@@ -230,6 +232,8 @@ public class IntroductionPont : MonoBehaviour
         paulDial.ResetSentence();
 
         /*FREEDOM*/
+        inspecteur.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+
         mur.GetComponent<BoxCollider2D>().enabled = true;
 
         inspecteur.GetComponent<PlayerController>().UnlockMoves();
