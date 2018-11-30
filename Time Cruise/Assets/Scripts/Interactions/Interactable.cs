@@ -14,12 +14,15 @@ public class Interactable : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        DisplayPopup();
+        if (action.GetActionName() != "")
+        {
+            DisplayPopup();
+        }
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (!popup.activeInHierarchy)
+        if (!popup.activeInHierarchy && action.GetActionName() != "")
         {
             DisplayPopup();
         }

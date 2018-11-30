@@ -19,7 +19,7 @@ public class Stairs : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && other.isTrigger == false)
         {
             other.GetComponent<PlayerController>().setAnimation(endPosition, teleportedPosition, sens);
         }
