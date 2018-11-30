@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlterTempChest :MonoBehaviour  {
-
-    public string id;
+public class AlterTempChest :AlterTemp  {
     List<Item> inventoryIni;
     List<Item> inventoryCurrent;
     void OnEnable() {
@@ -25,16 +23,20 @@ public class AlterTempChest :MonoBehaviour  {
         Loader.instance.register(this);
     }
 
-    public void Load(ChangementInventory chgt) {
+    public override void Load<T>(T chgt) {
 
+        ChangementInventory chgt2 = chgt as ChangementInventory;
+        if (chgt2 == null) {
+            return;
+        }
         for (int k = 0; k < inventoryIni.Count; k++) {
-            if ( chgt.m_inventory[k]!=null) {
-                inventoryCurrent[k] = chgt.m_inventory[k];
+            if (chgt2.m_inventory[k]!=null) {
+                inventoryCurrent[k] = chgt2.m_inventory[k];
             }
         }
     }
 
-    public ChangementInventory Save() {//Save que les changements
+    public override Changement Save() {//Save que les changements
         List < Item > invChgts= new List<Item>(inventoryCurrent);
         for (int k = 0; k < inventoryIni.Count;k++) {
             if ((inventoryIni[k] == null && inventoryCurrent[k] != null) || (inventoryIni[k] != null && inventoryCurrent[k] == null)) {

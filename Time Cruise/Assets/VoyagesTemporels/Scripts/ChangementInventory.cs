@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangementInventory  {
+public class ChangementInventory:Changement  {
 
     public List<Item> m_inventory;
 

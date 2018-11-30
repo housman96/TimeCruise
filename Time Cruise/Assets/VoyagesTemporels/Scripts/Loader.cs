@@ -13,13 +13,13 @@ public class Loader : MonoBehaviour {
     public int epoqueActuelle;
     public static Loader instance;
     [HideInInspector]
-    public Dictionary<string, ChangementInventory>[] changements;// sacré délire
-    private List<AlterTempChest> listObjAlter;//=new List<AlterTemp>();
+    public Dictionary<string, Changement>[] changements;// sacré délire
+    private List<AlterTemp> listObjAlter;//=new List<AlterTemp>();
 
     private void Awake() {//singleton + dontdestroyOnLoad
         if (instance == null) {
             instance = this;
-            listObjAlter = new List<AlterTempChest>();
+            listObjAlter = new List<AlterTemp>();
             InitializeEpoqueInt();
             InitializeChangements();
 
@@ -36,7 +36,7 @@ public class Loader : MonoBehaviour {
         }
     }
 
-    public void register(AlterTempChest script) {
+    public void register(AlterTemp script) {
         listObjAlter.Add(script);
     }
 
@@ -60,7 +60,7 @@ public class Loader : MonoBehaviour {
             return;*/
 
         for (int i = 0; i < epoqueActuelle; i++) {
-            foreach (AlterTempChest obj in listObjAlter) {
+            foreach (AlterTemp obj in listObjAlter) {
                 Debug.Log("Load " + obj.id);
                 if (changements[i].ContainsKey(obj.id)) {
                     Debug.Log("Clee reconnue : " + obj.id);
@@ -71,9 +71,9 @@ public class Loader : MonoBehaviour {
     }
 
     private void Save() {
-        foreach (AlterTempChest obj in listObjAlter) {
+        foreach (AlterTemp obj in listObjAlter) {
             Debug.Log("Save " + obj.id);
-            ChangementInventory chgt = obj.Save();
+            Changement chgt = obj.Save();
             if (chgt != null) {
                 changements[epoqueActuelle].Add(obj.id,chgt);
             }
@@ -88,16 +88,16 @@ public class Loader : MonoBehaviour {
     }
 
     private void InitializeChangements() {
-        changements = new Dictionary<string, ChangementInventory>[epoqueInt.Count];
+        changements = new Dictionary<string, Changement>[epoqueInt.Count];
         for (int i = 0; i < changements.Length; i++) {
-            changements[i] = new Dictionary<string, ChangementInventory>();
+            changements[i] = new Dictionary<string, Changement>();
         }
     }
 
     public void TimeTravel(string epoque) {
         Save();
         epoqueActuelle = epoqueInt[epoque]; //on change d'epoque
-        listObjAlter = new List<AlterTempChest>(); //on reset ces obj
+        listObjAlter = new List<AlterTemp>(); //on reset ces obj
         SceneManager.LoadScene(epoque);
     }
 

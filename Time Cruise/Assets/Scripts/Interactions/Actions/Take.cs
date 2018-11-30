@@ -16,7 +16,8 @@ public class Take : Action {
             return;
         }
         playerInventory.changeInventory(pickUp.item);
-        Destroy(pickUp.gameObject);
+        pickUp.RemoveFromGame();
+        //Destroy(pickUp.gameObject);
     }
 
     public override string GetActionName() {
