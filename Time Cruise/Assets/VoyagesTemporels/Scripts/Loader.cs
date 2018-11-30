@@ -47,7 +47,7 @@ public class Loader : MonoBehaviour {
             changements[i].Clear();
         }
 
-        /*int iEpoqueCopie=-1; //epoque passée la plus proche sur laquelle il y a eu des changements
+        int iEpoqueCopie=-1; //epoque passée la plus proche sur laquelle il y a eu des changements
 
         for (int i= epoqueActuelle-1;i>=0;i--) {
             if (changements[i] != null && changements[i].Count>0) {
@@ -57,9 +57,18 @@ public class Loader : MonoBehaviour {
         }
         Debug.Log("Epoque passe avec chgt la plus proche " + iEpoqueCopie);
         if (iEpoqueCopie == -1)
-            return;*/
+            return;
+        foreach (AlterTemp obj in listObjAlter) {
+            Debug.Log("Load " + obj.id);
+            if (changements[iEpoqueCopie].ContainsKey(obj.id)) {
+                Debug.Log("Clee reconnue : " + obj.id);
+                obj.Load(changements[iEpoqueCopie][obj.id]);
+            }
+        }
+        
 
-        for (int i = 0; i < epoqueActuelle; i++) {
+
+        /*for (int i = 0; i < epoqueActuelle; i++) {
             foreach (AlterTemp obj in listObjAlter) {
                 Debug.Log("Load " + obj.id);
                 if (changements[i].ContainsKey(obj.id)) {
@@ -67,7 +76,7 @@ public class Loader : MonoBehaviour {
                     obj.Load(changements[i][obj.id]);
                 }
             }
-        }
+        }*/
     }
 
     private void Save() {

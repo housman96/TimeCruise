@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AlterTempPos : AlterTemp {
-
-    [Tooltip("Un string qui représente l'ID, doit être unique pour cet objet, pour toutes les scenes!")]
-    private Vector2 posIni;
+    //private Vector2 posIni;
 
     void OnEnable() {
         Loader.OnFinishAwake += Awake;
@@ -18,7 +16,7 @@ public class AlterTempPos : AlterTemp {
 
     protected virtual void Awake() {
         Vector2 pos = gameObject.transform.position;
-        posIni = new Vector2(pos.x, pos.y);
+        //posIni = new Vector2(pos.x, pos.y);
         if (Loader.instance == null) 
             return;
         Loader.instance.register(this);
@@ -35,15 +33,15 @@ public class AlterTempPos : AlterTemp {
 
         gameObject.transform.position = pos;
         Debug.Log("Teleport de " + id + "en " + pos);
-        posIni = pos;
+        //posIni = pos;
     }
 
     public override Changement Save() {
         Vector2 pos = gameObject.transform.position;
-        Debug.Log(posIni + "    " + pos);
-        if (posIni == pos) {
+        //Debug.Log(posIni + "    " + pos);
+        /*if (posIni == pos) {
             return null;
-        }
+        }*/
         return new changementPos(pos.x,pos.y);
         //return new ChangementPos();
     }
