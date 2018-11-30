@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Teleport", menuName = "Actions/Teleport")]
 public class Teleport : Action {
     public string epoque;
     public override void onAction() {
