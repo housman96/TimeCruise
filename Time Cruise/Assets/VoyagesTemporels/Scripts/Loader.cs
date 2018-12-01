@@ -5,11 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Loader : MonoBehaviour {
 
-    public Dictionary<string, int> epoqueInt;
-
     public delegate void finishAwake();
     public static event finishAwake OnFinishAwake;
 
+    [System.Serializable]
+    public struct epoque {
+        public string name;
+        public int numAssocie;
+    }
+
+    [Tooltip("Associer les epoques chronologiquement à un numéro, commencer à 0 et aller de 1 en 1")]
+    public epoque[] epoques;
+    public Dictionary<string, int> epoqueInt;
+
+    [Tooltip("Numero de l'epoque dans laquelle on est (doit correspondre à epoques)")]
     public int epoqueActuelle;
     public static Loader instance;
     [HideInInspector]
@@ -41,9 +50,9 @@ public class Loader : MonoBehaviour {
     }
 
     private void Load() {
-        Debug.Log("epoque Actuelle : "+epoqueActuelle);
+        //Debug.Log("epoque Actuelle : "+epoqueActuelle);
         for (int i = epoqueActuelle; i < changements.Length; i++) { //supprime les changements faits sur les epoques futures
-            Debug.Log("Clear epoque " + i);
+            //Debug.Log("Clear epoque " + i);
             changements[i].Clear();
         }
 
@@ -55,13 +64,13 @@ public class Loader : MonoBehaviour {
                 break;
             }
         }
-        Debug.Log("Epoque passe avec chgt la plus proche " + iEpoqueCopie);
+        //Debug.Log("Epoque passe avec chgt la plus proche " + iEpoqueCopie);
         if (iEpoqueCopie == -1)
             return;
         foreach (AlterTemp obj in listObjAlter) {
-            Debug.Log("Load " + obj.id);
+            //Debug.Log("Load " + obj.id);
             if (changements[iEpoqueCopie].ContainsKey(obj.id)) {
-                Debug.Log("Clee reconnue : " + obj.id);
+                //Debug.Log("Clee reconnue : " + obj.id);
                 obj.Load(changements[iEpoqueCopie][obj.id]);
             }
         }
@@ -81,7 +90,7 @@ public class Loader : MonoBehaviour {
 
     private void Save() {
         foreach (AlterTemp obj in listObjAlter) {
-            Debug.Log("Save " + obj.id);
+            //Debug.Log("Save " + obj.id);
             Changement chgt = obj.Save();
             if (chgt != null) {
                 changements[epoqueActuelle].Add(obj.id,chgt);
@@ -91,9 +100,12 @@ public class Loader : MonoBehaviour {
 
     private void InitializeEpoqueInt() {//mettre des clefs du meme nom que les scenes!! et leur attribuer un int dans l'ordre chronologique!!
         epoqueInt = new Dictionary<string, int>();
-        epoqueInt.Add("J-2",0);
+        /*epoqueInt.Add("J-2",0);
         epoqueInt.Add("J-1", 1);
-        epoqueInt.Add("J", 2);
+        epoqueInt.Add("J", 2);*/
+        foreach(epoque ep in epoques) {
+            epoqueInt.Add(ep.name, ep.numAssocie);
+        }
     }
 
     private void InitializeChangements() {

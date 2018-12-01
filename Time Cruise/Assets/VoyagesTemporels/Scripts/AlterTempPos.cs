@@ -20,6 +20,7 @@ public class AlterTempPos : AlterTemp {
         if (Loader.instance == null) 
             return;
         Loader.instance.register(this);
+        id = GetComponent<PickUp>().item.itemName;
     }
 
     public override void Load<T>(T chgt) {
