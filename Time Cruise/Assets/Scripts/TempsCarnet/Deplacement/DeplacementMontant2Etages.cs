@@ -15,6 +15,8 @@ public class DeplacementMontant2Etages : MonoBehaviour
     public AILerp Pathfinding;
     public AIDestinationSetter DestinationSetter;
 
+    public float delai = 0;
+
     public UnityEvent OnEnd;
 
     public void StartMovement()
@@ -24,6 +26,8 @@ public class DeplacementMontant2Etages : MonoBehaviour
 
     private IEnumerator Movement()
     {
+        yield return new WaitForSeconds(delai);
+
         DestinationSetter.target = basEscalierSousSol;
 
         yield return new WaitForSeconds(1);

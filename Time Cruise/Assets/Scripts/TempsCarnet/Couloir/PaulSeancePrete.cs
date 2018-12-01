@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class PaulSeancePrete : MonoBehaviour
 {
     public DialogueTrigger Jean;
-    public DialogueTrigger Pierre;
+    public DialogueTrigger Paul;
     public UnityEvent OnEnd;
 
     public void StartDialogue()
@@ -20,9 +20,9 @@ public class PaulSeancePrete : MonoBehaviour
         yield return new WaitForSeconds(3);
         Jean.ResetSentence();
 
-        Pierre.SetSentence("J’arrive.");
+        Paul.SetSentence("J’arrive.");
         yield return new WaitForSeconds(3);
-        Pierre.ResetSentence();
+        Paul.ResetSentence();
 
         OnEnd.Invoke();
     }

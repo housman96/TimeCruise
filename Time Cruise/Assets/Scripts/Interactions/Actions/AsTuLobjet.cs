@@ -9,6 +9,8 @@ public class AsTuLobjet : Action
 
     public string objet;
 
+    public bool gardeLobjet = false;
+
     public UnityEvent onYes;
 
     public override void onAction()
@@ -17,7 +19,8 @@ public class AsTuLobjet : Action
             playerInventory = FindObjectOfType<PlayerInventory>();
         if (playerInventory != null && playerInventory.inventory[0] != null && playerInventory.inventory[0].name == objet)
         {
-            playerInventory.changeInventory(null);
+            if(!gardeLobjet)
+                playerInventory.changeInventory(null);
             onYes.Invoke();
         }
     }

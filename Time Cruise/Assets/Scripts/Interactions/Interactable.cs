@@ -10,26 +10,33 @@ public class Interactable : MonoBehaviour {
     public GameObject popup;
     public Text actionName;
     public KeyCode actionKeyCode;
-    private bool interact;
+    private bool interact = false;
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (action.GetActionName() != "")
+        if (other.tag == "Player" && other.isTrigger == false)
         {
-            DisplayPopup();
+            if (action.GetActionName() != "")
+            {
+                DisplayPopup();
+            }
         }
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if (!popup.activeInHierarchy && action.GetActionName() != "")
+        if (other.tag == "Player" && other.isTrigger == false)
         {
-            DisplayPopup();
-        }
-        if (Input.GetKeyDown(actionKeyCode)) //appelé 2 fois par frame car dans un OntriggerStay d'où le déplacement dans update
-        {
-            interact = true;
-            //Interact(); 
+            Debug.Log("test");
+            if (popup != null && !popup.activeInHierarchy && action.GetActionName() != "")
+            {
+                DisplayPopup();
+            }
+            if (Input.GetKeyDown(actionKeyCode)) //appelé 2 fois par frame car dans un OntriggerStay d'où le déplacement dans update
+            {
+                interact = true;
+                //Interact(); 
+            }
         }
     }
 

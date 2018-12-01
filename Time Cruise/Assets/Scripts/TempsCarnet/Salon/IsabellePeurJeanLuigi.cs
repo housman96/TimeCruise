@@ -17,7 +17,7 @@ public class IsabellePeurJeanLuigi : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
 
-        Isabelle.SetSentence("C’est deux là sont amis? Je ne peux pas laisser la mafia comploter contre mon fils.");
+        Isabelle.SetSentence("Ces deux là sont amis? Je ne peux pas laisser la mafia comploter contre mon fils.");
         yield return new WaitForSeconds(5);
         Isabelle.ResetSentence();
 

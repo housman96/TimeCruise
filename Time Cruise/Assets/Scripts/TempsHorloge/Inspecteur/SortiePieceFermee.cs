@@ -17,7 +17,7 @@ public class SortiePieceFermee : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!ended && collision.gameObject.tag == "Player")
+        if (!ended && collision.gameObject.tag == "Player" && collision.isTrigger == false)
         {
             ended = true;
             porte.SetActive(true);
