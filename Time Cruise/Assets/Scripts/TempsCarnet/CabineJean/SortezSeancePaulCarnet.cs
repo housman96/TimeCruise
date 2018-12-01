@@ -1,15 +1,12 @@
-﻿using Pathfinding;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SortezSeancePaulHorloge : MonoBehaviour
+public class SortezSeancePaulCarnet : MonoBehaviour
 {
     public GameObject sortie;
-
-    public AILerp PaulPathfinding;
-    public AILerp JeanPathfinding;
+    
     public DialogueTrigger Jean;
 
     public GameObject carnetInspecter;
@@ -24,9 +21,6 @@ public class SortezSeancePaulHorloge : MonoBehaviour
 
     public IEnumerator Sortez()
     {
-        yield return new WaitUntil(() => { return JeanPathfinding.reachedEndOfPath; });
-        yield return new WaitUntil(() => { return PaulPathfinding.reachedEndOfPath; });
-
         carnetInspecter.transform.Translate(1000, 0, 0);
         carnetPasInspecter.SetActive(true);
 

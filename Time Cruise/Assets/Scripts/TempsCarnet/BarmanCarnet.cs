@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarmanHorloge : MonoBehaviour
+public class BarmanCarnet : MonoBehaviour
 {
     public DialogueTrigger barman;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
-            barman.SetSentence("Vous voulez boire quelque chose Inspecteur? Nous pouvons vous proposer de très bons vins.");
+            barman.SetSentence("Je me demande qui a bu tout l’alcool? Il y a quelques jours les réserves étaient encore pleines.");
     }
 
     private void OnTriggerExit2D(Collider2D collision)
