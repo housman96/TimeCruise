@@ -3839,6 +3839,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1107724491441612, guid: 76934a45c43d54e4eaa20e25ff73ff00,
     type: 2}
   m_PrefabInternal: {fileID: 72710997}
+--- !u!114 &256216890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256216889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa214afb22b7e3943b537839a81bd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1001 &285401105
 Prefab:
   m_ObjectHideFlags: 0
@@ -3906,6 +3918,47 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dafe61f7eab324e498718989d108b010, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &288887067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288887068}
+  - component: {fileID: 288887069}
+  m_Layer: 0
+  m_Name: TPPresentHorlge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288887068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288887067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1558284113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &288887069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 288887067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19be1a88225b5840a3ff1d7bf6c350b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoque: PresentHorloge
 --- !u!1 &291397158
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,6 +4390,7 @@ GameObject:
   - component: {fileID: 408003066}
   - component: {fileID: 408003065}
   - component: {fileID: 408003067}
+  - component: {fileID: 408003068}
   m_Layer: 9
   m_Name: InventaireCoffreDetective
   m_TagString: Untagged
@@ -4414,6 +4468,18 @@ MonoBehaviour:
   popup: {fileID: 1426830288}
   actionName: {fileID: 840805033}
   actionKeyCode: 101
+--- !u!114 &408003068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 408003063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b423098ffb013b848a252c25b75280f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: playerChest
 --- !u!114 &419131705 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114121221453528490, guid: 492ed31f5f092f944bc61585f5b997b8,
@@ -5657,6 +5723,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.4
+--- !u!114 &646693410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 646693408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa214afb22b7e3943b537839a81bd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1 &649844815
 GameObject:
   m_ObjectHideFlags: 0
@@ -8341,6 +8419,26 @@ Prefab:
       propertyPath: m_Name
       value: HorlogeCassee
       objectReference: {fileID: 0}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: action
+      value: 
+      objectReference: {fileID: 288887069}
+    - target: {fileID: 70771520404235610, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: popup
+      value: 
+      objectReference: {fileID: 1426830288}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: actionName
+      value: 
+      objectReference: {fileID: 840805033}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
   m_IsPrefabAsset: 0
@@ -9169,6 +9267,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 123266203}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1558284112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558284113}
+  m_Layer: 0
+  m_Name: ActionsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558284113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1558284112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 288887068}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1615435105 stripped
 RectTransform:

@@ -451,6 +451,7 @@ GameObject:
   - component: {fileID: 407541866}
   - component: {fileID: 407541865}
   - component: {fileID: 407541864}
+  - component: {fileID: 407541868}
   m_Layer: 9
   m_Name: InventaireCoffreDetective
   m_TagString: Untagged
@@ -513,7 +514,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.45, y: 2.25}
+  m_Size: {x: 2.73, y: 3.48}
   m_EdgeRadius: 0
 --- !u!4 &407541867
 Transform:
@@ -528,6 +529,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &407541868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 407541863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b423098ffb013b848a252c25b75280f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: playerChest
 --- !u!1001 &411337464
 Prefab:
   m_ObjectHideFlags: 0
@@ -926,7 +939,7 @@ Prefab:
     - target: {fileID: 114143999049929716, guid: 70e094c1dc530214cb0132f3d0e63b78,
         type: 2}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAAB4n+tCSp+fSwIAANkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1zmzAQ/SsenesMtsEkvbUkcXtInInb6YWLLBajsZAYfcR2Mv7vXQkwxJ2eWN5+vbe78EG4NA0wq/RK8+JJFUC+Toi3yZcJocH3Si1XCM8Q4UbVYDVn3+RO+NgIQSd5qXT9UOwgU8YahEsqDKBLK+uzJUIfE3LEx/TOp5zQmqfeekfrLpqc0WQgLeghdBHfJGkaz5Kky5gu0ps0jm+XSdxltolOMkHrBooNf4chP476VmiFQIkCuxivhikhuOnoEXtqgvpXevLiC05RauDjYyvgu8p62uPEdVkasN0cND3dc40TayuS78pWvlJNzb5l9UaFC80Dm7bk0z/eaesutap/9F1nQYutONsjP0aNHU15DN9/pu3kgYo93Qr4U4F8ViutnCzQabXzqc7A/H54vQjLKmD7AW+pXoGuGWbdT7pfqddwDtqPmeD1tnPh60aoMOdwB6BxIz+RbrgS05FG1HP4beAX3ZmhYYc/cm0serpo6bltldM+kjyi4YfOnM2UlqDH59iApMKeXrCMvd7ele//WY/Ufy9d887Xfw5XKQEe4qPoyvWiDpdNmUodnsBUa2cFlzCo9o5nHFOmpGyPayypT9s4XVI2Sts5Xny+K7Jk9C6KFhEs5/ESo6cRwHzL4hmLlrdFmiQkHB6XqJOKl5ZoNx5cmhyKSzyy/k8xWWnahEMvND2s+HutRjvjslQbpgHkuq1wIQ4am+DHWDwUHAe0AWu5DOsmHzkRiu2hyC+F8qD04Wg1zYcqOWn4m7IeyUkW/h85OZPzX1BLAwQUAAAICAAAeJ/rEKm6jWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Iz0lFQSi9KLMgoBgoYgjilmSkgdrSSWXKipYGBsUGqmZGJWVpisq5BaqpRUrKJYbKBmUWKuampUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAB4n+tCSp+fSwIAANkEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAB4n+sQqbqNbAAAAHcAAAAJACQAAAAAAAAAAAAAAJgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAATwMAAAAA
+      value: UEsDBBQAAAgIAACYn+tCSp+fSwIAANkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1zmzAQ/SsenesMtsEkvbUkcXtInInb6YWLLBajsZAYfcR2Mv7vXQkwxJ2eWN5+vbe78EG4NA0wq/RK8+JJFUC+Toi3yZcJocH3Si1XCM8Q4UbVYDVn3+RO+NgIQSd5qXT9UOwgU8YahEsqDKBLK+uzJUIfE3LEx/TOp5zQmqfeekfrLpqc0WQgLeghdBHfJGkaz5Kky5gu0ps0jm+XSdxltolOMkHrBooNf4chP476VmiFQIkCuxivhikhuOnoEXtqgvpXevLiC05RauDjYyvgu8p62uPEdVkasN0cND3dc40TayuS78pWvlJNzb5l9UaFC80Dm7bk0z/eaesutap/9F1nQYutONsjP0aNHU15DN9/pu3kgYo93Qr4U4F8ViutnCzQabXzqc7A/H54vQjLKmD7AW+pXoGuGWbdT7pfqddwDtqPmeD1tnPh60aoMOdwB6BxIz+RbrgS05FG1HP4beAX3ZmhYYc/cm0serpo6bltldM+kjyi4YfOnM2UlqDH59iApMKeXrCMvd7ele//WY/Ufy9d887Xfw5XKQEe4qPoyvWiDpdNmUodnsBUa2cFlzCo9o5nHFOmpGyPayypT9s4XVI2Sts5Xny+K7Jk9C6KFhEs5/ESo6cRwHzL4hmLlrdFmiQkHB6XqJOKl5ZoNx5cmhyKSzyy/k8xWWnahEMvND2s+HutRjvjslQbpgHkuq1wIQ4am+DHWDwUHAe0AWu5DOsmHzkRiu2hyC+F8qD04Wg1zYcqOWn4m7IeyUkW/h85OZPzX1BLAwQUAAAICAAAmJ/rEKm6jWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Iz0lFQSi9KLMgoBgoYgjilmSkgdrSSWXKipYGBsUGqmZGJWVpisq5BaqpRUrKJYbKBmUWKuampUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+tCSp+fSwIAANkEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sQqbqNbAAAAHcAAAAJACQAAAAAAAAAAAAAAJgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAATwMAAAAA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70e094c1dc530214cb0132f3d0e63b78, type: 2}
@@ -1478,6 +1491,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc3ca73318e0ea42b3b8fe2a2c4445f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &941572681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 804672464}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941572682}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &941572682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 804672464}
+  m_GameObject: {fileID: 941572681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1206625184}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953040004
 Prefab:
   m_ObjectHideFlags: 0
@@ -6886,6 +6927,35 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 080f8ef30fc5c6243ab2377b261694bd, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1481107990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481107992}
+  m_Layer: 0
+  m_Name: ActionsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1481107992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1481107990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2091278353}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503594637
 GameObject:
   m_ObjectHideFlags: 0
@@ -6954,6 +7024,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.23, y: 0.75}
   m_EdgeRadius: 0
+--- !u!58 &1507065956
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507065951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.23}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1001 &1517355048
 Prefab:
   m_ObjectHideFlags: 0
@@ -7399,8 +7484,7 @@ Prefab:
         type: 2}
       propertyPath: action
       value: 
-      objectReference: {fileID: 11400000, guid: ac5b6e89685d1224dbe165dc1f95b332,
-        type: 2}
+      objectReference: {fileID: 2091278354}
     m_RemovedComponents:
     - {fileID: 70771520404235610, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
@@ -7952,6 +8036,54 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1884422037}
   m_CullTransparentMesh: 0
+--- !u!1 &1901188830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901188832}
+  - component: {fileID: 1901188831}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1901188831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1901188830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648f9557fdcd10d4f9b11623c0b56d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoques:
+  - name: Horloge
+    numAssocie: 0
+  - name: PresentHorloge
+    numAssocie: 1
+  - name: PresentJournal
+    numAssocie: 2
+  epoqueActuelle: 1
+--- !u!4 &1901188832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1901188830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1907016939
 Prefab:
   m_ObjectHideFlags: 0
@@ -8330,6 +8462,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc3ca73318e0ea42b3b8fe2a2c4445f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2091278352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091278353}
+  - component: {fileID: 2091278354}
+  m_Layer: 0
+  m_Name: TPHorloge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2091278353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091278352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1481107992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091278354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091278352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19be1a88225b5840a3ff1d7bf6c350b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoque: Horloge
 --- !u!1 &2117619905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1569840109007192, guid: 3b99ee36ca5df7c4ea2cf30446d973eb,
