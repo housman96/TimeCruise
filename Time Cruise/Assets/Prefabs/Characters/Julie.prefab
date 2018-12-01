@@ -29,6 +29,8 @@ GameObject:
   - component: {fileID: 50428014239446860}
   - component: {fileID: 114573306198747978}
   - component: {fileID: 114756840754239648}
+  - component: {fileID: 82529485125672230}
+  - component: {fileID: 114449093488278760}
   m_Layer: 9
   m_Name: Julie
   m_TagString: Character
@@ -43,7 +45,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1689267410911116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -9.2, y: -15.2, z: 0.97265625}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -109,6 +111,101 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.234406, y: 0.08114569}
   m_EdgeRadius: 0
+--- !u!82 &82529485125672230
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689267410911116}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 3
+  MaxDistance: 25
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95897956758326016
 Animator:
   serializedVersion: 3
@@ -149,6 +246,28 @@ MonoBehaviour:
   interpolatePathSwitches: 1
   switchPathInterpolationSpeed: 10
   targetCompatibility: {fileID: 0}
+--- !u!114 &114449093488278760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1689267410911116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270b842abbdd8994c8949ab57f976c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepSounds:
+  - {fileID: 8300000, guid: d356ae0c84319724f8e4b30d88033756, type: 3}
+  - {fileID: 8300000, guid: d110005b1e541e84699c82af4830429f, type: 3}
+  - {fileID: 8300000, guid: 6f75db7fb77c15446bcd69ee0e94ca62, type: 3}
+  - {fileID: 8300000, guid: 794c68769f85638449b832cb0255e29b, type: 3}
+  - {fileID: 8300000, guid: 86cc7c86bd32177418dda874fa581b22, type: 3}
+  - {fileID: 8300000, guid: c1cf5bf780cc9bc49b715ce68dfc196f, type: 3}
+  - {fileID: 8300000, guid: d5080463da33f7d47a684552fe6b6fef, type: 3}
+  - {fileID: 8300000, guid: 35084fae69354bb4d9cb5e80c8a32e2a, type: 3}
+  volumeScale: 1
+  minVelocityToPlaySound: 0.05
 --- !u!114 &114573306198747978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -162,9 +281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
   characterName: Julie
-  nameText: {fileID: 114670186690615552, guid: 756a567298ab3ad47a13d59060d2fa24, type: 2}
-  sentenceText: {fileID: 114035412508697538, guid: 756a567298ab3ad47a13d59060d2fa24,
-    type: 2}
+  nameText: {fileID: 0}
+  sentenceText: {fileID: 0}
 --- !u!114 &114734149197623614
 MonoBehaviour:
   m_ObjectHideFlags: 1
