@@ -36,14 +36,7 @@ public class FootStepPlayer : MonoBehaviour {
         if (!audioSource.isPlaying && velocity.magnitude > minVelocityToPlaySound)
         {
             PlayRandomFootStepSound();
-            Debug.Log("Playing sound");
         }
-        /*
-        if(audioSource.isPlaying && velocity.magnitude < minVelocityToPlaySound)
-        {
-            StopPlayingSound();
-        }
-        */
     }
 	
 	public void PlayRandomFootStepSound()
