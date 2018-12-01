@@ -29,6 +29,8 @@ GameObject:
   - component: {fileID: 50097620402493896}
   - component: {fileID: 114353052592722250}
   - component: {fileID: 114477796195058186}
+  - component: {fileID: 82844791862192826}
+  - component: {fileID: 114457762231914814}
   m_Layer: 9
   m_Name: Isabelle
   m_TagString: Character
@@ -42,8 +44,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1279057432479300}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.581373, y: -8.022154, z: 0.97265625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.5, y: -7.7, z: 0.97265625}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -109,6 +111,128 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.234406, y: 0.08114569}
   m_EdgeRadius: 0
+--- !u!82 &82844791862192826
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279057432479300}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.25
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 3
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.121908575
+      value: 0.9916649
+      inSlope: -6.6693425
+      outSlope: -6.6693425
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.14044188
+      value: 0.77666485
+      inSlope: -7.380132
+      outSlope: -7.380132
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.20449525
+      value: 0.47499847
+      inSlope: -2.7964416
+      outSlope: -2.7964416
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.45393527
+      value: 0.1416626
+      inSlope: -0.6881545
+      outSlope: -0.6881545
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.87387824
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.026488097
+      outSlope: -0.026488097
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5761345
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95302972649333288
 Animator:
   serializedVersion: 3
@@ -188,10 +312,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 0}
-  characterName: 
-  nameText: {fileID: 114597331012733252, guid: 6fe040dbbf090b542bec178afb2db955, type: 2}
-  sentenceText: {fileID: 114358123172898122, guid: 6fe040dbbf090b542bec178afb2db955,
-    type: 2}
+  characterName: Isabelle
+  nameText: {fileID: 0}
+  sentenceText: {fileID: 0}
+--- !u!114 &114457762231914814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279057432479300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270b842abbdd8994c8949ab57f976c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footStepSounds:
+  - {fileID: 8300000, guid: d356ae0c84319724f8e4b30d88033756, type: 3}
+  - {fileID: 8300000, guid: d110005b1e541e84699c82af4830429f, type: 3}
+  - {fileID: 8300000, guid: 6f75db7fb77c15446bcd69ee0e94ca62, type: 3}
+  - {fileID: 8300000, guid: 794c68769f85638449b832cb0255e29b, type: 3}
+  - {fileID: 8300000, guid: 86cc7c86bd32177418dda874fa581b22, type: 3}
+  - {fileID: 8300000, guid: c1cf5bf780cc9bc49b715ce68dfc196f, type: 3}
+  - {fileID: 8300000, guid: d5080463da33f7d47a684552fe6b6fef, type: 3}
+  - {fileID: 8300000, guid: 35084fae69354bb4d9cb5e80c8a32e2a, type: 3}
+  volumeScale: 1
+  minVelocityToPlaySound: 0.05
 --- !u!114 &114477796195058186
 MonoBehaviour:
   m_ObjectHideFlags: 1
