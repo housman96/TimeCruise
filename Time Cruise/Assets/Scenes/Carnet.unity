@@ -631,6 +631,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1689267410911116, guid: 980fc15b38a5c2440b04d32e491e380b,
     type: 2}
   m_PrefabInternal: {fileID: 1148368653}
+--- !u!1 &68856623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 68856624}
+  m_Layer: 0
+  m_Name: ActionsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &68856624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68856623}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1304224471}
+  - {fileID: 667967872}
+  - {fileID: 155722646}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &70896622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1036,47 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224507739775121476, guid: 080f8ef30fc5c6243ab2377b261694bd,
     type: 2}
   m_PrefabInternal: {fileID: 132341807}
+--- !u!1 &155722645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155722646}
+  - component: {fileID: 155722647}
+  m_Layer: 0
+  m_Name: TPPresentHorloge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155722646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155722645}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68856624}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &155722647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 155722645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19be1a88225b5840a3ff1d7bf6c350b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoque: PresentCarnet
 --- !u!1001 &158137483
 Prefab:
   m_ObjectHideFlags: 0
@@ -1067,6 +1139,23 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301b64acf3602444da5b08db233b29f8, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &158137484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1305499105892040, guid: 301b64acf3602444da5b08db233b29f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 158137483}
+--- !u!114 &158137485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 158137484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa214afb22b7e3943b537839a81bd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1 &159440844
 GameObject:
   m_ObjectHideFlags: 0
@@ -3549,6 +3638,47 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.46241, y: 1.1678066}
   m_EdgeRadius: 0
+--- !u!1 &667967871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667967872}
+  - component: {fileID: 667967873}
+  m_Layer: 0
+  m_Name: TPPresentAccuse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &667967872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667967871}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68856624}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &667967873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667967871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19be1a88225b5840a3ff1d7bf6c350b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoque: PresentCarnet
 --- !u!1 &672927342
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,7 +4585,7 @@ Prefab:
         type: 2}
       propertyPath: action
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 667967873}
     - target: {fileID: 1581316839598840, guid: 434f841a2cabd744e8cdeb2643227179, type: 2}
       propertyPath: m_Name
       value: JournalRetourAccusation
@@ -6116,6 +6246,23 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c980532e32c82940bc9446b04b7763e, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1178867501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1437795864167422, guid: 1c980532e32c82940bc9446b04b7763e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1178867500}
+--- !u!114 &1178867502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1178867501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa214afb22b7e3943b537839a81bd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!1 &1232673850
 GameObject:
   m_ObjectHideFlags: 0
@@ -6739,6 +6886,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1304224470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1304224471}
+  - component: {fileID: 1304224472}
+  m_Layer: 0
+  m_Name: TPPresentCarnet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1304224471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304224470}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68856624}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1304224472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304224470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d19be1a88225b5840a3ff1d7bf6c350b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoque: PresentCarnet
 --- !u!1001 &1327075692
 Prefab:
   m_ObjectHideFlags: 0
@@ -10855,7 +11043,7 @@ Prefab:
         type: 2}
       propertyPath: action
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1304224472}
     - target: {fileID: 1581316839598840, guid: 434f841a2cabd744e8cdeb2643227179, type: 2}
       propertyPath: m_Name
       value: JournalRetour
@@ -11380,6 +11568,7 @@ GameObject:
   - component: {fileID: 1838648581}
   - component: {fileID: 1838648580}
   - component: {fileID: 1838648579}
+  - component: {fileID: 1838648583}
   m_Layer: 9
   m_Name: InventaireCoffreDetective
   m_TagString: Untagged
@@ -11457,6 +11646,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1838648583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1838648578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b423098ffb013b848a252c25b75280f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: playerChest
 --- !u!1 &1856452906
 GameObject:
   m_ObjectHideFlags: 0
@@ -11630,6 +11831,21 @@ Prefab:
       propertyPath: m_Name
       value: HorlogeCassee
       objectReference: {fileID: 0}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: action
+      value: 
+      objectReference: {fileID: 155722647}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: popup
+      value: 
+      objectReference: {fileID: 1178767317}
+    - target: {fileID: 114787083021375800, guid: 54fffcf8eb19e0846846125405e70320,
+        type: 2}
+      propertyPath: actionName
+      value: 
+      objectReference: {fileID: 1062106705}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54fffcf8eb19e0846846125405e70320, type: 2}
   m_IsPrefabAsset: 0

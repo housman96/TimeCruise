@@ -26,6 +26,7 @@ public class Loader : MonoBehaviour {
     private List<AlterTemp> listObjAlter;//=new List<AlterTemp>();
 
     private void Awake() {//singleton + dontdestroyOnLoad
+        Time.timeScale = 3.0f;
         if (instance == null) {
             instance = this;
             listObjAlter = new List<AlterTemp>();
@@ -109,7 +110,16 @@ public class Loader : MonoBehaviour {
     }
 
     private void InitializeChangements() {
-        changements = new Dictionary<string, Changement>[epoqueInt.Count];
+        int nbEpoques=0;
+        int valuePrec = -1;
+        foreach(int value in epoqueInt.Values) { //plusieurs présents...correction rapide
+            if (valuePrec == value) {
+                break;
+            }
+            valuePrec = value;
+            nbEpoques++;
+        }
+        changements = new Dictionary<string, Changement>[nbEpoques];
         for (int i = 0; i < changements.Length; i++) {
             changements[i] = new Dictionary<string, Changement>();
         }

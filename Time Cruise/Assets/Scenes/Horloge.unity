@@ -5744,7 +5744,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8070,7 +8070,7 @@ Prefab:
     - target: {fileID: 114143999049929716, guid: 70e094c1dc530214cb0132f3d0e63b78,
         type: 2}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAACgn+tCSp+fSwIAANkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1zmzAQ/SsenesMtsEkvbUkcXtInInb6YWLLBajsZAYfcR2Mv7vXQkwxJ2eWN5+vbe78EG4NA0wq/RK8+JJFUC+Toi3yZcJocH3Si1XCM8Q4UbVYDVn3+RO+NgIQSd5qXT9UOwgU8YahEsqDKBLK+uzJUIfE3LEx/TOp5zQmqfeekfrLpqc0WQgLeghdBHfJGkaz5Kky5gu0ps0jm+XSdxltolOMkHrBooNf4chP476VmiFQIkCuxivhikhuOnoEXtqgvpXevLiC05RauDjYyvgu8p62uPEdVkasN0cND3dc40TayuS78pWvlJNzb5l9UaFC80Dm7bk0z/eaesutap/9F1nQYutONsjP0aNHU15DN9/pu3kgYo93Qr4U4F8ViutnCzQabXzqc7A/H54vQjLKmD7AW+pXoGuGWbdT7pfqddwDtqPmeD1tnPh60aoMOdwB6BxIz+RbrgS05FG1HP4beAX3ZmhYYc/cm0serpo6bltldM+kjyi4YfOnM2UlqDH59iApMKeXrCMvd7ele//WY/Ufy9d887Xfw5XKQEe4qPoyvWiDpdNmUodnsBUa2cFlzCo9o5nHFOmpGyPayypT9s4XVI2Sts5Xny+K7Jk9C6KFhEs5/ESo6cRwHzL4hmLlrdFmiQkHB6XqJOKl5ZoNx5cmhyKSzyy/k8xWWnahEMvND2s+HutRjvjslQbpgHkuq1wIQ4am+DHWDwUHAe0AWu5DOsmHzkRiu2hyC+F8qD04Wg1zYcqOWn4m7IeyUkW/h85OZPzX1BLAwQUAAAICAAAoJ/rEKm6jWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Iz0lFQSi9KLMgoBgoYgjilmSkgdrSSWXKipYGBsUGqmZGJWVpisq5BaqpRUrKJYbKBmUWKuampUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACgn+tCSp+fSwIAANkEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACgn+sQqbqNbAAAAHcAAAAJACQAAAAAAAAAAAAAAJgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAATwMAAAAA
+      value: UEsDBBQAAAgIAACYn+tCSp+fSwIAANkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1zmzAQ/SsenesMtsEkvbUkcXtInInb6YWLLBajsZAYfcR2Mv7vXQkwxJ2eWN5+vbe78EG4NA0wq/RK8+JJFUC+Toi3yZcJocH3Si1XCM8Q4UbVYDVn3+RO+NgIQSd5qXT9UOwgU8YahEsqDKBLK+uzJUIfE3LEx/TOp5zQmqfeekfrLpqc0WQgLeghdBHfJGkaz5Kky5gu0ps0jm+XSdxltolOMkHrBooNf4chP476VmiFQIkCuxivhikhuOnoEXtqgvpXevLiC05RauDjYyvgu8p62uPEdVkasN0cND3dc40TayuS78pWvlJNzb5l9UaFC80Dm7bk0z/eaesutap/9F1nQYutONsjP0aNHU15DN9/pu3kgYo93Qr4U4F8ViutnCzQabXzqc7A/H54vQjLKmD7AW+pXoGuGWbdT7pfqddwDtqPmeD1tnPh60aoMOdwB6BxIz+RbrgS05FG1HP4beAX3ZmhYYc/cm0serpo6bltldM+kjyi4YfOnM2UlqDH59iApMKeXrCMvd7ele//WY/Ufy9d887Xfw5XKQEe4qPoyvWiDpdNmUodnsBUa2cFlzCo9o5nHFOmpGyPayypT9s4XVI2Sts5Xny+K7Jk9C6KFhEs5/ESo6cRwHzL4hmLlrdFmiQkHB6XqJOKl5ZoNx5cmhyKSzyy/k8xWWnahEMvND2s+HutRjvjslQbpgHkuq1wIQ4am+DHWDwUHAe0AWu5DOsmHzkRiu2hyC+F8qD04Wg1zYcqOWn4m7IeyUkW/h85OZPzX1BLAwQUAAAICAAAmJ/rEKm6jWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Iz0lFQSi9KLMgoBgoYgjilmSkgdrSSWXKipYGBsUGqmZGJWVpisq5BaqpRUrKJYbKBmUWKuampUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+tCSp+fSwIAANkEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sQqbqNbAAAAHcAAAAJACQAAAAAAAAAAAAAAJgCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAATwMAAAAA
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70e094c1dc530214cb0132f3d0e63b78, type: 2}
@@ -8987,6 +8987,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1305499105892040, guid: 301b64acf3602444da5b08db233b29f8,
     type: 2}
   m_PrefabInternal: {fileID: 1530352712}
+--- !u!114 &1445923196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445923195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa214afb22b7e3943b537839a81bd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 
 --- !u!4 &1454091554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4707638967674018, guid: ebe618f9e9821be458c23ce0688e37df,
@@ -9263,6 +9275,11 @@ Prefab:
     - target: {fileID: 4740346788497748, guid: 301b64acf3602444da5b08db233b29f8, type: 2}
       propertyPath: m_LocalScale.y
       value: 2.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 58832706157124220, guid: 301b64acf3602444da5b08db233b29f8,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301b64acf3602444da5b08db233b29f8, type: 2}

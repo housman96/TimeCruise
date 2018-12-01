@@ -27,7 +27,7 @@ public class Interactable : MonoBehaviour {
     {
         if (other.tag == "Player" && other.isTrigger == false)
         {
-            Debug.Log("test");
+            //Debug.Log("test");
             if (popup != null && !popup.activeInHierarchy && action.GetActionName() != "")
             {
                 DisplayPopup();

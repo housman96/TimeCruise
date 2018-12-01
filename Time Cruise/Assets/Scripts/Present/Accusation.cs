@@ -99,7 +99,8 @@ public class Accusation : MonoBehaviour
         targetObjectInspecteur.transform.position = new Vector3(20.60f, -22.59f);
         inspecteur.GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadSceneAsync(1);
+        //SceneManager.LoadSceneAsync(1);
+        Loader.instance.TimeTravel("MeurtreCapitaine");
     }
 
 
