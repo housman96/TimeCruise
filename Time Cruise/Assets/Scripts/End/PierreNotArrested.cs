@@ -11,7 +11,10 @@ public class PierreNotArrested : MonoBehaviour
     public GameObject button3;
     public DialogueTrigger capitaineDial;
     public DialogueTrigger inspecteurDial;
-
+    public Sprite captainGauche;
+    public GameObject pierre;
+    public Sprite inspecteurDroit;
+    public Sprite pierreGauche;
 
     public void launchPierreNotArrested()
     {
@@ -40,7 +43,8 @@ public class PierreNotArrested : MonoBehaviour
         button2.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 0);
         button3.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 0);
 
-
+        capitaine.GetComponent<Animator>().enabled = false;
+        capitaine.GetComponent<SpriteRenderer>().sprite = captainGauche;
 
 
         GameObject targetObjectinspecteur = new GameObject();
@@ -50,6 +54,10 @@ public class PierreNotArrested : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         inspecteurDial.SetSentence("Pierre pouvez vous venir quelques secondes, j'ai quelque chose à vous dire avant que vous ne parliez à votre père.", false);
+        inspecteur.GetComponent<Animator>().enabled = false;
+        pierre.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroit;
+        pierre.GetComponent<SpriteRenderer>().sprite = pierreGauche;
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
     }

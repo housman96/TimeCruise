@@ -11,7 +11,10 @@ public class Accusation : MonoBehaviour
     public GameObject longueVue;
     public DialogueTrigger inspecteurDial;
     public DialogueTrigger pierreDial;
-
+    public Sprite matelotHaut;
+    public Sprite matelotGauche;
+    public Sprite matelotDroite;
+    public Sprite inspecteurGauche;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -44,6 +47,8 @@ public class Accusation : MonoBehaviour
         /*MOUVEMENT VERS PIERRE*/
 
 
+        matelot1.GetComponent<Animator>().enabled = true;
+        matelot2.GetComponent<Animator>().enabled = true;
 
         GameObject targetObjectMatelot1 = new GameObject();
         GameObject targetObjectMatelot2 = new GameObject();
@@ -56,7 +61,13 @@ public class Accusation : MonoBehaviour
 
         /*ACCUSATION*/
 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(9);
+
+        matelot1.GetComponent<Animator>().enabled = false;
+        matelot2.GetComponent<Animator>().enabled = false;
+
+        matelot1.GetComponent<SpriteRenderer>().sprite = matelotHaut;
+        matelot2.GetComponent<SpriteRenderer>().sprite = matelotHaut;
 
         inspecteurDial.SetSentence("Pierre, au vu des indices que j'ai pu récolter, je vous accuse du meurtre de votre père.", false);
         yield return new WaitForSeconds(4);
@@ -70,14 +81,23 @@ public class Accusation : MonoBehaviour
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 
+        matelot1.GetComponent<SpriteRenderer>().sprite = matelotGauche;
+        matelot2.GetComponent<SpriteRenderer>().sprite = matelotDroite;
+        yield return new WaitForSeconds(1);
+
         longueVue.SetActive(true);
         yield return new WaitForSeconds(2);
+
+        inspecteur.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurGauche;
 
         inspecteurDial.SetSentence("La longue vue du Capitaine, surement l'arme du crime.", false);
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 
+
         targetObjectInspecteur.transform.position = new Vector3(20.60f, -22.59f);
+        inspecteur.GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadSceneAsync(1);
     }

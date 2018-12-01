@@ -1060,6 +1060,12 @@ MonoBehaviour:
   mur: {fileID: 721253181}
   matelotDial: {fileID: 426774469}
   paulDial: {fileID: 806814392}
+  matelotGauche: {fileID: 21300018, guid: c233cccca42325d4eb89cfae91b83c0d, type: 3}
+  matelotDroite: {fileID: 21300020, guid: c233cccca42325d4eb89cfae91b83c0d, type: 3}
+  inspecteurDroite: {fileID: 21300020, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  inspecteurGauche: {fileID: 21300018, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  inspecteurBas: {fileID: 21300002, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  paulGauche: {fileID: 21300018, guid: 1d895934815702c40ae5aaa5a6e08fc4, type: 3}
   text: {fileID: 353412706}
 --- !u!1 &901283982 stripped
 GameObject:
@@ -1195,7 +1201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &929314039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6165,6 +6171,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 95222953803596942, guid: 46d80d373b7c50b4498a072454193df7,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
   m_IsPrefabAsset: 0
@@ -6237,7 +6248,7 @@ Transform:
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 2065783584}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2072381576
 BoxCollider2D:

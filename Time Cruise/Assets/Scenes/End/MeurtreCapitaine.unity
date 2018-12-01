@@ -853,6 +853,10 @@ MonoBehaviour:
   button3: {fileID: 1497861801}
   capitaineDial: {fileID: 1545567335}
   inspecteurDial: {fileID: 1444124742}
+  captainGauche: {fileID: 21300018, guid: a804d10824a37ae4d98f7459a555b576, type: 3}
+  pierre: {fileID: 871242231}
+  inspecteurDroit: {fileID: 21300020, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  pierreGauche: {fileID: 21300018, guid: 0719582629f0a13409f371a9876648da, type: 3}
 --- !u!1 &421220896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3000,6 +3004,8 @@ MonoBehaviour:
   button3: {fileID: 1497861801}
   capitaineDial: {fileID: 1545567335}
   pierreDial: {fileID: 871242230}
+  captainGauche: {fileID: 21300018, guid: a804d10824a37ae4d98f7459a555b576, type: 3}
+  captainHaut: {fileID: 21300022, guid: a804d10824a37ae4d98f7459a555b576, type: 3}
 --- !u!1001 &985541513
 Prefab:
   m_ObjectHideFlags: 0
@@ -8667,6 +8673,10 @@ MonoBehaviour:
   longueVue: {fileID: 1890763656}
   inspecteurDial: {fileID: 1444124742}
   pierreDial: {fileID: 871242230}
+  matelotHaut: {fileID: 0}
+  matelotGauche: {fileID: 0}
+  matelotDroite: {fileID: 0}
+  inspecteurGauche: {fileID: 0}
 --- !u!1 &1247083779
 GameObject:
   m_ObjectHideFlags: 0
@@ -10353,6 +10363,10 @@ MonoBehaviour:
   button3: {fileID: 1497861801}
   capitaineDial: {fileID: 1545567335}
   inspecteurDial: {fileID: 1444124742}
+  captainGauche: {fileID: 21300018, guid: a804d10824a37ae4d98f7459a555b576, type: 3}
+  pierre: {fileID: 871242231}
+  inspecteurDroit: {fileID: 21300020, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  pierreGauche: {fileID: 21300018, guid: 0719582629f0a13409f371a9876648da, type: 3}
 --- !u!1 &1668445543
 GameObject:
   m_ObjectHideFlags: 0
@@ -10989,6 +11003,9 @@ MonoBehaviour:
   button3: {fileID: 1497861801}
   capitaineDial: {fileID: 1545567335}
   inspecteurDial: {fileID: 1444124742}
+  pierre: {fileID: 871242231}
+  inspecteurDroit: {fileID: 21300020, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
+  pierreGauche: {fileID: 21300018, guid: 0719582629f0a13409f371a9876648da, type: 3}
 --- !u!4 &1832678276
 Transform:
   m_ObjectHideFlags: 0

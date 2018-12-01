@@ -14,6 +14,10 @@ public class PierreArrested : MonoBehaviour
     public GameObject button3;
     public DialogueTrigger capitaineDial;
     public DialogueTrigger inspecteurDial;
+    public Sprite captainGauche;
+    public GameObject pierre;
+    public Sprite inspecteurDroit;
+    public Sprite pierreGauche;
 
 
     public void launchPierreArrested()
@@ -43,6 +47,8 @@ public class PierreArrested : MonoBehaviour
         button2.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 0);
         button3.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 0);
 
+        capitaine.GetComponent<Animator>().enabled = false;
+        capitaine.GetComponent<SpriteRenderer>().sprite = captainGauche;
 
         capitaineDial.SetSentence("Qu'est-ce que tu fais fiston!", false);
         yield return new WaitForSeconds(4);
@@ -65,6 +71,12 @@ public class PierreArrested : MonoBehaviour
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectinspecteur.transform;
 
         yield return new WaitForSeconds(2);
+        inspecteur.GetComponent<Animator>().enabled = false;
+        pierre.GetComponent<Animator>().enabled = false;
+
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroit;
+        pierre.GetComponent<SpriteRenderer>().sprite = pierreGauche;
+
 
         inspecteurDial.SetSentence("C'est fini Pierre!", false);
         yield return new WaitForSeconds(3);

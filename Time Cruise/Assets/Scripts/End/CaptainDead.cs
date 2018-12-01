@@ -14,7 +14,9 @@ public class CaptainDead : MonoBehaviour
     public GameObject button3;
     public DialogueTrigger capitaineDial;
     public DialogueTrigger inspecteurDial;
-
+    public GameObject pierre;
+    public Sprite inspecteurDroit;
+    public Sprite pierreGauche;
 
     public void captainDead()
     {
@@ -73,6 +75,10 @@ public class CaptainDead : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         inspecteurDial.SetSentence("C'est fini Pierre!", false);
+        inspecteur.GetComponent<Animator>().enabled = false;
+        pierre.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroit;
+        pierre.GetComponent<SpriteRenderer>().sprite = pierreGauche;
         yield return new WaitForSeconds(3);
         inspecteurDial.ResetSentence();
     }

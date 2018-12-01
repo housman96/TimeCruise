@@ -15,6 +15,8 @@ public class End : MonoBehaviour
     public GameObject button3;
     public DialogueTrigger capitaineDial;
     public DialogueTrigger pierreDial;
+    public Sprite captainGauche;
+    public Sprite captainHaut;
 
     // Use this for initialization
     void Start()
@@ -33,6 +35,8 @@ public class End : MonoBehaviour
         capitaine.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectCapitaine.transform;
 
         yield return new WaitForSeconds(1);
+        capitaine.GetComponent<Animator>().enabled = false;
+        capitaine.GetComponent<SpriteRenderer>().sprite = captainGauche;
 
         tapis.SetActive(false);
         yield return new WaitForSeconds(1);
@@ -46,7 +50,7 @@ public class End : MonoBehaviour
         capitaineDial.SetSentence("Et voilà personne n'ira la chercher ici.");
         yield return new WaitForSeconds(5);
         capitaineDial.ResetSentence();
-
+        capitaine.GetComponent<SpriteRenderer>().sprite = captainHaut;
         capitaineDial.SetSentence("Ho inspecteur, je ne vous avez pas vu.");
         yield return new WaitForSeconds(5);
         capitaineDial.ResetSentence();
