@@ -13,8 +13,15 @@ public class IntroductionPont : MonoBehaviour
     public GameObject mur;
     public DialogueTrigger matelotDial;
     public DialogueTrigger paulDial;
+    public Sprite matelotGauche;
+    public Sprite matelotDroite;
+    public Sprite inspecteurDroite;
+    public Sprite inspecteurGauche;
+    public Sprite inspecteurBas;
+    public Sprite paulGauche;
     public Text text;
     private float alpha = 1.0f;
+
 
     void Start()
     {
@@ -29,6 +36,12 @@ public class IntroductionPont : MonoBehaviour
 
     public IEnumerator dialogueWelcome()
     {
+        inspecteur.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+        matelot.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroite;
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
+
         /*Dialogue début*/
 
         while (alpha > 0)
@@ -53,6 +66,9 @@ public class IntroductionPont : MonoBehaviour
 
 
         /*On marche jusqu'à l'escalier*/
+
+        inspecteur.GetComponent<Animator>().enabled = true;
+        matelot.GetComponent<Animator>().enabled = true;
 
         GameObject targetObjectMatelot = new GameObject();
         GameObject targetObjectInspecteur = new GameObject();
@@ -92,8 +108,9 @@ public class IntroductionPont : MonoBehaviour
         matelot.transform.position = new Vector3(167, -13.5f);
         inspecteur.transform.position = new Vector3(170.8f, -13.5f);
 
-        matelot.GetComponent<BoxCollider2D>().enabled = false;
-        matelot.GetComponent<BoxCollider2D>().enabled = true;
+
+
+
 
         while (alpha > 0)
         {
@@ -106,10 +123,15 @@ public class IntroductionPont : MonoBehaviour
         /*Dialogue présentation chambre*/
 
         matelotDial.SetSentence("Voici votre chambre, c'est petit mais vous devriez y trouver tout le confort nécessaire.");
+        matelot.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurGauche;
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
         matelotDial.SetSentence("Si vous voulez il y a une malle ici.");
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
@@ -118,6 +140,7 @@ public class IntroductionPont : MonoBehaviour
         matelotDial.ResetSentence();
 
         matelotDial.SetSentence("Bon séjour parmis nous.");
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
@@ -128,7 +151,9 @@ public class IntroductionPont : MonoBehaviour
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectMatelot.transform;
 
 
+
         /*Quelques jours plus tard*/
+
 
         while (alpha < 1)
         {
@@ -139,6 +164,9 @@ public class IntroductionPont : MonoBehaviour
         }
         text.color = new Color(1, 1, 1, 1);
         blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
+
+        matelot.GetComponent<Animator>().enabled = true;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurBas;
 
         /*Retour du matelot*/
 
@@ -162,6 +190,10 @@ public class IntroductionPont : MonoBehaviour
         yield return new WaitForSeconds(2);
         matelotDial.ResetSentence();
 
+        matelot.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroite;
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
+
         matelotDial.SetSentence("Vite Inspecteur, suivait moi dans le bureau du Capitaine.");
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
@@ -179,7 +211,7 @@ public class IntroductionPont : MonoBehaviour
             blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
         }
         blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
-
+        inspecteur.GetComponent<Animator>().enabled = true;
 
         matelot.GetComponent<Pathfinding.AILerp>().enabled = false;
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = null;
@@ -197,6 +229,7 @@ public class IntroductionPont : MonoBehaviour
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectInspecteur.transform;
 
         yield return new WaitForSeconds(1.5f);
+        matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
 
         while (alpha > 0)
         {
@@ -207,7 +240,16 @@ public class IntroductionPont : MonoBehaviour
         blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
 
         /*Quelqu'un à tué le Capitaine*/
-        yield return new WaitForSeconds(4);
+        Paul.GetComponent<Animator>().enabled = false;
+        Paul.GetComponent<SpriteRenderer>().sprite = paulGauche;
+
+        yield return new WaitForSeconds(2.5f);
+        inspecteur.GetComponent<Animator>().enabled = false;
+        inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroite;
+
+
+
+
 
         paulDial.SetSentence("Le Capitaine est mort.");
         yield return new WaitForSeconds(4);
@@ -230,6 +272,11 @@ public class IntroductionPont : MonoBehaviour
         paulDial.ResetSentence();
 
         /*FREEDOM*/
+
+        inspecteur.GetComponent<Animator>().enabled = true;
+
+        inspecteur.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+
         mur.GetComponent<BoxCollider2D>().enabled = true;
 
         inspecteur.GetComponent<PlayerController>().UnlockMoves();
