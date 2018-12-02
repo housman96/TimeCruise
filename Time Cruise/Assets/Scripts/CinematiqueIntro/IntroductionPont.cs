@@ -216,7 +216,7 @@ public class IntroductionPont : MonoBehaviour
         matelot.GetComponent<Pathfinding.AILerp>().enabled = false;
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = null;
         matelot.transform.position = new Vector3(-32, 2.5f);
-        inspecteur.transform.position = new Vector3(-27, 2.5f);
+        inspecteur.transform.position = new Vector3(-23, 8f);
 
         matelot.GetComponent<Pathfinding.AILerp>().enabled = true;
         inspecteur.GetComponent<Pathfinding.AILerp>().enabled = true;
@@ -228,7 +228,7 @@ public class IntroductionPont : MonoBehaviour
         matelot.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectMatelot.transform;
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectInspecteur.transform;
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
 
         while (alpha > 0)

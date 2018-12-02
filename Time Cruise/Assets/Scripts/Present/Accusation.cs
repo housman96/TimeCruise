@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Accusation : MonoBehaviour
 {
@@ -15,6 +14,7 @@ public class Accusation : MonoBehaviour
     public Sprite matelotGauche;
     public Sprite matelotDroite;
     public Sprite inspecteurGauche;
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -99,7 +99,6 @@ public class Accusation : MonoBehaviour
         targetObjectInspecteur.transform.position = new Vector3(20.60f, -22.59f);
         inspecteur.GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(0.5f);
-        //SceneManager.LoadSceneAsync(1);
         Loader.instance.TimeTravel("MeurtreCapitaine");
     }
 

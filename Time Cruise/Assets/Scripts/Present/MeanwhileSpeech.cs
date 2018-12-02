@@ -4,7 +4,6 @@ using UnityEngine;
 public class MeanwhileSpeech : MonoBehaviour
 {
     public DialogueTrigger paulDial;
-    public DialogueTrigger matelotDial;
     public DialogueTrigger isabelleDial;
     public DialogueTrigger pierreDial;
     public DialogueTrigger julieDial;
