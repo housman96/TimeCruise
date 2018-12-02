@@ -291,14 +291,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footStepSounds:
-  - {fileID: 8300000, guid: 5b8daa0d8f7848040aa85a4228c725ec, type: 3}
-  - {fileID: 8300000, guid: 27ae18a1fc723724cab3a1489a7347b4, type: 3}
-  - {fileID: 8300000, guid: c5bcc61efc5592a48840d159450dc4d2, type: 3}
-  - {fileID: 8300000, guid: 2357afaf49440d54eb0e07dad01b5b2c, type: 3}
-  - {fileID: 8300000, guid: b387fee6ab93c0042a667d970fddc2ca, type: 3}
-  - {fileID: 8300000, guid: eeffbbd4377fee04b9f2be46efadde85, type: 3}
-  - {fileID: 8300000, guid: c00098cb4b91765498cc619711b38e6b, type: 3}
-  - {fileID: 8300000, guid: 2bbf0464aae5d7248ab6c4dd02d876fe, type: 3}
+  - {fileID: 8300000, guid: d356ae0c84319724f8e4b30d88033756, type: 3}
+  - {fileID: 8300000, guid: d110005b1e541e84699c82af4830429f, type: 3}
+  - {fileID: 8300000, guid: 6f75db7fb77c15446bcd69ee0e94ca62, type: 3}
+  - {fileID: 8300000, guid: 794c68769f85638449b832cb0255e29b, type: 3}
+  - {fileID: 8300000, guid: 86cc7c86bd32177418dda874fa581b22, type: 3}
+  - {fileID: 8300000, guid: c1cf5bf780cc9bc49b715ce68dfc196f, type: 3}
+  - {fileID: 8300000, guid: d5080463da33f7d47a684552fe6b6fef, type: 3}
+  - {fileID: 8300000, guid: 35084fae69354bb4d9cb5e80c8a32e2a, type: 3}
   volumeScale: 1
   minVelocityToPlaySound: 0.05
 --- !u!212 &212996398042264032
