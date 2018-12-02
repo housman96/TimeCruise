@@ -57,6 +57,7 @@ public class Loader : MonoBehaviour
 
     private void Load()
     {
+        TimeTravelManager.instance.OnLevelLoading();
         //Debug.Log("epoque Actuelle : "+epoqueActuelle);
         for (int i = epoqueActuelle; i < changements.Length; i++)
         { //supprime les changements faits sur les epoques futures

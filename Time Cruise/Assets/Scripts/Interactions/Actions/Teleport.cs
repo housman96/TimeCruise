@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Teleport : Action {
     public string epoque;
+    public string nameObj;
     public override void onAction() {
         base.onAction();
         Debug.Log("Teleportation");
-        Loader.instance.TimeTravel(epoque);
+        TimeTravelManager.instance.TimeTravel(epoque, nameObj);
     }
 
     public override string GetActionName() {
