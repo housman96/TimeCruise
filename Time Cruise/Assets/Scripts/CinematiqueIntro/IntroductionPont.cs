@@ -48,9 +48,9 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha -= 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
         }
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
 
         matelotDial.SetSentence("Bienvenue à bord inspecteur.");
         yield return new WaitForSeconds(2);
@@ -86,9 +86,9 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha += 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
         }
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
 
 
         /*Téléportation*/
@@ -116,9 +116,9 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha -= 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
         }
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
 
         /*Dialogue présentation chambre*/
 
@@ -154,16 +154,16 @@ public class IntroductionPont : MonoBehaviour
 
         /*Quelques jours plus tard*/
 
-
+        text.text = "Quelques jours plus tard";
         while (alpha < 1)
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha += 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
             text.color = new Color(1, 1, 1, alpha);
         }
         text.color = new Color(1, 1, 1, 1);
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
 
         matelot.GetComponent<Animator>().enabled = true;
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurBas;
@@ -176,11 +176,11 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha -= 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
             text.color = new Color(1, 1, 1, alpha);
         }
         text.color = new Color(1, 1, 1, 0);
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
 
         targetObjectMatelot.transform.position = new Vector3(170.8f, -13.5f);
 
@@ -208,9 +208,9 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha += 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
         }
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 1);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
         inspecteur.GetComponent<Animator>().enabled = true;
 
         matelot.GetComponent<Pathfinding.AILerp>().enabled = false;
@@ -235,9 +235,9 @@ public class IntroductionPont : MonoBehaviour
         {
             yield return new WaitForSeconds(Time.deltaTime);
             alpha -= 0.02f;
-            blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
         }
-        blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
 
         /*Quelqu'un à tué le Capitaine*/
         Paul.GetComponent<Animator>().enabled = false;

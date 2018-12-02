@@ -1,12 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Loader : MonoBehaviour
 {
 
     public delegate void finishAwake();
     public static event finishAwake OnFinishAwake;
+    private GameObject blackScreen;
+    private Text text;
+    private AudioSource travelSound;
 
     [System.Serializable]
     public struct epoque
@@ -108,7 +113,7 @@ public class Loader : MonoBehaviour
             Changement chgt = obj.Save();
             if (chgt != null)
             {
-                changements[epoqueActuelle][obj.id]= chgt;
+                changements[epoqueActuelle][obj.id] = chgt;
             }
         }
     }
@@ -121,7 +126,7 @@ public class Loader : MonoBehaviour
         epoqueInt.Add("J", 2);*/
         foreach (epoque ep in epoques)
         {
-            epoqueInt[ep.name] =ep.numAssocie;
+            epoqueInt[ep.name] = ep.numAssocie;
         }
     }
 
@@ -147,9 +152,56 @@ public class Loader : MonoBehaviour
 
     public void TimeTravel(string epoque)
     {
+        StartCoroutine(realTimeTravel(epoque));
+    }
+
+    public IEnumerator realTimeTravel(string epoque)
+    {
+
+
+
+        text = GameObject.FindGameObjectWithTag("TextLoading").GetComponent<Text>();
+        blackScreen = GameObject.FindGameObjectWithTag("PanelLoading");
+
+        travelSound = blackScreen.GetComponentInParent<AudioSource>();
+
+        travelSound.timeSamples = travelSound.clip.samples - 1;
+        travelSound.pitch = -0.75f;
+        travelSound.Play();
+
         Save();
         epoqueActuelle = epoqueInt[epoque]; //on change d'epoque
         listObjAlter = new List<AlterTemp>(); //on reset ces obj
+
+
+        if (epoqueActuelle == 0)
+        {
+            text.text = "5 jours avant le meurtre";
+        }
+        if (epoqueActuelle == 1)
+        {
+            text.text = "2 jours avant le meurtre";
+        }
+        if (epoqueActuelle == 2)
+        {
+            text.text = "Moment du meutre";
+        }
+        if (epoqueActuelle == 3)
+        {
+            text.text = "Present";
+        }
+
+        float alpha = 0;
+        while (alpha < 1)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alpha += 0.02f;
+            text.color = new Color(1, 1, 1, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
+        }
+        text.color = new Color(1, 1, 1, 1);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
+
         SceneManager.LoadScene(epoque);
     }
 
@@ -158,6 +210,25 @@ public class Loader : MonoBehaviour
         Debug.Log("Level Loaded");
         Debug.Log(scene.name);
         Debug.Log(mode);
+        StartCoroutine(realOnLevelFinishedLoading());
+    }
+
+    IEnumerator realOnLevelFinishedLoading()
+    {
+        text = GameObject.FindGameObjectWithTag("TextLoading").GetComponent<Text>();
+        blackScreen = GameObject.FindGameObjectWithTag("PanelLoading");
+
+        float alpha = 1;
+        while (alpha > 0)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alpha -= 0.02f;
+            text.color = new Color(1, 1, 1, alpha);
+            blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, alpha);
+        }
+        text.color = new Color(1, 1, 1, 0);
+        blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
+
         Load();//load des objets modifies
     }
 }
