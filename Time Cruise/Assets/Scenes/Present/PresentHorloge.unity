@@ -7853,7 +7853,7 @@ MonoBehaviour:
     numAssocie: 2
   - name: PresentHorloge
     numAssocie: 3
-  - name: PresentCarnet
+  - name: PresentJournal
     numAssocie: 3
   - name: PresentAccuse
     numAssocie: 3

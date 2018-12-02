@@ -7539,7 +7539,7 @@ MonoBehaviour:
     numAssocie: 3
   - name: PresentCarnet
     numAssocie: 3
-  - name: PresentAccuse
+  - name: PresentJournal
     numAssocie: 3
   epoqueActuelle: 0
 --- !u!4 &1164516084
