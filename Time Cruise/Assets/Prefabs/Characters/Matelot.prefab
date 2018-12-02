@@ -341,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: 
   dialogueManager: {fileID: 114166666973349966}
-  offest: 0
+  offest: 1.5
 --- !u!114 &114914644500247642
 MonoBehaviour:
   m_ObjectHideFlags: 1
