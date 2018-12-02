@@ -5696,6 +5696,16 @@ Prefab:
       propertyPath: endPosition.x
       value: -45
       objectReference: {fileID: 0}
+    - target: {fileID: 3664157345652778658, guid: ebe618f9e9821be458c23ce0688e37df,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664157345652778658, guid: ebe618f9e9821be458c23ce0688e37df,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebe618f9e9821be458c23ce0688e37df, type: 2}
   m_IsPrefabAsset: 0
