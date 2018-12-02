@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114166666973349966}
   - component: {fileID: 82026801634263328}
   - component: {fileID: 114090630954017020}
+  - component: {fileID: 114704838355844426}
   m_Layer: 9
   m_Name: Matelot
   m_TagString: Character
@@ -327,6 +328,20 @@ MonoBehaviour:
   tagPenalties: 0000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &114704838355844426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1360873438356568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentence: 
+  dialogueManager: {fileID: 114166666973349966}
+  offest: 0
 --- !u!114 &114914644500247642
 MonoBehaviour:
   m_ObjectHideFlags: 1

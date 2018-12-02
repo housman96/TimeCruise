@@ -486,7 +486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 46873610}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "La porte de Julie... C'est ferm\xE9, je ne devrais pas la d\xE9ranger."
   temps: 4
 --- !u!114 &46873608
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 81750444}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "La porte de Pierre... C'est ferm\xE9, je ne devrais pas le d\xE9ranger."
   temps: 4
 --- !u!114 &81750442
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 170918964}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "Je dois trouver un moyen d\u2019arr\xEAter cette consultation pour voir
     les notes de Jean."
   temps: 4
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127d67b64dc60494681135b0d34a1106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  porte: {fileID: 0}
+  porte: {fileID: 1060319072}
   onEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -2738,7 +2738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 423186948}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 0}
   texte: "Il n'y a rien d'int\xE9ressant, mais une s\xE9ance va bient\xF4t commencer.
     Elle a l'air plus importante. Je me demande ce qu'ils se diront."
   temps: 7
@@ -3549,7 +3549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 667849455}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "La porte de Julie... C'est ferm\xE9, je ne devrais pas les d\xE9ranger."
   temps: 4
 --- !u!114 &667849453
@@ -3828,7 +3828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 683032756}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "Il est trop occup\xE9, il ne fait pas attention \xE0 moi..."
   temps: 4
 --- !u!1 &684570307
@@ -4029,7 +4029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 688174538}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "Jean a besoin de parler \xE0 son p\xE8re, il a ferm\xE9 le verrou, il ne
     veut pas \xEAtre d\xE9rang\xE9."
   temps: 7
@@ -4210,12 +4210,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 737335622}
   m_Script: {fileID: 11500000, guid: 847a14d4dc9cc43679ab34fc78e0182f, type: 3}
---- !u!114 &739453449 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114057688018594418, guid: 20e2cd3535ddb4543bd93391475105e0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1492051829}
-  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
 --- !u!114 &739453452 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114089983952386810, guid: 20e2cd3535ddb4543bd93391475105e0,
@@ -4380,23 +4374,6 @@ Prefab:
 --- !u!224 &766333236 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224312843192663188, guid: 6fe040dbbf090b542bec178afb2db955,
-    type: 2}
-  m_PrefabInternal: {fileID: 766333235}
---- !u!114 &766333237 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114358123172898122, guid: 6fe040dbbf090b542bec178afb2db955,
-    type: 2}
-  m_PrefabInternal: {fileID: 766333235}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!114 &766333238 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114597331012733252, guid: 6fe040dbbf090b542bec178afb2db955,
-    type: 2}
-  m_PrefabInternal: {fileID: 766333235}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!1 &766333239 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1612853218041410, guid: 6fe040dbbf090b542bec178afb2db955,
     type: 2}
   m_PrefabInternal: {fileID: 766333235}
 --- !u!1001 &768878029
@@ -5392,7 +5369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jean: {fileID: 737335624}
   Paul: {fileID: 468582344}
-  Matelot: {fileID: 739453449}
+  Matelot: {fileID: 1492051831}
   OnEnd:
     m_PersistentCalls:
       m_Calls:
@@ -5714,6 +5691,7 @@ GameObject:
   - component: {fileID: 1060319073}
   - component: {fileID: 1060319075}
   - component: {fileID: 1060319074}
+  - component: {fileID: 1060319076}
   m_Layer: 9
   m_Name: SortieJean
   m_TagString: Untagged
@@ -5777,6 +5755,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.814049, y: 4.314951}
   m_EdgeRadius: 0
+--- !u!114 &1060319076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1060319072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127d67b64dc60494681135b0d34a1106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  porte: {fileID: 1060319072}
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1062106703
 GameObject:
   m_ObjectHideFlags: 0
@@ -6277,7 +6272,7 @@ Transform:
   m_LocalPosition: {x: 15.210251, y: -14.154242, z: -0.97265625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1286855268}
+  - {fileID: 1500868027}
   - {fileID: 1095433108}
   - {fileID: 1802169385}
   - {fileID: 737335623}
@@ -6320,230 +6315,6 @@ Transform:
   m_Father: {fileID: 1411458041}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1286855267
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1672104395500798, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1286855268}
-  - component: {fileID: 1286855277}
-  - component: {fileID: 1286855276}
-  - component: {fileID: 1286855275}
-  - component: {fileID: 1286855274}
-  - component: {fileID: 1286855273}
-  - component: {fileID: 1286855272}
-  - component: {fileID: 1286855271}
-  - component: {fileID: 1286855270}
-  - component: {fileID: 1286855269}
-  m_Layer: 8
-  m_Name: Detective
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1286855268
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4139020299427330, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 114, y: -4.59, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1249733680}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1286855269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2be864efcf41cfd45bff8a266f0634bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory:
-  - {fileID: 0}
-  playerInventoryUI: {fileID: 20351853}
---- !u!114 &1286855270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sentence: 
-  dialogueManager: {fileID: 1286855271}
-  offest: 1.5
---- !u!114 &1286855271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00a449c74d7e99243a9a69725e818516, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popup: {fileID: 766333239}
-  characterName: Inspecteur
-  nameText: {fileID: 766333238}
-  sentenceText: {fileID: 766333237}
---- !u!58 &1286855272
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.155
---- !u!61 &1286855273
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 61270455243140840, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.11724476}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.29, y: 0.31}
-    newSize: {x: 0.21, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.28981388, y: 0.07448952}
-  m_EdgeRadius: 0
---- !u!50 &1286855274
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 50595342577281408, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 0
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &1286855275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114362536664911904, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe8925b7e599cf4c89c62f49f13099c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  isInRoom: 0
---- !u!95 &1286855276
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 95222953803596942, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3a99c0e8b513fc24fb53de4b116af9ec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &1286855277
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 212665301872320334, guid: 46d80d373b7c50b4498a072454193df7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286855267}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1722444591
-  m_SortingLayer: 1
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300002, guid: 651c40fb5f5e7b34d92ccdbce777a2f2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.21, y: 0.32}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1293981281
 GameObject:
   m_ObjectHideFlags: 0
@@ -6786,7 +6557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a36b2e8e20ac23479a5ca3262995de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followed: {fileID: 1286855267}
+  followed: {fileID: 0}
 --- !u!81 &1299594828
 AudioListener:
   m_ObjectHideFlags: 0
@@ -7245,7 +7016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Maurice: {fileID: 1095433109}
   Marie: {fileID: 488351866}
-  Matelot: {fileID: 739453449}
+  Matelot: {fileID: 1492051831}
   OnMauricePart:
     m_PersistentCalls:
       m_Calls:
@@ -7599,6 +7370,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4194428870410730, guid: 20e2cd3535ddb4543bd93391475105e0,
     type: 2}
   m_PrefabInternal: {fileID: 1492051829}
+--- !u!114 &1492051831 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114704838355844426, guid: 20e2cd3535ddb4543bd93391475105e0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1492051829}
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+--- !u!1001 &1500868025
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1249733680}
+    m_Modifications:
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 114
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913451120576846, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+      propertyPath: m_Name
+      value: Detective
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46d80d373b7c50b4498a072454193df7, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1500868026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114842542601107462, guid: 46d80d373b7c50b4498a072454193df7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500868025}
+  m_Script: {fileID: 11500000, guid: 255fc5485878a8245bc95952e13d8183, type: 3}
+--- !u!4 &1500868027 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4812653482045276, guid: 46d80d373b7c50b4498a072454193df7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500868025}
+--- !u!114 &1500868028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114818045429120670, guid: 46d80d373b7c50b4498a072454193df7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1500868025}
+  m_Script: {fileID: 11500000, guid: 7fe8925b7e599cf4c89c62f49f13099c, type: 3}
 --- !u!1001 &1506604099
 Prefab:
   m_ObjectHideFlags: 0
@@ -10873,7 +10713,7 @@ MonoBehaviour:
   Maurice: {fileID: 1095433109}
   Pierre: {fileID: 1647835788}
   Barman: {fileID: 350752911}
-  Inspecteur: {fileID: 1286855270}
+  Inspecteur: {fileID: 1500868026}
   ScriptBarman: {fileID: 1389520348}
   OnPierreJulieEnd:
     m_PersistentCalls:
@@ -11111,7 +10951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 1746055895}
-  inspecteur: {fileID: 1286855270}
+  inspecteur: {fileID: 1500868026}
   texte: "La porte de Paul... C'est ferm\xE9, je ne devrais pas le d\xE9ranger."
   temps: 4
 --- !u!114 &1746055893
@@ -12076,7 +11916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53405422f020154fa2b40a04f36039a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Matelot: {fileID: 739453449}
+  Matelot: {fileID: 1492051831}
   OnEnd:
     m_PersistentCalls:
       m_Calls:
@@ -12091,7 +11931,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 170918967}
+      - m_Target: {fileID: 1060319076}
         m_MethodName: Ouverture
         m_Mode: 4
         m_Arguments:
@@ -12160,9 +12000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20342da00668c034288935dcb12bf6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1286855275}
+  controller: {fileID: 1500868028}
   Pierre: {fileID: 1647835788}
-  Inspecteur: {fileID: 1286855270}
+  Inspecteur: {fileID: 1500868026}
   OnEnd:
     m_PersistentCalls:
       m_Calls:
