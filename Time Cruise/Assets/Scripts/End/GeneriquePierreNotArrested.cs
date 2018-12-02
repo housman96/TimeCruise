@@ -398,5 +398,7 @@ public class GeneriquePierreNotArrested : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
+        Application.Quit();
+
     }
 }
