@@ -16,15 +16,15 @@ public class JournalSpeech : MonoBehaviour
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 
-        inspecteurDial.SetSentence("“ Malgré ce que les gens pensent, Paul semble complétement inoffensif. “", false);
+        inspecteurDial.SetSentence("“ Malgré ce que les gens pensent, Paul semble complètement inoffensif. “", false);
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
 
-        inspecteurDial.SetSentence("“ Il a déserté l’armée pendant la grande guerre.“", false);
+        inspecteurDial.SetSentence("“ Il a déserté l’armée pendant la Grande guerre.“", false);
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
 
-        inspecteurDial.SetSentence("“ Il m’a d’ailleurs avoué que le Capitaine le faisait chanter en le menaçant de le dénoncer à l’état français. “", false);
+        inspecteurDial.SetSentence("“ Il m’a d’ailleurs avoué que le Capitaine le faisait chanter en le menaçant de le dénoncer à l’État français. “", false);
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
 

@@ -52,11 +52,11 @@ public class IntroductionPont : MonoBehaviour
         }
         blackScreen.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
 
-        matelotDial.SetSentence("Bienvenu à bord Inspecteur.");
+        matelotDial.SetSentence("Bienvenue à bord inspecteur.");
         yield return new WaitForSeconds(2);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("C'est un plaisir d'avoir quelqu'un d'aussi célébre que vous à bord.");
+        matelotDial.SetSentence("C'est un plaisir d'avoir quelqu'un d'aussi célèbre que vous à bord.");
         yield return new WaitForSeconds(3);
         matelotDial.ResetSentence();
 
@@ -139,7 +139,7 @@ public class IntroductionPont : MonoBehaviour
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("Bon séjour parmis nous.");
+        matelotDial.SetSentence("Bon séjour parmi nous.");
         matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();

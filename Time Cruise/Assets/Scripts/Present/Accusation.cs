@@ -77,7 +77,7 @@ public class Accusation : MonoBehaviour
         yield return new WaitForSeconds(4);
         pierreDial.ResetSentence();
 
-        inspecteurDial.SetSentence("Messieurs, veuillez fouiller Pierre s'il-vous-plait.", false);
+        inspecteurDial.SetSentence("Messieurs, veuillez fouiller Pierre s'il vous plaît..", false);
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 

@@ -31,7 +31,7 @@ public class MeanwhileSpeech : MonoBehaviour
         yield return new WaitForSeconds(5);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Mais comprennez bien que c'est pour votre sécuritée.");
+        paulDial.SetSentence("Mais comprenez bien que c'est pour votre sécurité.");
         yield return new WaitForSeconds(5);
         paulDial.ResetSentence();
 
@@ -47,7 +47,7 @@ public class MeanwhileSpeech : MonoBehaviour
         luigiDial.ResetSentence();
 
         /*JEAN*/
-        jeanDial.SetSentence("Ne vous inquietez pas mon ami, cet inspecteur me semble quelqu'un de raisonable.");
+        jeanDial.SetSentence("Ne vous inquiétez pas mon ami, cet inspecteur me semble quelqu'un de raisonnable.");
         yield return new WaitForSeconds(5);
         jeanDial.ResetSentence();
 
@@ -59,11 +59,11 @@ public class MeanwhileSpeech : MonoBehaviour
         pierreDial.ResetSentence();
 
         /*JULIE*/
-        julieDial.SetSentence("Ne t'inquiéte pas Pierre, d'ici peu de temps je suis sûr qu'on va découvrir les coupables.");
+        julieDial.SetSentence("Ne t'inquiète pas Pierre, d'ici peu de temps je suis sûr qu'on va découvrir les coupables.");
         yield return new WaitForSeconds(5);
         julieDial.ResetSentence();
 
-        julieDial.SetSentence("Personnelement je parierais sur le médecin et son ami l'italien.");
+        julieDial.SetSentence("Personnellement je parierais sur le médecin et son ami l'italien.");
         yield return new WaitForSeconds(5);
         julieDial.ResetSentence();
 

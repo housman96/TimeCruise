@@ -21,7 +21,7 @@ public class SpeechPresentation : MonoBehaviour
         yield return new WaitForSeconds(4);
 
         /*MATELOT*/
-        matelotDial.SetSentence("Mesdames et Messieurs veuillez vous présenter à l'Inspecteur.");
+        matelotDial.SetSentence("Mesdames et Messieurs veuillez vous présenter à l'inspecteur.");
         yield return new WaitForSeconds(3);
         matelotDial.ResetSentence();
 
@@ -63,7 +63,7 @@ public class SpeechPresentation : MonoBehaviour
         yield return new WaitForSeconds(5);
         marieDial.ResetSentence();
 
-        marieDial.SetSentence("Comme l'a dit Pierre, j'étais avec lui sur le pont quand tous ça est arrivé.");
+        marieDial.SetSentence("Comme l'a dit Pierre, j'étais avec lui sur le pont quand tout ça est arrivé.");
         yield return new WaitForSeconds(5);
         marieDial.ResetSentence();
 
