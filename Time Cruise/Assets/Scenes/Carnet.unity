@@ -3032,7 +3032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 423186948}
-  inspecteur: {fileID: 0}
+  inspecteur: {fileID: 1500868026}
   texte: "Il n'y a rien d'int\xE9ressant, mais une s\xE9ance va bient\xF4t commencer.
     Elle a l'air plus importante. Je me demande ce qu'ils se diront."
   temps: 7
@@ -8225,17 +8225,6 @@ MonoBehaviour:
       - m_Target: {fileID: 992442627}
         m_MethodName: StartDialogue
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1589590090}
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
