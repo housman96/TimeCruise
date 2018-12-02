@@ -18,6 +18,7 @@ public class Revelation : MonoBehaviour
     {
         if(!finished && collision.tag == "Player" && collision.isTrigger == false)
         {
+            finished = true;
             StartCoroutine(Revele());
         }
     }
