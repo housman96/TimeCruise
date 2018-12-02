@@ -35,7 +35,7 @@ public class Revelation : MonoBehaviour
         yield return new WaitForSeconds(10);
         Pierre.SetSentence("Vous savez on se ressemble beaucoup ma soeur et moi.", false);
         yield return new WaitForSeconds(6);
-        Inspecteur.ResetSentence();
+        Pierre.ResetSentence();
 
         Inspecteur.SetSentence("*Mais si Pierre n’est pas en couple avec Marie, il n’était pas avec elle pendant le meurtre. De plus il a un mobile pour tuer son père.*", false);
         yield return new WaitForSeconds(10);
