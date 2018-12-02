@@ -26,6 +26,7 @@ public class End : MonoBehaviour
 
     public IEnumerator end()
     {
+        inspecteur.GetComponent<PlayerController>().LockMoves();
         yield return new WaitForSeconds(1);
 
         /*CACHER SOUS LE TAPIS*/

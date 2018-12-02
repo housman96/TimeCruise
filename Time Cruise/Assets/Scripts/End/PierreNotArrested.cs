@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 public class PierreNotArrested : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PierreNotArrested : MonoBehaviour
     public GameObject pierre;
     public Sprite inspecteurDroit;
     public Sprite pierreGauche;
+    public UnityEvent generique;
 
     public void launchPierreNotArrested()
     {
@@ -51,7 +53,7 @@ public class PierreNotArrested : MonoBehaviour
         targetObjectinspecteur.transform.position = new Vector3(-6f, 2.91f);
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectinspecteur.transform;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
 
         inspecteurDial.SetSentence("Pierre pouvez vous venir quelques secondes, j'ai quelque chose à vous dire avant que vous ne parliez à votre père.", false);
         inspecteur.GetComponent<Animator>().enabled = false;
@@ -60,5 +62,7 @@ public class PierreNotArrested : MonoBehaviour
         pierre.GetComponent<SpriteRenderer>().sprite = pierreGauche;
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
+
+        generique.Invoke();
     }
 }

@@ -2,8 +2,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GeneriqueCaptainDead : MonoBehaviour
+public class GeneriquePierreNotArrested : MonoBehaviour
 {
+
     public GameObject blackScreen;
     public GameObject capitaine;
     public GameObject pierre;
@@ -39,7 +40,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
 
         /*CAPITAINE*/
-        text.text = "Le capitaine n'a pas survécu à ses blessures.";
+        text.text = "Le capitaine a survécu.";
 
         while (alphaText < 1)
         {
@@ -67,7 +68,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*PIERRE*/
 
-        text.text = "Pierre a été arrêté, et ne sortira plus de prison de sa vie.";
+        text.text = "Pierre n'a pas été arrêté, et ne fut plus jamais impliqué dans quelques crimes qu'il soit.";
 
         while (alphaText < 1)
         {
@@ -95,7 +96,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*JULIE*/
 
-        text.text = "Son père mort, Julie n'eut plus à cacher son homosexualité à ses parents.";
+        text.text = "Julie continua un temps à cacher son homosexualité à ses parents.";
 
         while (alphaText < 1)
         {
@@ -117,7 +118,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
         }
         text.GetComponent<Text>().color = new Color(1, 1, 1, 0);
 
-        text.text = "Elle partit avec Marie dans un pays plus tolérant.";
+        text.text = "Après quelque temps elle partit, avec Marie, dans un pays plus tolérant. Sans l'aide financière de ses parents.";
         yield return new WaitForSeconds(1);
 
         while (alphaText < 1)
@@ -144,7 +145,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*MARIE*/
 
-        text.text = "Marie raccrocha son tablier et suivit Julie dans un autre pays.";
+        text.text = "Marie suivit Julie dans un autre pays.";
 
         while (alphaText < 1)
         {
@@ -166,7 +167,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
         }
         text.GetComponent<Text>().color = new Color(1, 1, 1, 0);
 
-        text.text = "Elle commença à étudier la médecine sous l'impulsion de Jean et avec l'aide financière de Julie.";
+        text.text = "Elle continua à travailler pour de riche famille pour vivre.";
         yield return new WaitForSeconds(1);
 
         while (alphaText < 1)
@@ -194,7 +195,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*JEAN*/
 
-        text.text = "Jean continua d'essayer de se rapprocher de sa famille, et entretient une correspondance assidue avec Marie et Julie.";
+        text.text = "Jean continua d'essayer de se rapprocher de sa famille, et entretient une correspondance assidue avec Julie, Pierre et le Capitaine.";
 
         while (alphaText < 1)
         {
@@ -222,7 +223,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*LUIGI*/
 
-        text.text = "Luigi parti aux USA et commença une carrière d'acteur à Hollywood.";
+        text.text = "Luigi fut couvert de lauriers pour avoir récupéré l'argent de Pierre et fut promu.";
 
         while (alphaText < 1)
         {
@@ -252,7 +253,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*PAUL*/
 
-        text.text = "Le capitaine étant mort, Paul déclara sa flamme à Isabelle.";
+        text.text = "Paul aida Julie et Marie à quitter le pays, tout en leur envoyant le peut d'argent que Maurice ne lui escroque pas.";
 
         while (alphaText < 1)
         {
@@ -271,6 +272,27 @@ public class GeneriqueCaptainDead : MonoBehaviour
             yield return new WaitForSeconds(Time.deltaTime);
             alphaText -= 0.02f;
             text.GetComponent<Text>().color = new Color(1, 1, 1, alphaText);
+        }
+        text.GetComponent<Text>().color = new Color(1, 1, 1, 0);
+
+        text.text = "En désespoir de cause, Paul déclara sa flamme à Isabelle.";
+        yield return new WaitForSeconds(1);
+
+        while (alphaText < 1)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alphaText += 0.02f;
+            text.GetComponent<Text>().color = new Color(1, 1, 1, alphaText);
+        }
+        text.GetComponent<Text>().color = new Color(1, 1, 1, 1);
+
+        yield return new WaitForSeconds(3);
+
+        while (alphaText > 0)
+        {
+            yield return new WaitForSeconds(Time.deltaTime);
+            alphaText -= 0.02f;
+            text.GetComponent<Text>().color = new Color(1, 1, 1, alphaText);
             paul.GetComponent<Image>().color = new Color(1, 1, 1, alphaText);
         }
         text.GetComponent<Text>().color = new Color(1, 1, 1, 0);
@@ -280,7 +302,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*ISABELLE*/
 
-        text.text = "Isabelle ne pouvant plus protéger sa famille, accepta de refaire sa vie avec Paul.";
+        text.text = "Isabelle étant encore engagé avec le Capitaine, elle refusa la demande de Paul.";
 
         while (alphaText < 1)
         {
