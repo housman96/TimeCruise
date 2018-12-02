@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class BoutonFastTravel : MonoBehaviour {
     string m_epoque;
+    static string m_epoqueTP;
     int m_numEpoque;
 
     public void Initialize(string epoque,int numEpoque) {
@@ -14,8 +15,13 @@ public class BoutonFastTravel : MonoBehaviour {
         buttonText.text = epoque;
     }
 
+    public void setEpoque() {
+        m_epoqueTP = m_epoque;
+        //TimeTravelManager.instance.FastTimeTravel(m_epoque);
+    }
+
     public void FastTravel() {
-        TimeTravelManager.instance.FastTimeTravel(m_epoque);
+        TimeTravelManager.instance.FastTimeTravel(m_epoqueTP);
     }
 
 }

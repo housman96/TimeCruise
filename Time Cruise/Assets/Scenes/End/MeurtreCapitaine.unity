@@ -894,7 +894,7 @@ Transform:
   - {fileID: 1444124740}
   - {fileID: 1401630289}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &501451218
 GameObject:
@@ -1019,7 +1019,24 @@ Prefab:
       propertyPath: m_Name
       value: Matelot2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114166666973349966, guid: 20e2cd3535ddb4543bd93391475105e0,
+        type: 2}
+      propertyPath: popup
+      value: 
+      objectReference: {fileID: 904298118}
+    - target: {fileID: 114166666973349966, guid: 20e2cd3535ddb4543bd93391475105e0,
+        type: 2}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 904298117}
+    - target: {fileID: 114166666973349966, guid: 20e2cd3535ddb4543bd93391475105e0,
+        type: 2}
+      propertyPath: sentenceText
+      value: 
+      objectReference: {fileID: 904298116}
+    m_RemovedComponents:
+    - {fileID: 114166666973349966, guid: 20e2cd3535ddb4543bd93391475105e0, type: 2}
+    - {fileID: 114704838355844426, guid: 20e2cd3535ddb4543bd93391475105e0, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 20e2cd3535ddb4543bd93391475105e0, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &532582883 stripped
@@ -1224,7 +1241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &563956618
 MonoBehaviour:
@@ -1238,60 +1255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: playerChest
---- !u!1 &585864032
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 585864034}
-  - component: {fileID: 585864033}
-  m_Layer: 0
-  m_Name: Loader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &585864033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 585864032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648f9557fdcd10d4f9b11623c0b56d63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  epoques:
-  - name: Horloge
-    numAssocie: 0
-  - name: Carnet
-    numAssocie: 1
-  - name: MeurtreCapitaine
-    numAssocie: 2
-  - name: PresentHorloge
-    numAssocie: 3
-  - name: PresentJournal
-    numAssocie: 3
-  - name: PresentAccuse
-    numAssocie: 3
-  epoqueActuelle: 3
---- !u!4 &585864034
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 585864032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652219119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,7 +1658,7 @@ Transform:
   - {fileID: 1649598572}
   - {fileID: 409731243}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &832413687
 Prefab:
@@ -3019,7 +2982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934019738
 GameObject:
@@ -3391,6 +3354,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224507739775121476, guid: 080f8ef30fc5c6243ab2377b261694bd,
     type: 2}
   m_PrefabInternal: {fileID: 1010495362}
+--- !u!1 &1017731841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1311281411946948, guid: b9cf056f560a306428744040c4c784c4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1795820117}
 --- !u!1001 &1031189728
 Prefab:
   m_ObjectHideFlags: 0
@@ -3560,7 +3528,7 @@ Transform:
   - {fileID: 1303947071}
   - {fileID: 1705629225}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1067614163 stripped
 MonoBehaviour:
@@ -4098,7 +4066,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4161491098924314, guid: ebe618f9e9821be458c23ce0688e37df, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1639635254701012, guid: ebe618f9e9821be458c23ce0688e37df, type: 2}
       propertyPath: m_IsActive
@@ -8773,7 +8741,7 @@ Transform:
   - {fileID: 367680775}
   - {fileID: 989683812}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1249215540
 Prefab:
@@ -9129,7 +9097,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1001 &1339389223
 Prefab:
@@ -10692,6 +10660,93 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc3ca73318e0ea42b3b8fe2a2c4445f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1674949226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674949229}
+  - component: {fileID: 1674949228}
+  - component: {fileID: 1674949227}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1674949227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674949226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2253e1c16211dca42b1f4a4a774187cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoques:
+  - name: Horloge
+    numAssocie: 0
+  - name: Carnet
+    numAssocie: 1
+  - name: MeurtreCapitaine
+    numAssocie: 2
+  - name: PresentHorloge
+    numAssocie: 3
+  - name: PresentJournal
+    numAssocie: 4
+  - name: PresentAccuse
+    numAssocie: 5
+  TpPossibles:
+  - list: 0000000003000000
+  - list: 0100000004000000000000000500000003000000
+  - list: 020000000000000001000000
+  - list: 030000000000000001000000
+  - list: 040000000100000000000000
+  - list: 050000000100000000000000
+  JournalGrid: {fileID: 1017731841}
+--- !u!114 &1674949228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674949226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648f9557fdcd10d4f9b11623c0b56d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  epoques:
+  - name: Horloge
+    numAssocie: 0
+  - name: Carnet
+    numAssocie: 1
+  - name: MeurtreCapitaine
+    numAssocie: 2
+  - name: PresentHorloge
+    numAssocie: 3
+  - name: PresentAccuse
+    numAssocie: 3
+  - name: PresentJournal
+    numAssocie: 3
+  epoqueActuelle: 0
+--- !u!4 &1674949229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1674949226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1705629224
 GameObject:
   m_ObjectHideFlags: 0
@@ -11121,7 +11176,7 @@ RectTransform:
   - {fileID: 1861993182}
   - {fileID: 1497861802}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11159,7 +11214,7 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
@@ -11207,6 +11262,106 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1001 &1795820117
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224931266423076916, guid: b9cf056f560a306428744040c4c784c4,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9cf056f560a306428744040c4c784c4, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1832678274
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ public class PauseManager : MonoBehaviour {
     //public GameObject pauseMenu;
 
     public Animator initiallyOpen;
-    public PlayerController player;
     private int m_OpenParameterId;
     private Animator m_Open;
     private GameObject m_PreviouslySelected;
