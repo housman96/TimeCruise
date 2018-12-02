@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class CaptainDead : MonoBehaviour
@@ -17,6 +18,7 @@ public class CaptainDead : MonoBehaviour
     public GameObject pierre;
     public Sprite inspecteurDroit;
     public Sprite pierreGauche;
+    public UnityEvent generique;
 
     public void captainDead()
     {
@@ -72,7 +74,7 @@ public class CaptainDead : MonoBehaviour
         targetObjectinspecteur.transform.position = new Vector3(-6f, 2.91f);
         inspecteur.GetComponent<Pathfinding.AIDestinationSetter>().target = targetObjectinspecteur.transform;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
 
         inspecteurDial.SetSentence("C'est fini Pierre!", false);
         inspecteur.GetComponent<Animator>().enabled = false;
@@ -81,5 +83,7 @@ public class CaptainDead : MonoBehaviour
         pierre.GetComponent<SpriteRenderer>().sprite = pierreGauche;
         yield return new WaitForSeconds(3);
         inspecteurDial.ResetSentence();
+
+        generique.Invoke();
     }
 }

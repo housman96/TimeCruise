@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class PierreArrested : MonoBehaviour
@@ -18,6 +19,7 @@ public class PierreArrested : MonoBehaviour
     public GameObject pierre;
     public Sprite inspecteurDroit;
     public Sprite pierreGauche;
+    public UnityEvent generique;
 
 
     public void launchPierreArrested()
@@ -81,5 +83,7 @@ public class PierreArrested : MonoBehaviour
         inspecteurDial.SetSentence("C'est fini Pierre!", false);
         yield return new WaitForSeconds(3);
         inspecteurDial.ResetSentence();
+
+        generique.Invoke();
     }
 }
