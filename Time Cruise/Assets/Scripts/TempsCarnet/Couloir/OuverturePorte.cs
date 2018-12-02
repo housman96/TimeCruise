@@ -24,7 +24,7 @@ public class OuverturePorte : MonoBehaviour {
     private IEnumerator Ouvre(float delai)
     {
         yield return new WaitForSeconds(delai);
-        porte.SetActive(false);
+        porte.transform.Translate(1000, 0,0);
 
         onEnd.Invoke();
     }
