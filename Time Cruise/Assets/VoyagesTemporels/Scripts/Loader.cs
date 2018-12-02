@@ -108,7 +108,7 @@ public class Loader : MonoBehaviour
             Changement chgt = obj.Save();
             if (chgt != null)
             {
-                changements[epoqueActuelle].Add(obj.id, chgt);
+                changements[epoqueActuelle][obj.id]= chgt;
             }
         }
     }
@@ -121,7 +121,7 @@ public class Loader : MonoBehaviour
         epoqueInt.Add("J", 2);*/
         foreach (epoque ep in epoques)
         {
-            epoqueInt.Add(ep.name, ep.numAssocie);
+            epoqueInt[ep.name] =ep.numAssocie;
         }
     }
 
