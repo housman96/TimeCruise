@@ -22,7 +22,7 @@ public class TimeTravelManager : MonoBehaviour {
    
 
     private void Awake() {//singleton + dontdestroyOnLoad
-        Time.timeScale = 4.0f;
+        //Time.timeScale = 4.0f;
         if (instance == null) {
             instance = this;
             InitializeInstance();
