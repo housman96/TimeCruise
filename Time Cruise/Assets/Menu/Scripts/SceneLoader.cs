@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SceneLoader : MonoBehaviour {
 
-    private int numSceneSelected=-0;
+    /*private int numSceneSelected=-0;
 
 	public void LoadScene (int numScene) {
         Debug.Log("Load Scene " + numScene);
@@ -16,5 +16,5 @@ public class SceneLoader : MonoBehaviour {
 
     public void setNumScene(int i) {
         numSceneSelected = i;
-    }
+    }*/
 }
