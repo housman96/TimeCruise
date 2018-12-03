@@ -7,7 +7,7 @@ public class InventoryManager : MonoBehaviour {
     private PlayerController playerController;
     private FurnitureInventory activeInventory;
     public GameObject InventoryUI;
-    public KeyCode closeInventory;
+    private KeyCode closeInventory=KeyCode.A;
 
     private void Start() {
         playerController = FindObjectOfType<PlayerController>();
