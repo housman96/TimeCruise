@@ -25,6 +25,9 @@ public class PierreNotArrested : MonoBehaviour
 
     public IEnumerator pierreNotArrested()
     {
+        button1.GetComponent<Button>().enabled = false;
+        button2.GetComponent<Button>().enabled = false;
+        button3.GetComponent<Button>().enabled = false;
 
         float alpha = 1;
         while (alpha > 0)
