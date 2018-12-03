@@ -222,7 +222,7 @@ public class GeneriqueCaptainDead : MonoBehaviour
 
         /*LUIGI*/
 
-        text.text = "Luigi parti aux USA et commença une carrière d'acteur à Hollywood.";
+        text.text = "Luigi partit aux USA et commença une carrière d'acteur à Hollywood.";
 
         while (alphaText < 1)
         {

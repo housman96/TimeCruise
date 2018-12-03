@@ -18,6 +18,8 @@ public class End : MonoBehaviour
     public Sprite captainGauche;
     public Sprite captainHaut;
 
+    public GameObject canvasLoading;
+
     // Use this for initialization
     void Start()
     {
@@ -73,7 +75,7 @@ public class End : MonoBehaviour
         yield return new WaitForSeconds(3);
         pierreDial.ResetSentence();
 
-
+        canvasLoading.SetActive(false);
         float alpha = 0;
         while (alpha < 1)
         {

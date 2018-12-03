@@ -167,7 +167,7 @@ public class GeneriquePierreNotArrested : MonoBehaviour
         }
         text.GetComponent<Text>().color = new Color(1, 1, 1, 0);
 
-        text.text = "Elle continua à travailler pour de riche famille pour vivre.";
+        text.text = "Elle continua à travailler pour de riches familles pour vivre.";
         yield return new WaitForSeconds(1);
 
         while (alphaText < 1)
