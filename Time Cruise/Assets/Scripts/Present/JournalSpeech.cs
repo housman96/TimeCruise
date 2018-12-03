@@ -20,7 +20,7 @@ public class JournalSpeech : MonoBehaviour
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
 
-        inspecteurDial.SetSentence("“ Il a déserté l’armée pendant la Grande guerre.“", false);
+        inspecteurDial.SetSentence("“ Il a déserté l’armée pendant la Grande Guerre.“", false);
         yield return new WaitForSeconds(6);
         inspecteurDial.ResetSentence();
 

@@ -22,7 +22,7 @@ public class MeanwhileSpeech : MonoBehaviour
         yield return new WaitForSeconds(4);
 
         /*ISABELLE*/
-        isabelleDial.SetSentence("Mon ami combien de temps encore allons nous rester enfermé ici?");
+        isabelleDial.SetSentence("Mon ami combien de temps encore allons nous rester enfermés ici?");
         yield return new WaitForSeconds(5);
         isabelleDial.ResetSentence();
 

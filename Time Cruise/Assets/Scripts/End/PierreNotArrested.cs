@@ -55,7 +55,7 @@ public class PierreNotArrested : MonoBehaviour
 
         yield return new WaitForSeconds(3);
 
-        inspecteurDial.SetSentence("Pierre pouvez vous venir quelques secondes, j'ai quelque chose à vous dire avant que vous ne parliez à votre père.", false);
+        inspecteurDial.SetSentence("Pierre pouvez vous venir quelques secondes? J'ai quelque chose à vous dire avant que vous ne parliez à votre père.", false);
         inspecteur.GetComponent<Animator>().enabled = false;
         pierre.GetComponent<Animator>().enabled = false;
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroit;

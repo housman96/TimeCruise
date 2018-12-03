@@ -54,7 +54,7 @@ public class End : MonoBehaviour
         yield return new WaitForSeconds(5);
         capitaineDial.ResetSentence();
         capitaine.GetComponent<SpriteRenderer>().sprite = captainHaut;
-        capitaineDial.SetSentence("Ho inspecteur, je ne vous avais pas vu.");
+        capitaineDial.SetSentence("Oh, inspecteur, je ne vous avais pas vu.");
         yield return new WaitForSeconds(5);
         capitaineDial.ResetSentence();
 

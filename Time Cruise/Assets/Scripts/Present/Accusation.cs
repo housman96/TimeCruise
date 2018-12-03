@@ -77,7 +77,7 @@ public class Accusation : MonoBehaviour
         yield return new WaitForSeconds(4);
         pierreDial.ResetSentence();
 
-        inspecteurDial.SetSentence("Messieurs, veuillez fouiller Pierre s'il vous plaît..", false);
+        inspecteurDial.SetSentence("Messieurs, veuillez fouiller Pierre s'il vous plaît.", false);
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 
@@ -91,7 +91,7 @@ public class Accusation : MonoBehaviour
         inspecteur.GetComponent<Animator>().enabled = false;
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurGauche;
 
-        inspecteurDial.SetSentence("La longue vue du Capitaine, surement l'arme du crime.", false);
+        inspecteurDial.SetSentence("La longue vue du Capitaine, sûrement l'arme du crime.", false);
         yield return new WaitForSeconds(4);
         inspecteurDial.ResetSentence();
 

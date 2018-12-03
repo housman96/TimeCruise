@@ -48,15 +48,15 @@ public class CaptainDead : MonoBehaviour
         button3.GetComponentInChildren<Text>().color = new Color(0.2f, 0.2f, 0.2f, 0);
 
 
-        capitaineDial.SetSentence("Qu'est-ce que tu fais fiston!", false);
+        capitaineDial.SetSentence("Qu'est-ce que tu fais fiston?!", false);
         yield return new WaitForSeconds(4);
         capitaineDial.ResetSentence();
 
-        capitaineDial.SetSentence("C'est ridicule !", false);
+        capitaineDial.SetSentence("C'est ridicule!", false);
         yield return new WaitForSeconds(2);
         capitaineDial.ResetSentence();
 
-        capitaineDial.SetSentence("Pause ma lonque-vue!", false);
+        capitaineDial.SetSentence("Pose ma lonque-vue!", false);
         yield return new WaitForSeconds(2);
         capitaineDial.ResetSentence();
 

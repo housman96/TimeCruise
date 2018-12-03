@@ -194,7 +194,7 @@ public class IntroductionPont : MonoBehaviour
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroite;
         matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
 
-        matelotDial.SetSentence("Vite Inspecteur, suivait moi dans le bureau du Capitaine.");
+        matelotDial.SetSentence("Vite Inspecteur, suivez moi dans le bureau du Capitaine.");
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
@@ -259,15 +259,15 @@ public class IntroductionPont : MonoBehaviour
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Le Capitaine est le seul à savoir où il a cachée les clefs du bateau.");
+        paulDial.SetSentence("Le Capitaine est le seul à savoir où il a caché les clefs du bateau.");
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Si vous ne nous aidez pas nous allons tous mourrir en s'écrasant sur les côtes.");
+        paulDial.SetSentence("Si vous ne nous aidez pas nous allons tous mourrir en nous écrasant sur les côtes.");
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Vous devez inspecter. Ecouter les membres du navire se présenter dehors et chercher les indices dans la pièce.");
+        paulDial.SetSentence("Vous devez inspecter. Ecoutez les membres du navire se présenter dehors et cherchez les indices dans la pièce.");
         yield return new WaitForSeconds(6);
         paulDial.ResetSentence();
 
