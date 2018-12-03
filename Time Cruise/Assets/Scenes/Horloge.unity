@@ -22369,7 +22369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactable: {fileID: 1428230675}
-  inspecteur: {fileID: 0}
+  inspecteur: {fileID: 1860747281}
   texte: '"Contenu additionnel non disponible." Je ne comprends pas le sens de ces
     mots...'
   temps: 4
@@ -22437,8 +22437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   action: {fileID: 1428230673}
-  popup: {fileID: 0}
-  actionName: {fileID: 0}
+  popup: {fileID: 1426830288}
+  actionName: {fileID: 840805033}
   actionKeyCode: 101
 --- !u!4 &1428230676
 Transform:
