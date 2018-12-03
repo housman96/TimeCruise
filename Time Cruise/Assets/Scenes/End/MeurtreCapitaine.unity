@@ -11257,7 +11257,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InventoryUI: {fileID: 652219119}
-  closeInventory: 27
 --- !u!1 &1707163930
 GameObject:
   m_ObjectHideFlags: 0
@@ -11528,7 +11527,8 @@ AudioSource:
   m_GameObject: {fileID: 1725444317}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243285786587890364, guid: 0a5c03ec04de82b4296c0cf5168a493f,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: d07350ceb8b3a2e45a6119b40f8954cc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
