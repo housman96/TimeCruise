@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
-using System.Text;
 
-public class DialogueManager : MonoBehaviour {
+public class DialogueManager : MonoBehaviour
+{
 
     public GameObject popup;
     public string characterName;
@@ -53,7 +54,7 @@ public class DialogueManager : MonoBehaviour {
 
     public void UpdateDialogue(float rate)
     {
-        if(currentSentence == "")
+        if (currentSentence == "")
         {
             HindPopUp();
             return;
@@ -73,7 +74,7 @@ public class DialogueManager : MonoBehaviour {
     public void SetSentence(string sentence, bool encrypted)
     {
         StopAllCoroutines();
-        this.currentSentence = sentence;
+        currentSentence = sentence;
         this.encrypted = encrypted;
         DisplaySentenceLetters(0.0f);
     }
@@ -89,10 +90,10 @@ public class DialogueManager : MonoBehaviour {
         Vector3 screenPos = Camera.main.WorldToScreenPoint(gameObject.transform.position);
         //screenPos += new Vector3(0, popupTransform.rect.height, 0);                 // TODO : Rajouter la taille du PNJ
         popupTransform.SetPositionAndRotation(screenPos, Quaternion.identity);
-       
+
         popup.SetActive(true);
     }
-    
+
     public void HindPopUp()
     {
         popup.SetActive(false);
@@ -104,8 +105,13 @@ public class DialogueManager : MonoBehaviour {
         int nbIdexToPrint = (int)Math.Floor(tmpCurrent.Length * rate);
         for (int c = 0; c < nbIdexToPrint; c++)
         {
-            int index = indexesAlea[c];
-            sentenceStringBuilder[index] = tmpCurrent[index];
+            if (indexesAlea != null && c < indexesAlea.Count)
+            {
+                int index = indexesAlea[c];
+                sentenceStringBuilder[index] = tmpCurrent[index];
+
+            }
+
         }
         sentenceText.text = sentenceStringBuilder.ToString();
         yield return null;
