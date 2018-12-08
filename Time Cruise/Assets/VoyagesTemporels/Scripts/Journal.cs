@@ -14,13 +14,15 @@ public class Journal : MonoBehaviour {
     private string[] intToStringEpoque = {"Horloge","Carnet","","Présent" };
     private void Awake() {
         if (instance == null) {
-            ResetJournal();
-            Initialize();
             instance =this;
         }
         else {
             Destroy(gameObject);
         }
+    }
+    private void Start() {
+        ResetJournal();
+        Initialize();
     }
 
     public void TimeTravel(int epoqueInt) { //Loader previent le journal des time travel
@@ -43,6 +45,17 @@ public class Journal : MonoBehaviour {
     public void FastTimeTravel(int epoqueInt) {
         string currentScene = SceneManager.GetActiveScene().name;
         int currentSceneInt = Loader.instance.epoqueInt[currentScene];
+
+        //retire le stethoscope du voyage tempo
+        AlterTempChest chestPlayer = FindObjectOfType<AlterTempChest>();
+        if (chestPlayer != null) {
+            for (int k = 0; k < chestPlayer.inventoryCurrent.Count; k++) {
+                if (chestPlayer.inventoryCurrent[k]!=null && chestPlayer.inventoryCurrent[k].name == "Stethoscope") {
+                    chestPlayer.inventoryCurrent[k] = null;
+                }
+            }
+        }
+
         if (epoqueInt == 3) {
             //reste à retirer les objts à retirer
             if (currentSceneInt == 0) {

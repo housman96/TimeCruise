@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AlterTempChest :AlterTemp  {
     //List<Item> inventoryIni;
-    List<Item> inventoryCurrent;
+    public List<Item> inventoryCurrent;
     void OnEnable() {
         Loader.OnFinishAwake += Awake;
     }

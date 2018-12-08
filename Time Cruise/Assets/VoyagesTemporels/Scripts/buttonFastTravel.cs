@@ -17,6 +17,7 @@ public class buttonFastTravel : MonoBehaviour {
 
     public void setEpoque() {
         m_epoqueTP = m_numEpoque;
+        Debug.Log(m_epoqueTP);
         //TimeTravelManager.instance.FastTimeTravel(m_epoque);
     }
 
