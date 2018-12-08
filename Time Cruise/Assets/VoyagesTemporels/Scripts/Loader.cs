@@ -33,7 +33,7 @@ public class Loader : MonoBehaviour
 
     private void Awake()
     {//singleton + dontdestroyOnLoad
-        Time.timeScale = 1.0f;
+        Time.timeScale = 4.0f;
         if (instance == null)
         {
             instance = this;
@@ -128,6 +128,7 @@ public class Loader : MonoBehaviour
         {
             epoqueInt[ep.name] = ep.numAssocie;
         }
+        epoqueInt["CinematiqueIntro"] = 3;//oublié celui la...
     }
 
     private void InitializeChangements()
@@ -152,14 +153,12 @@ public class Loader : MonoBehaviour
 
     public void TimeTravel(string epoque)
     {
+        Journal.instance.TimeTravel(epoqueInt[epoque]);
         StartCoroutine(realTimeTravel(epoque));
     }
 
     public IEnumerator realTimeTravel(string epoque)
     {
-
-
-
         text = GameObject.FindGameObjectWithTag("TextLoading").GetComponent<Text>();
         blackScreen = GameObject.FindGameObjectWithTag("PanelLoading");
 
@@ -207,9 +206,9 @@ public class Loader : MonoBehaviour
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("Level Loaded");
+        /*Debug.Log("Level Loaded");
         Debug.Log(scene.name);
-        Debug.Log(mode);
+        Debug.Log(mode);*/
         StartCoroutine(realOnLevelFinishedLoading());
     }
 
