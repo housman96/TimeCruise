@@ -45,6 +45,7 @@ public class Revelation : MonoBehaviour
 
         controller.UnlockMoves();
 
+        Journal.instance.presentAccuse = true;//pour le tp via le journal
         OnEnd.Invoke();
     }
 }

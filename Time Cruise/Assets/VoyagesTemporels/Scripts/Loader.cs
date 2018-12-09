@@ -33,7 +33,7 @@ public class Loader : MonoBehaviour
 
     private void Awake()
     {//singleton + dontdestroyOnLoad
-        Time.timeScale = 4.0f;
+        Time.timeScale = 1.0f;
         if (instance == null)
         {
             instance = this;

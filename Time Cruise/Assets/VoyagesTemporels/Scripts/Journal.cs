@@ -48,7 +48,8 @@ public class Journal : MonoBehaviour {
 
         //retire le stethoscope du voyage tempo
         AlterTempChest chestPlayer = FindObjectOfType<AlterTempChest>();
-        if (chestPlayer != null) {
+
+        if (chestPlayer != null) {//retire stetho
             for (int k = 0; k < chestPlayer.inventoryCurrent.Count; k++) {
                 if (chestPlayer.inventoryCurrent[k]!=null && chestPlayer.inventoryCurrent[k].name == "Stethoscope") {
                     chestPlayer.inventoryCurrent[k] = null;
@@ -62,7 +63,17 @@ public class Journal : MonoBehaviour {
                 Loader.instance.TimeTravel("PresentHorloge");
             }
             else if (currentSceneInt == 1) {
+
+                if (chestPlayer != null) {//retire bouteille
+                    for (int k = 0; k < chestPlayer.inventoryCurrent.Count; k++) {
+                        if (chestPlayer.inventoryCurrent[k] != null && chestPlayer.inventoryCurrent[k].name == "bouteille") {
+                            chestPlayer.inventoryCurrent[k] = null;
+                        }
+                    }
+                }
+
                 if (presentAccuse) {
+                    presentAccuse = false;
                     Loader.instance.TimeTravel("PresentAccuse");
                 }
                 else {
