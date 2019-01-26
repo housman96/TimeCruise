@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/startMenu.unity
+    guid: 73180edd22e14e942aab2d164311a356
+  - enabled: 1
+    path: Assets/Scenes/CinematiqueIntro.unity
+    guid: 0761f504fa625f244a289d13a6d885c1
+  - enabled: 1
+    path: Assets/Scenes/Present/PresentHorloge.unity
+    guid: 2003a550d3c4d0f489660ee6dd2bca45
+  - enabled: 1
+    path: Assets/Scenes/Present/PresentJournal.unity
+    guid: 5132103cd57c88a4caebf0d275eeadd2
+  - enabled: 1
+    path: Assets/Scenes/Horloge.unity
+    guid: ccb46c175770f6947aa353b478b81b55
+  - enabled: 1
+    path: Assets/Scenes/Carnet.unity
+    guid: cc0feb0c5141db2419906239f24f499f
+  - enabled: 1
+    path: Assets/Scenes/End/MeurtreCapitaine.unity
+    guid: 12c4d31dd6ffb6d42924d8ec51a4de0d
+  - enabled: 1
+    path: Assets/Scenes/End/PresentAccuse.unity
+    guid: 8badabf475459714da40a015081ded4a
   m_configObjects: {}
