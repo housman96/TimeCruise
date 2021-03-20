@@ -2005,10 +2005,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 227079819}
   m_HandleRect: {fileID: 876088410}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -35
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: -10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2255,6 +2255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad44aad0d99d0d47aee2630cbc7b33c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sliderVolumeMaster: {fileID: 1697480748}
+  sliderVolumeMusic: {fileID: 1427843908}
+  sliderVolumeEffects: {fileID: 1855697970}
   audioMixer: {fileID: 24100000, guid: 0a5c03ec04de82b4296c0cf5168a493f, type: 2}
 --- !u!1 &1566514561
 GameObject:
@@ -2832,6 +2835,12 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 95834306024072978, guid: 6bad0070613828a47abca90c8f5d054f,
     type: 2}
   m_PrefabInternal: {fileID: 2015277705}
+--- !u!114 &1697480748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114556207665771008, guid: 6bad0070613828a47abca90c8f5d054f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2015277705}
+  m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1764684150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,10 +3072,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1522328703}
   m_HandleRect: {fileID: 2122745627}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -35
   m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: -10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3292,7 +3301,7 @@ Prefab:
     - target: {fileID: 114556207665771008, guid: 6bad0070613828a47abca90c8f5d054f,
         type: 2}
       propertyPath: m_MinValue
-      value: -80
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 224315688194502228, guid: 6bad0070613828a47abca90c8f5d054f,
         type: 2}
@@ -3348,6 +3357,11 @@ Prefab:
         type: 2}
       propertyPath: m_Padding.m_Bottom
       value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 114556207665771008, guid: 6bad0070613828a47abca90c8f5d054f,
+        type: 2}
+      propertyPath: m_Value
+      value: -10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bad0070613828a47abca90c8f5d054f, type: 2}
