@@ -52,15 +52,15 @@ public class IntroductionPont : MonoBehaviour
         }
         blackScreen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
 
-        matelotDial.SetSentence("Bienvenue à bord inspecteur.");
+        matelotDial.SetSentence("Bienvenue à bord inspecteur.", false);
         yield return new WaitForSeconds(2);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("C'est un plaisir d'avoir quelqu'un d'aussi célèbre que vous à bord.");
+        matelotDial.SetSentence("C'est un plaisir d'avoir quelqu'un d'aussi célèbre que vous à bord.", false);
         yield return new WaitForSeconds(3);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("Si vous voulez bien me suivre, je vais vous accompagner jusqu'à vos quartiers.");
+        matelotDial.SetSentence("Si vous voulez bien me suivre, je vais vous accompagner jusqu'à vos quartiers.", false);
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
@@ -122,7 +122,7 @@ public class IntroductionPont : MonoBehaviour
 
         /*Dialogue présentation chambre*/
 
-        matelotDial.SetSentence("Voici votre chambre, c'est petit mais vous devriez y trouver tout le confort nécessaire.");
+        matelotDial.SetSentence("Voici votre chambre, c'est petit mais vous devriez y trouver tout le confort nécessaire.", false);
         matelot.GetComponent<Animator>().enabled = false;
         inspecteur.GetComponent<Animator>().enabled = false;
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurGauche;
@@ -130,16 +130,16 @@ public class IntroductionPont : MonoBehaviour
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("Si vous voulez il y a une malle ici.");
+        matelotDial.SetSentence("Si vous voulez il y a une malle ici.", false);
         matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("Si vous y laissez un objet personne n'y touchera jusqu'à la fin du voyage.");
+        matelotDial.SetSentence("Si vous y laissez un objet personne n'y touchera jusqu'à la fin du voyage.", false);
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("Bon séjour parmi nous.");
+        matelotDial.SetSentence("Bon séjour parmi nous.", false);
         matelot.GetComponent<SpriteRenderer>().sprite = matelotDroite;
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
@@ -186,7 +186,7 @@ public class IntroductionPont : MonoBehaviour
 
         /*Dialogue au mon dieux c'est horrible*/
 
-        matelotDial.SetSentence("Inspecteur!!!!!!");
+        matelotDial.SetSentence("Inspecteur!!!!!!", false);
         yield return new WaitForSeconds(2);
         matelotDial.ResetSentence();
 
@@ -194,11 +194,11 @@ public class IntroductionPont : MonoBehaviour
         inspecteur.GetComponent<SpriteRenderer>().sprite = inspecteurDroite;
         matelot.GetComponent<SpriteRenderer>().sprite = matelotGauche;
 
-        matelotDial.SetSentence("Vite Inspecteur, suivez moi dans le bureau du Capitaine.");
+        matelotDial.SetSentence("Vite Inspecteur, suivez moi dans le bureau du Capitaine.", false);
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
-        matelotDial.SetSentence("C'est une catastrophe.");
+        matelotDial.SetSentence("C'est une catastrophe.", false);
         yield return new WaitForSeconds(4);
         matelotDial.ResetSentence();
 
@@ -251,23 +251,23 @@ public class IntroductionPont : MonoBehaviour
 
 
 
-        paulDial.SetSentence("Le Capitaine est mort.");
+        paulDial.SetSentence("Le Capitaine est mort.", false);
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Mais la situtation est pire que ce que vous pensez.");
+        paulDial.SetSentence("Mais la situtation est pire que ce que vous pensez.", false);
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Le Capitaine est le seul à savoir où il a caché les clefs du bateau.");
+        paulDial.SetSentence("Le Capitaine est le seul à savoir où il a caché les clefs du bateau.", false);
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Si vous ne nous aidez pas nous allons tous mourrir en nous écrasant sur les côtes.");
+        paulDial.SetSentence("Si vous ne nous aidez pas nous allons tous mourrir en nous écrasant sur les côtes.", false);
         yield return new WaitForSeconds(4);
         paulDial.ResetSentence();
 
-        paulDial.SetSentence("Vous devez inspecter. Ecoutez les membres du navire se présenter dehors et cherchez les indices dans la pièce.");
+        paulDial.SetSentence("Vous devez inspecter. Ecoutez les membres du navire se présenter dehors et cherchez les indices dans la pièce.", false);
         yield return new WaitForSeconds(6);
         paulDial.ResetSentence();
 
