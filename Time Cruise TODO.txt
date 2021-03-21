@@ -1,9 +1,6 @@
--Fixer le son exponentiel dans le menu d'options.
--Fixer le bug visuelle quand un texte apparait alors qu'on est proche.
 -Fixer le temps de parole trop cours.
 -Rendre possible de poser des questions aux personnages.
 -Fixer le journal pour qu'il se remplisse.
--Fixer l'animation de marche pour des petits pas.
 -Ajouter une icone de début.
 -Ajouter des effets sonnores aux objets et aux actions.
 -Fixer le path finding et le remplacer par des hardcoded points.
