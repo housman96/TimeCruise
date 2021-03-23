@@ -1,7 +1,6 @@
 -Fixer le temps de parole trop cours.
 -Rendre possible de poser des questions aux personnages.
 -Fixer le journal pour qu'il se remplisse.
--Ajouter une icone de début.
 -Ajouter des effets sonnores aux objets et aux actions.
 -Fixer le path finding et le remplacer par des hardcoded points.
 -Fixer l'interaction qui galère.
